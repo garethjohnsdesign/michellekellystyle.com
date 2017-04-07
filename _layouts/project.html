@@ -1,0 +1,58 @@
+---
+layout: default
+---
+
+<section class="project">
+
+<!-- Video -->
+{% if page.video %}
+<div class="row align-center project__video">
+  <div class="small-12 medium-10 large-8 columns">
+    <div class="flex-video widescreen vimeo">
+      <iframe src="https://player.vimeo.com/video/{{ page.video }}?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+{% endif %}
+<!-- End Video -->
+
+
+<!-- Carousel -->
+{% if page.images %}
+<div class="project__carousel">
+{% for image in page.images %}
+    <img src="{{image}}">
+{% endfor %}
+</div>
+{% endif %}
+<!-- End Carousel -->
+
+
+<!-- Meta -->
+<div class="row align-center project__meta">
+  <div class="small-8 medium-7 large-7 columns text-center">
+    <div class="project__meta__title">{{ page.title }}</div>
+    {% if page.client %}
+    <p>Client &mdash; {{ page.client }}</p>
+    {% endif %}
+  </div>
+</div>
+<!-- End Meta -->
+
+<!-- Content -->
+<div class="row align-center">
+  <div class="small-8 medium-7 large-7 columns text-center">
+    {{ content }}
+  </div>
+</div>
+<!-- End Content -->
+
+<!-- Content -->
+<div class="row align-center">
+  <div class="small-8 medium-7 large-7 columns text-center">
+    {% include pagination.html %}
+  </div>
+</div>
+<!-- End Content -->
+
+</section>
