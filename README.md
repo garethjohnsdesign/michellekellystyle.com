@@ -1,6 +1,6 @@
 # Michelle Kelly
 
-Website for Dragonfly Scenery. Please go to [www.michellekellystyle.com](http://michellekellystyle.com) in case you want to take a look at the website.
+Website for Michelle Kelly Style. Please go to [www.michellekellystyle.com](http://michellekellystyle.com) in case you want to take a look at the website.
 
 * * *
 
