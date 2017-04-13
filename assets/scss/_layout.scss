@@ -227,6 +227,9 @@ i, cite, em, var, address, dfn {
     display: block;
     height: 300px;
     margin-right: 2rem;
+      @include breakpoint(small only) {
+        max-width: none;
+      }
       @include breakpoint(medium) {
         height: 400px;
       }
