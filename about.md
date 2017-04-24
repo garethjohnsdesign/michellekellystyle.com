@@ -4,8 +4,10 @@ position: 4
 layout: about
 ---
 
-Michelle Kelly Style is a multi-disciplinary interior design practice providing clients with a high end, bespoke finish, to any taste and ambition. The studio works across a range of projects from large scale commercial installations to private residential projects, with equal focus on functionality and aesthetic. 
+Michelle can work with you to create and design a beautiful interior space. From a single room, house, residence or commercial project.
 
-Founder and director Michelle Kelly has worked as a stylist for ten years and as a result brings a broad spectrum of interests and influences to her design approach. 
+Once Michelle has established the brief and budget with the client she will develop a raft of ideas from which the final direction can be agreed.  She will then work with architects, contractors, suppliers and the client to achieve the best possible results.  
 
-The studio takes responsibility for all aspects of the project from concept design, spacial planning, sourcing, supplying and specialist works, right through to practical completion. The studio boasts a wealth of professional experience, including working extensively with the renowned architectural practices. The studio has an impressive list of contacts from architects and builders, to curtain-makers and joiners and always helps the client to realise their dream project, whilst catering to a range of timescales and budgets.
+For each project Michelle sources colour schemes, wallpapers, furniture, furnishings, floorings, tiles, antiques, art, lighting and unique objects to create a beautiful and inspiring environment.
+
+Michelle has worked in the creative industries for twenty years.  Working as a fashion stylist she has been the creative force behind some of the most distinctive and beautiful images in contemporary pop and fashion. Michelle brings her sense of sophisticated style and fashion to her interior projects. Mixing high end glamour with a romantic and individual touch.
