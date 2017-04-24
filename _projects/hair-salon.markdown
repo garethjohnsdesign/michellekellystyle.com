@@ -8,7 +8,7 @@ images:
 - "/uploads/hair-salon-02.jpg"
 - "/uploads/hair-salon-03.jpg"
 - "/uploads/hair-salon-04.jpg"
-architect:
+architect: 
 contractor: Mirz Construction
 is-featured: true
 layout: project

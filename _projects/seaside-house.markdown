@@ -13,7 +13,7 @@ images:
 - "/uploads/seaside-house-07.jpg"
 - "/uploads/seaside-house-08.jpg"
 - "/uploads/seaside-house-09.jpg"
-architect:
+architect: 
 contractor: Mirz Construction
 is-featured: true
 layout: project
