@@ -135,10 +135,22 @@
 		"oAP": "\/_projects\/hackney-house.markdown",
 		"oF": 0
 		},
+	"\/_projects\/hair-salon.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/hair-salon.markdown",
+		"oF": 0
+		},
 	"\/_projects\/loft-apartment.markdown": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_projects\/loft-apartment.markdown",
+		"oF": 0
+		},
+	"\/_projects\/seaside-house.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_projects\/seaside-house.markdown",
 		"oF": 0
 		},
 	"\/_site": {

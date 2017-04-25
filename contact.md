@@ -1,7 +1,7 @@
 ---
 title: Contact
 position: 5
-studio-text: "[+44 (0)77 7577 8820](tel:+447775778820)  \n[studio@michellekellystyle.com](mailto:studio@michellekellystyle.com)"
+studio-text: "[+44 (0)77 7577 8820](tel:+447775778820)  \n[info@michellekellystyle.com](mailto:info@michellekellystyle.com)"
 press-text: "[Time Magazine](http://garethjohnsdesign.com/)  \n[Style Magazine](http://garethjohnsdesign.com/)
   \ \n[ELLE Decoration](http://garethjohnsdesign.com/)  \n[Home and Design](http://garethjohnsdesign.com/)
   \ \n[Wallpaper](http://garethjohnsdesign.com/)"

@@ -13,6 +13,9 @@ images:
 - "/uploads/seaside-house-07.jpg"
 - "/uploads/seaside-house-08.jpg"
 - "/uploads/seaside-house-09.jpg"
+- "/uploads/seaside-house-10.jpg"
+- "/uploads/seaside-house-11.jpg"
+- "/uploads/seaside-house-12.jpg"
 architect: 
 contractor: Mirz Construction
 is-featured: true

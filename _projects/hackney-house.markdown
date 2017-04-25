@@ -13,6 +13,11 @@ images:
 - "/uploads/hackney-house-07.jpg"
 - "/uploads/hackney-house-08.jpg"
 - "/uploads/hackney-house-09.jpg"
+- "/uploads/hackney-house-10.jpg"
+- "/uploads/hackney-house-11.jpg"
+- "/uploads/hackney-house-12.jpg"
+- "/uploads/hackney-house-13.jpg"
+- "/uploads/hackney-house-14.jpg"
 architect: Brian O’Tuama Architects
 contractor: McNally Construction
 is-featured: true
