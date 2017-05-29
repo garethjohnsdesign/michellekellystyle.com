@@ -13,3 +13,4 @@ images:
 - "/uploads/living-etc-08.jpg"
 - "/uploads/living-etc-09.jpg"
 ---
+
