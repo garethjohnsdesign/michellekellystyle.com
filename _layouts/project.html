@@ -38,9 +38,23 @@ layout: default
     {% if page.contractor %}
     <p>Contractor &mdash; {{ page.contractor }}</p>
     {% endif %}
+    
+    {% if page.images %}
+      <div class="lightgallery">
+      {% for image in page.images %}
+      {% if forloop.first == true %}
+        <a href="{{image}}"><svg class="icon icon-enlarge"><use xlink:href="/assets/icons/symbol-defs.svg#icon-enlarge"></use></svg></a>
+        {% else %}
+        <a href="{{image}}" class="press-images"></a>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    
+    </div>
   </div>
 </div>
 <!-- End Meta -->
+
 
 <!-- Content -->
 <div class="row align-center">

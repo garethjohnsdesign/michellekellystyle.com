@@ -214,6 +214,10 @@ i, cite, em, var, address, dfn {
   padding-bottom: 2rem;
 }
 
+a.press-images {
+  display: none;
+}
+
 // 8. Project
 // ----------
 
@@ -244,6 +248,9 @@ i, cite, em, var, address, dfn {
   margin-bottom: 2rem;
     p {
       margin-bottom: 0rem;
+    }
+    .lightgallery {
+      padding-top: 1rem;
     }
 }
 

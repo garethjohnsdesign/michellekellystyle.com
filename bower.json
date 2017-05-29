@@ -41,7 +41,8 @@
     "wow": "^1.1.2",
     "modernizr": "^3.3.1",
     "fizzy-ui-utils": "^2.0.4",
-    "unipointer": "^2.2.0"
+    "unipointer": "^2.2.0",
+    "lightgallery": "^1.3.9"
   },
   "resolutions": {
     "what-input": "^4.1.1",

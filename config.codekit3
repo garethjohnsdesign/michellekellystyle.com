@@ -129,6 +129,12 @@
 		"oAP": "\/_layouts\/project.html",
 		"oF": 0
 		},
+	"\/_press\/living-etc.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_press\/living-etc.markdown",
+		"oF": 0
+		},
 	"\/_projects\/hackney-house.markdown": {
 		"ft": 8192,
 		"oA": 2,
@@ -158,6 +164,26 @@
 		"oA": 1,
 		"oAP": "\/build\/_site",
 		"oF": 0
+		},
+	"\/_uploads\/guardian-01.jpg": {
+		"ft": 16384,
+		"iS": 92562,
+		"oA": 0,
+		"oAP": "\/_uploads\/guardian-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/guardian-02.jpg": {
+		"ft": 16384,
+		"iS": 111146,
+		"oA": 0,
+		"oAP": "\/_uploads\/guardian-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/_uploads\/hackney-apartment-01.jpg": {
 		"ft": 16384,
@@ -454,6 +480,96 @@
 		"iS": 266866,
 		"oA": 0,
 		"oAP": "\/_uploads\/hair-salon-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/living-etc-01.jpg": {
+		"ft": 16384,
+		"iS": 538510,
+		"oA": 0,
+		"oAP": "\/_uploads\/living-etc-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/living-etc-02.jpg": {
+		"ft": 16384,
+		"iS": 872266,
+		"oA": 0,
+		"oAP": "\/_uploads\/living-etc-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/living-etc-03.jpg": {
+		"ft": 16384,
+		"iS": 798776,
+		"oA": 0,
+		"oAP": "\/_uploads\/living-etc-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/living-etc-04.jpg": {
+		"ft": 16384,
+		"iS": 580699,
+		"oA": 0,
+		"oAP": "\/_uploads\/living-etc-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/living-etc-05.jpg": {
+		"ft": 16384,
+		"iS": 625823,
+		"oA": 0,
+		"oAP": "\/_uploads\/living-etc-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/living-etc-06.jpg": {
+		"ft": 16384,
+		"iS": 578810,
+		"oA": 0,
+		"oAP": "\/_uploads\/living-etc-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/living-etc-07.jpg": {
+		"ft": 16384,
+		"iS": 543843,
+		"oA": 0,
+		"oAP": "\/_uploads\/living-etc-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/living-etc-08.jpg": {
+		"ft": 16384,
+		"iS": 530893,
+		"oA": 0,
+		"oAP": "\/_uploads\/living-etc-08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/living-etc-09.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/living-etc-09.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -775,6 +891,34 @@
 		"oAP": "\/assets\/fonts\/GTWalsheimProMedium.woff",
 		"oF": 0
 		},
+	"\/assets\/fonts\/lg.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/lg.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/lg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/lg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/lg.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/lg.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/lg.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/lg.woff",
+		"oF": 0
+		},
 	"\/assets\/icons\/symbol-defs.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -911,6 +1055,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_layout.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/_lightgallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/css\/_lightgallery.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -5440,6 +5597,1019 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/bower_components\/lightgallery\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/lightgallery\/.editorconfig": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/.editorconfig",
+		"oF": 0
+		},
+	"\/bower_components\/lightgallery\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/.gitignore",
+		"oF": 0
+		},
+	"\/bower_components\/lightgallery\/.jscsrc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/.jscsrc",
+		"oF": 0
+		},
+	"\/bower_components\/lightgallery\/.jshintrc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/.jshintrc",
+		"oF": 0
+		},
+	"\/bower_components\/lightgallery\/.travis.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/.travis.yml",
+		"oF": 0
+		},
+	"\/bower_components\/lightgallery\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/lightgallery\/contributing.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/contributing.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/lightgallery\/demo\/img\/1-1600.jpg": {
+		"ft": 16384,
+		"iS": 241923,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/img\/1-1600.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/demo\/img\/1-375.jpg": {
+		"ft": 16384,
+		"iS": 23648,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/img\/1-375.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/demo\/img\/1-480.jpg": {
+		"ft": 16384,
+		"iS": 34414,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/img\/1-480.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/demo\/img\/1.jpg": {
+		"ft": 16384,
+		"iS": 91130,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/img\/1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/demo\/img\/13-1600.jpg": {
+		"ft": 16384,
+		"iS": 129996,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/img\/13-1600.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/demo\/img\/13-375.jpg": {
+		"ft": 16384,
+		"iS": 22812,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/img\/13-375.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/demo\/img\/13-480.jpg": {
+		"ft": 16384,
+		"iS": 35693,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/img\/13-480.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/demo\/img\/13.jpg": {
+		"ft": 16384,
+		"iS": 124149,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/img\/13.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/demo\/img\/2-1600.jpg": {
+		"ft": 16384,
+		"iS": 187925,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/img\/2-1600.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/demo\/img\/2-375.jpg": {
+		"ft": 16384,
+		"iS": 30307,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/img\/2-375.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/demo\/img\/2-480.jpg": {
+		"ft": 16384,
+		"iS": 48290,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/img\/2-480.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/demo\/img\/2.jpg": {
+		"ft": 16384,
+		"iS": 326478,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/img\/2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/demo\/img\/4-1600.jpg": {
+		"ft": 16384,
+		"iS": 153989,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/img\/4-1600.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/demo\/img\/4-375.jpg": {
+		"ft": 16384,
+		"iS": 18396,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/img\/4-375.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/demo\/img\/4-480.jpg": {
+		"ft": 16384,
+		"iS": 25839,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/img\/4-480.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/demo\/img\/4.jpg": {
+		"ft": 16384,
+		"iS": 70944,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/img\/4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/demo\/img\/thumb-1.jpg": {
+		"ft": 16384,
+		"iS": 68187,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/img\/thumb-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/demo\/img\/thumb-13.jpg": {
+		"ft": 16384,
+		"iS": 76594,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/img\/thumb-13.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/demo\/img\/thumb-2.jpg": {
+		"ft": 16384,
+		"iS": 92856,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/img\/thumb-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/demo\/img\/thumb-4.jpg": {
+		"ft": 16384,
+		"iS": 53719,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/img\/thumb-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/demo\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/lightgallery\/demo\/js\/lg-autoplay.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/lightgallery\/demo\/js\/lg-autoplay.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/demo\/js\/lg-autoplay.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/js\/lg-autoplay.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/demo\/js\/lg-fullscreen.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/lightgallery\/demo\/js\/lg-fullscreen.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/demo\/js\/lg-fullscreen.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/js\/lg-fullscreen.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/demo\/js\/lg-hash.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/js\/lg-hash.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/demo\/js\/lg-hash.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/js\/lg-hash.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/demo\/js\/lg-pager.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/js\/lg-pager.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/demo\/js\/lg-pager.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/js\/lg-pager.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/demo\/js\/lg-share.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/js\/lg-share.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/demo\/js\/lg-share.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/js\/lg-share.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/demo\/js\/lg-thumbnail.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/js\/lg-thumbnail.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/demo\/js\/lg-thumbnail.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/js\/lg-thumbnail.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/demo\/js\/lg-video.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/js\/lg-video.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/demo\/js\/lg-video.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/js\/lg-video.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/demo\/js\/lg-zoom.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/js\/lg-zoom.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/demo\/js\/lg-zoom.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/js\/lg-zoom.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/demo\/js\/lightgallery.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/js\/lightgallery.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/demo\/js\/lightgallery.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/demo\/js\/lightgallery.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/dist\/css\/lg-fb-comment-box.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/dist\/css\/lg-fb-comment-box.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/lightgallery\/dist\/css\/lg-fb-comment-box.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/dist\/css\/lg-fb-comment-box.min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/lightgallery\/dist\/css\/lg-transitions.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/dist\/css\/lg-transitions.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/lightgallery\/dist\/css\/lg-transitions.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/dist\/css\/lg-transitions.min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/lightgallery\/dist\/css\/lightgallery.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/dist\/css\/lightgallery.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/lightgallery\/dist\/css\/lightgallery.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/dist\/css\/lightgallery.min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/lightgallery\/dist\/fonts\/lg.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/dist\/fonts\/lg.eot",
+		"oF": 0
+		},
+	"\/bower_components\/lightgallery\/dist\/fonts\/lg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/dist\/fonts\/lg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/lightgallery\/dist\/fonts\/lg.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/dist\/fonts\/lg.ttf",
+		"oF": 0
+		},
+	"\/bower_components\/lightgallery\/dist\/fonts\/lg.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/dist\/fonts\/lg.woff",
+		"oF": 0
+		},
+	"\/bower_components\/lightgallery\/dist\/img\/loading.gif": {
+		"ft": 4194304,
+		"iS": 4178,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/dist\/img\/loading.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/bower_components\/lightgallery\/dist\/img\/video-play.png": {
+		"ft": 32768,
+		"iS": 4526,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/dist\/img\/video-play.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/dist\/img\/vimeo-play.png": {
+		"ft": 32768,
+		"iS": 5428,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/dist\/img\/vimeo-play.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/dist\/img\/youtube-play.png": {
+		"ft": 32768,
+		"iS": 5177,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/dist\/img\/youtube-play.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/dist\/js\/lightgallery.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/bower_components\/lightgallery\/dist\/js\/lightgallery.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/dist\/js\/lightgallery.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/dist\/js\/lightgallery.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/Gruntfile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/Gruntfile.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/lib\/jquery.mousewheel.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/lib\/jquery.mousewheel.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/lib\/lg.png": {
+		"ft": 32768,
+		"iS": 795264,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/lib\/lg.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/lib\/picturefill.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/lib\/picturefill.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/LICENSE.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/LICENSE.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/lightgallery\/lightGallery.jquery.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/lightGallery.jquery.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/lightgallery\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/lightgallery\/selection.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/selection.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/lightgallery\/src\/css\/lg-fb-comment-box.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/src\/css\/lg-fb-comment-box.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/lightgallery\/src\/css\/lg-fb-comment-box.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/src\/css\/lg-fb-comment-box.css.map",
+		"oF": 0
+		},
+	"\/bower_components\/lightgallery\/src\/css\/lg-transitions.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/src\/css\/lg-transitions.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/lightgallery\/src\/css\/lg-transitions.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/src\/css\/lg-transitions.css.map",
+		"oF": 0
+		},
+	"\/bower_components\/lightgallery\/src\/css\/lightgallery.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/src\/css\/lightgallery.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/bower_components\/lightgallery\/src\/css\/lightgallery.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/src\/css\/lightgallery.css.map",
+		"oF": 0
+		},
+	"\/bower_components\/lightgallery\/src\/fonts\/lg.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/src\/fonts\/lg.eot",
+		"oF": 0
+		},
+	"\/bower_components\/lightgallery\/src\/fonts\/lg.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/src\/fonts\/lg.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/bower_components\/lightgallery\/src\/fonts\/lg.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/src\/fonts\/lg.ttf",
+		"oF": 0
+		},
+	"\/bower_components\/lightgallery\/src\/fonts\/lg.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/src\/fonts\/lg.woff",
+		"oF": 0
+		},
+	"\/bower_components\/lightgallery\/src\/img\/loading.gif": {
+		"ft": 4194304,
+		"iS": 4178,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/src\/img\/loading.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/bower_components\/lightgallery\/src\/img\/video-play.png": {
+		"ft": 32768,
+		"iS": 4526,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/src\/img\/video-play.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/src\/img\/vimeo-play.png": {
+		"ft": 32768,
+		"iS": 5428,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/src\/img\/vimeo-play.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/src\/img\/youtube-play.png": {
+		"ft": 32768,
+		"iS": 5177,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/src\/img\/youtube-play.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/bower_components\/lightgallery\/src\/js\/.jshintrc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/src\/js\/.jshintrc",
+		"oF": 0
+		},
+	"\/bower_components\/lightgallery\/src\/js\/lightgallery.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/src\/js\/lightgallery.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/lightgallery\/src\/sass\/lg-animations.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/src\/sass\/lg-animations.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/lightgallery\/src\/sass\/lg-autoplay.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/lightgallery\/src\/sass\/lg-autoplay.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/lightgallery\/src\/sass\/lg-fb-comment-box.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/src\/sass\/lg-fb-comment-box.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/lightgallery\/src\/sass\/lg-fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/lightgallery\/src\/sass\/lg-fonts.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/lightgallery\/src\/sass\/lg-fullscreen.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/lightgallery\/src\/sass\/lg-fullscreen.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/lightgallery\/src\/sass\/lg-mixins.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/lightgallery\/src\/sass\/lg-mixins.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/lightgallery\/src\/sass\/lg-pager.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/lightgallery\/src\/sass\/lg-pager.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/lightgallery\/src\/sass\/lg-share.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/lightgallery\/src\/sass\/lg-share.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/lightgallery\/src\/sass\/lg-theme-default.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/lightgallery\/src\/sass\/lg-theme-default.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/lightgallery\/src\/sass\/lg-thumbnail.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/lightgallery\/src\/sass\/lg-thumbnail.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/lightgallery\/src\/sass\/lg-transitions.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/src\/sass\/lg-transitions.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/lightgallery\/src\/sass\/lg-variables.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/lightgallery\/src\/sass\/lg-variables.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/lightgallery\/src\/sass\/lg-video.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/lightgallery\/src\/sass\/lg-video.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/lightgallery\/src\/sass\/lg-zoom.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/bower_components\/lightgallery\/src\/sass\/lg-zoom.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/lightgallery\/src\/sass\/lightgallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/src\/sass\/lightgallery.scss",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/bower_components\/lightgallery\/src\/sass\/prepros.cfg": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/src\/sass\/prepros.cfg",
+		"oF": 0
+		},
+	"\/bower_components\/lightgallery\/test\/.jshintrc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/test\/.jshintrc",
+		"oF": 0
+		},
+	"\/bower_components\/lightgallery\/test\/lightgallery.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/test\/lightgallery.html",
+		"oF": 0
+		},
+	"\/bower_components\/lightgallery\/test\/lightgallery_test.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/lightgallery\/test\/lightgallery_test.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/bower_components\/modernizr\/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -5460,6 +6630,12 @@
 		"oAP": "\/bower_components\/modernizr\/.editorconfig",
 		"oF": 0
 		},
+	"\/bower_components\/modernizr\/.eslintrc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/modernizr\/.eslintrc",
+		"oF": 0
+		},
 	"\/bower_components\/modernizr\/.gitattributes": {
 		"ft": 8192,
 		"oA": 2,
@@ -5472,22 +6648,10 @@
 		"oAP": "\/bower_components\/modernizr\/.gitignore",
 		"oF": 0
 		},
-	"\/bower_components\/modernizr\/.jscsrc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/modernizr\/.jscsrc",
-		"oF": 0
-		},
 	"\/bower_components\/modernizr\/.jshintignore": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/.jshintignore",
-		"oF": 0
-		},
-	"\/bower_components\/modernizr\/.jshintrc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/bower_components\/modernizr\/.jshintrc",
 		"oF": 0
 		},
 	"\/bower_components\/modernizr\/.npmignore": {
@@ -5512,6 +6676,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/bin\/modernizr",
+		"oF": 0
+		},
+	"\/bower_components\/modernizr\/bin\/modernizr.bat": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/modernizr\/bin\/modernizr.bat",
 		"oF": 0
 		},
 	"\/bower_components\/modernizr\/feature-detects\/a\/download.js": {
@@ -5870,6 +7040,15 @@
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/feature-detects\/css\/columns.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/modernizr\/feature-detects\/css\/cssgrid.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/modernizr\/feature-detects\/css\/cssgrid.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -6288,6 +7467,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/bower_components\/modernizr\/feature-detects\/css\/transformslevel2.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/modernizr\/feature-detects\/css\/transformslevel2.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/bower_components\/modernizr\/feature-detects\/css\/transformstylepreserve3d.js": {
 		"ft": 64,
 		"mi": 1,
@@ -6374,6 +7562,15 @@
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/feature-detects\/css\/wrapflow.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/modernizr\/feature-detects\/custom-elements.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/modernizr\/feature-detects\/custom-elements.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -6473,6 +7670,15 @@
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/feature-detects\/dom\/mutationObserver.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/modernizr\/feature-detects\/dom\/passiveeventlisteners.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/modernizr\/feature-detects\/dom\/passiveeventlisteners.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -6671,6 +7877,15 @@
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/feature-detects\/es6\/array.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/modernizr\/feature-detects\/es6\/arrow.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/modernizr\/feature-detects\/es6\/arrow.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -7206,6 +8421,33 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/bower_components\/modernizr\/feature-detects\/mediaquery\/hovermq.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/modernizr\/feature-detects\/mediaquery\/hovermq.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/modernizr\/feature-detects\/mediaquery\/pointermq.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/modernizr\/feature-detects\/mediaquery\/pointermq.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/modernizr\/feature-detects\/messagechannel.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/modernizr\/feature-detects\/messagechannel.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/bower_components\/modernizr\/feature-detects\/network\/beacon.js": {
 		"ft": 64,
 		"mi": 1,
@@ -7620,6 +8862,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/bower_components\/modernizr\/feature-detects\/url\/urlsearchparams.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/modernizr\/feature-detects\/url\/urlsearchparams.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/bower_components\/modernizr\/feature-detects\/userdata.js": {
 		"ft": 64,
 		"mi": 1,
@@ -7652,6 +8903,15 @@
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/feature-detects\/video\/autoplay.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/modernizr\/feature-detects\/video\/crossorigin.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/modernizr\/feature-detects\/video\/crossorigin.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -8081,6 +9341,15 @@
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/src\/classes.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/modernizr\/src\/computedStyle.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/modernizr\/src\/computedStyle.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -9038,6 +10307,15 @@
 		"mi": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/test\/cleanup.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/modernizr\/test\/eslint\/rules\/no-global-getComputedStyle.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/modernizr\/test\/eslint\/rules\/no-global-getComputedStyle.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -10362,6 +11640,24 @@
 			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "\/bower_components\/flickity\/dist\/flickity.pkgd.js",
 			"position": 3,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lightgallery.js",
+			"position": 4,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/demo\/js\/lg-fullscreen.js",
+			"position": 5,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/demo\/js\/lg-autoplay.js",
+			"position": 6,
 			"type": 0
 			}
 		]

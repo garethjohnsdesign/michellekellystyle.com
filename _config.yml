@@ -2,6 +2,9 @@
 title: Michelle Kelly Style
 timezone: UTC
 collections:
+  press:
+    title: Press
+    output: false
   posts:
     title: Posts
     output: true
