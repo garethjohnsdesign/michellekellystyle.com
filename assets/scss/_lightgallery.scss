@@ -6,19 +6,18 @@ $backdrop-opacity: 1 !default;
 $lg-toolbar-bg: rgba(0, 0, 0, 0) !default;
 // $lg-border-radius-base: 2px !default;
 $lg-border-radius-base: 0px !default;
-$lg-theme-highlight: $color--gray !default;
-$lg-theme: #0D0A0A !default;
+$lg-theme-highlight: $white !default;
+$lg-theme: $medium-gray !default;
 
 // basic icon colours
 $lg-icon-bg: rgba(0, 0, 0, 0.45) !default;
 // $lg-icon-color: #999 !default;
-$lg-icon-color: $color--black !default;
-$lg-icon-hover-color: $color--light-gray !default;
+$lg-icon-color: #999 !default;
+$lg-icon-hover-color: $white !default;
 
 // counter
-$lg-counter-color: $color--black !default;
-// $lg-counter-font-size: 16px !default;
-$lg-counter-font-size: 24px !default;
+$lg-counter-color: $medium-gray !default;
+$lg-counter-font-size: 1rem !default;
 
 // Next prev icons
 // $lg-next-prev-bg: $lg-icon-bg !default;
@@ -31,7 +30,7 @@ $lg-toolbar-icon-color: $lg-icon-color !default;
 $lg-toolbar-icon-hover-color: $lg-icon-hover-color !default;
 
 // autoplay progress bar
-$lg-progress-bar-bg: $color--black !default;
+$lg-progress-bar-bg: #333 !default;
 $lg-progress-bar-active-bg: $lg-theme-highlight !default;
 $lg-progress-bar-height: 5px !default;
 
@@ -401,16 +400,16 @@ $zindex-backdrop: 1040 !default;
 
 // font icons support
 @font-face {
-    font-family: 'lg';
-    src: url("#{$lg-path-fonts}/lg.eot?n1z373");
-    src: url("#{$lg-path-fonts}/lg.eot?#iefixn1z373") format("embedded-opentype"), url("#{$lg-path-fonts}/lg.woff?n1z373") format("woff"), url("#{$lg-path-fonts}/lg.ttf?n1z373") format("truetype"), url("#{$lg-path-fonts}/lg.svg?n1z373#lg") format("svg");
+    font-family: 'Gallery';
+//     src: url("#{$lg-path-fonts}/lg.eot?n1z373");
+//     src: url("#{$lg-path-fonts}/lg.eot?#iefixn1z373") format("embedded-opentype"), url("#{$lg-path-fonts}/lg.woff?n1z373") format("woff"), url("#{$lg-path-fonts}/lg.ttf?n1z373") format("truetype"), url("#{$lg-path-fonts}/lg.svg?n1z373#lg") format("svg");
     font-weight: normal;
     font-style: normal;
 }
 
 
 .lg-icon {
-    font-family: 'lg';
+    font-family: 'Gallery';
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -431,7 +430,7 @@ $zindex-backdrop: 1040 !default;
         color: $lg-next-prev-color;
         cursor: pointer;
         display: block;
-        font-size: 22px;
+        font-size: 2rem;
         margin-top: -10px;
         padding: 8px 10px 9px;
         position: absolute;
@@ -449,7 +448,7 @@ $zindex-backdrop: 1040 !default;
     }
 
     .lg-next {
-        right: 20px;
+        right: 1rem;
 
         &:before {
             content: "\e095";
@@ -457,7 +456,7 @@ $zindex-backdrop: 1040 !default;
     }
 
     .lg-prev {
-        left: 20px;
+        left: 1rem;
 
         &:after {
             content: "\e094";
@@ -572,7 +571,7 @@ $zindex-backdrop: 1040 !default;
     }
 
     p {
-        font-size: 1rem;
+        font-size: 12px;
         margin: 5px 0 0;
     }
 }
@@ -1011,8 +1010,8 @@ body:not(.lg-from-hash){
             display: block;
             white-space: pre;
             padding: 4px 12px;
-            font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-            font-size: 12px;
+            font-family: $primary-font-family;
+            font-size: 1rem;
             &:hover {
                 background-color: rgba(0, 0, 0, 0.07);
             }
@@ -1214,16 +1213,19 @@ body:not(.lg-from-hash){
     .lg-image {
         display: inline-block;
         vertical-align: middle;
-/*
         max-width: 100%;
         max-height: 100%;
-*/
-        
-        max-width: 90%;
-        max-height: 90%;
-        
         width: auto !important;
         height: auto !important;
+        @include breakpoint(small) {
+        padding: 2rem;
+        }
+        @include breakpoint(medium) {
+        padding: 4rem;
+        }
+        @include breakpoint(large) {
+        padding: 6rem;
+        }
     }
 
     &.lg-show-after-load {
@@ -1260,7 +1262,7 @@ body:not(.lg-from-hash){
     bottom: 0;
     z-index: $zindex-backdrop;
 //     background-color: #000;
-    background-color: #FFFFFF;
+    background-color: $black;
     opacity: 0;
     @include transition(opacity 0.15s ease 0s);
     &.in{

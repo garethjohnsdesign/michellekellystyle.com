@@ -9,27 +9,25 @@ layout: compress
 {% include head.html %}
 <!-- End Head -->
 
-<body class="site-wrapper">
+<body>
+  
+<!-- Mobile Navigation -->  
+{% include navigation--mobile.html %}
+<!-- End Mobile Navigation --> 
 
-<div class="main-content">
-
-<!-- Navigation --> 
+<div class="wrapper grid-y align-justify {{page.layout | slugify}}">
+<!-- Navigation -->
 {% include navigation.html %}
-<!-- End Navigation --> 
+<!-- End Navigation -->
 
-<!-- Overlay Menu -->  
-{% include overlay-menu.html %}
-<!-- End Overlay Menu --> 
-
-<!-- Content -->  
-{{ content }}
+<!-- Content -->
+{{content}}
 <!-- End Content -->
 
-</div>
-
-<!-- Footer -->  
+<!-- Footer -->
 {% include footer.html %}
-<!-- End Footer -->  
+<!-- End Footer-->
+</div>
 
 <!-- Scripts -->
 {% include scripts.html %}
@@ -40,6 +38,6 @@ layout: compress
 {% include analytics.html %}
 {% endif %}
 <!-- End Google Analytics -->
-
 </body>
+
 </html>

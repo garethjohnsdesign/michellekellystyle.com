@@ -11,7 +11,7 @@
     "fizzy-ui-utils": "^2.0.0",
     "get-size": "^2.0.0",
     "tap-listener": "^2.0.0",
-    "unidragger": "^2.1.0"
+    "unidragger": "^2.2.3"
   },
   "devDependencies": {
     "flickity-imagesloaded": "^2.0.0",
@@ -40,12 +40,12 @@
     "gulpfile.js",
     "notes.md"
   ],
-  "version": "2.0.7",
-  "_release": "2.0.7",
+  "version": "2.0.10",
+  "_release": "2.0.10",
   "_resolution": {
     "type": "version",
-    "tag": "v2.0.7",
-    "commit": "037e84c575de3c5830428602543c0fe4c4fb9d1d"
+    "tag": "v2.0.10",
+    "commit": "362c726b43d1f407f2d25c638494fee49957f7eb"
   },
   "_source": "https://github.com/metafizzy/flickity.git",
   "_target": "^2.0.5",

@@ -1,61 +1,70 @@
 //  Table of Contents:
 //
-//   1. Global
-//   2. Typography
-//   3. 404
+//   1. Mixins
+//   2. Global
+//   3. Typography
+//   4. Buttons
 //   4. Navigation
-//   5. Excerpt
-//   6. Page
-//   7. Contact
-//   8. Project
-//   9. About
-//   10. Footer
+//   5. Sections
+//   6. Section One
+//   7. Section Two
+//   8. Section Three
+//   9. Section Four
+//   10. Projects
+//   11. Contact
+//   12. Footer
 
-// 1. Global
+
+// 1. Mixins
 // ---------
 
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
+@mixin links ($link, $hover) {
+  a {
+    color: $link;
+    &:hover {
+      color: $hover;   
+    }
+  }
 }
+
+// 2. Global
+// ---------
 
 body {
   cursor: default;
+  font-kerning: normal;
 }
 
 svg {
   max-width: 100%;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 ::selection {
-  background: $color--black;
-  color: $color--white;
+  background: $primary-color;
+  color: $secondary-color;
 }
 
-a { 
-  transition: $primary-transition;
+:focus {
+  outline: 0;
 }
 
-.main-content {
-  flex: 1 0 auto;
+.black {
+  color: $black;
+    &:hover {
+    color: $medium-gray;   
+  }
 }
 
-.site-wrapper {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
+.gray {
+  color: $medium-gray;
+    &:hover {
+    color: $black;   
+  }
 }
 
-// 2. Typography
+
+
+// 3. Typography
 // -------------
 
 .uppercase {
@@ -66,234 +75,199 @@ i, cite, em, var, address, dfn {
   font-style: normal;
 }
 
-// 3. 404
+
+// 5. Loading
 // ------
 
-.missing {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-    a {
-      color: $color--dark-gray;
-    }
-    a:hover {
-      color: $color--black;
-    }
-}
-
-// 4. Navigation
-// -------------
-
-.navigation__left {
-  padding: 2rem 3rem 2rem 3rem;
-}
-
-.navigation__center {
-  padding: 2rem 3rem 2rem 3rem;
-    @include breakpoint(small only) {
-      padding: 2rem 2rem 0rem 2rem;
-    }
-}
-
-.navigation__right {
-  padding: 2rem 3rem 2rem 3rem;
-  .menu.simple li:nth-child(2) {
-    margin-right: 0rem;
+.loader {
+  z-index: 3;
+  position: fixed;
+  background: $white;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  opacity: 1;
+  transition: $primary-transition;
+  visibility: visible; 
+  &.loaded {
+    opacity: 0;
+    visibility: hidden;
   }
 }
 
-.navigation__title__desktop h1 {
-  text-transform: uppercase;
-  font-size: 1.5rem;
-  margin-bottom: 0;
-  letter-spacing: 0.15rem;
-  line-height: 1.2;
+
+// 6. Navigation
+// ------
+
+.navigation__logo {
+  z-index: 2;
 }
 
-// 5. Excerpt
+.navigation__job {
+  z-index: 2;
+}
+
+.navigation__job {
+  color: $secondary-color;
+}
+
+.navigation__hamburger {
+  z-index: 2;
+}
+
+.navigation--mobile {
+  z-index: 1;
+  position: fixed;
+  background: $white;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  opacity: 0;
+  transition: $primary-transition;
+  visibility: hidden;
+  font-family: $header-font-family;
+  font-size: 1.25rem;
+  &.open {
+    opacity: 1;
+    visibility: visible;
+  }
+  a {
+   padding: 1rem 0rem;
+  }
+}
+
+// 7. Projects
 // ----------
 
-.excerpt {
-  position:relative;
-  opacity:1;
-  padding-bottom: 2rem;
-  margin: 1rem 2rem;
- @include breakpoint(medium only) {
-    margin: 1rem 1.75rem;
-  }
-  @include breakpoint(small only) {
-    margin: 0.5rem 1.5rem;
+.projects__list a {
+  display: block;
+  width: 100%;
+  position: relative; 
+  color: transparent;
+  &:hover {
+    color: $white;   
   }
 }
-
-.excerpt__image {
-  margin-bottom: 0.75rem;
+    
+.projects__list a:hover img {
+  filter: saturate(100%) brightness(70%); 
+}
+    
+.projects__list a img {
   transition: $primary-transition;
-}
-
-.excerpt__image:hover {
-  opacity: 0.8;
-}
-
-.excerpt__text__title {
-  font-family: $header-font-family;
-  line-height: 1.2;
-}
-
-.excerpt__text__collaborator {
-  a {
-    font-family: $body-font-family;
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: $color--dark-gray;
-  }
-  a:hover {
-    color: $color--black;
-  }  
-}
-
-// 6. Page
-// -------
-
-.page__content {
-  padding: 1rem 3rem 1rem 3rem;
-    @include breakpoint(small only) {
-      padding: 2rem;
-    }
-    h3 {
-      margin-bottom: 2rem;
-    }
-}
-
-// 7. Contact
-// -------
-
-.contact {
-  padding: 3rem;
-    @include breakpoint(small only) {
-      padding: 2rem;
-    }
-}
-
-.contact__detail {
-  font-family: $header-font-family;
-  margin-bottom: 0rem;
-}
-
-.contact {
-  a {
-    display: inline-block;
-    position: relative;
-  }
-
-  a::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    display: inline-block;
-    height: 1em;
-    width: 100%;
-    border-bottom: 1px solid $color--black;
-    margin-top: 5px;
-    transition: $primary-transition;
-  }
-
-  a:hover::after {
-    border-bottom: 1px solid $color--lightest-gray;
-    margin-top: 5px;
-  }
-}
-
-.contact__copyright {
-  padding-top: 3rem;
   padding-bottom: 1rem;
 }
 
-.contact__address {
-  padding-top: 1rem;
-  padding-bottom: 2rem;
-}
-
-a.press-images {
-  display: none;
-}
 
 // 8. Project
-// ----------
-
-.project__video {
-  margin-bottom: 0rem;
-}
-
-.project__carousel {
-  margin-bottom: 2rem;
-  img {
-    display: block;
-    height: 300px;
-    margin-right: 2rem;
-      @include breakpoint(small only) {
-        max-width: none;
-      }
-      @include breakpoint(medium) {
-        height: 400px;
-      }
-      @include breakpoint(large) {
-        height: 450px;
-      }
-    }
-}
-
-.project__meta {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-    p {
-      margin-bottom: 0rem;
-    }
-    .lightgallery {
-      padding-top: 1rem;
-    }
-}
-
-.project__meta__title {
-  font-family: $header-font-family;
-  font-size: 1.75rem;
-  line-height: 1.2;
-  padding-bottom: 1rem;
-}
-
-// 9. About
 // ---------
 
-.about__description {
-  padding-top: 1rem;
-  font-size: 1.25rem;
-  @include breakpoint(medium) {
-        padding-top: 2rem;
-      }
-      @include breakpoint(large) {
-        padding-top: 3rem;
-      }
+.project__credits {
+  color: $secondary-color;
 }
 
-// 10. Footer
-// ----------
-
-footer {
-  color: $color--black;
-  padding: 2rem 3rem 2rem 3rem;
-  a {
-    color: $color--black;
-    display: block;
-    }
-  @include breakpoint(small only) {
-    padding: 2rem;
+.project__pagination a {
+  color: $secondary-color;
+  &:hover {
+    color: $black;  
   }
 }
 
-// 10. Pagination
-// ----------
+// 9. Info
+// ---------
 
-.pagination h6 {
-  text-transform: uppercase;
-  letter-spacing: 2px;
+.wrapper {
+  min-height: 100vh;
+  padding: 1rem;
+  @include breakpoint(medium) {
+    padding: 1rem;
+  }
+  @include breakpoint(large) {
+    padding: 1.5rem;
+  }
+}
+
+.item__director {
+//   font-family: $secondary-font-family;
+  color: $secondary-color;
+}
+
+.cv__title {
+  color: $secondary-color;
+}
+
+.cv__item {
+  border-bottom: 1px solid $secondary-color;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.home__selected {
+  color: $secondary-color;
+}
+
+.item__play {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  width: 100%;
+  height: 100%;
+}
+
+.info__content p {
+//   margin-top: 2rem;
+  color: $secondary-color;
+}
+
+.info__content a {
+//   margin-top: 2rem;
+  color: $secondary-color;
+  border-bottom: 1px solid $secondary-color;
+  &:hover {
+    color: $black; 
+    border-bottom: 1px solid $black;
+  }
+}
+
+
+
+.navigation__secondary a {
+  color: $secondary-color;
+}
+
+.navigation__secondary__cell {
+  padding-left: 0rem;
+}
+
+.footer a {
+  color: $secondary-color;
+  &:hover {
+    color: $primary-color;   
+  }
+}
+
+.grid-item {
+  padding: $global-padding;
+}
+
+.grid[data-columns]::before {
+  @include breakpoint(small) {
+  content: '1 .cell';
+  }
+  @include breakpoint(medium) {
+  content: '2 .cell';
+  }
+  @include breakpoint(large) {
+  content: '3 .cell';
+  }
+}
+
+.grid-item a:hover img {
+  filter: saturate(100%) brightness(70%); 
+}
+    
+.grid-item a img {
+  transition: $primary-transition;
 }

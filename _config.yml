@@ -1,5 +1,5 @@
 ---
-title: Michelle Kelly Style
+title: Michelle Kelly
 timezone: UTC
 collections:
   posts:
@@ -20,22 +20,20 @@ defaults:
     type: pages
   values:
     layout: page
-url: http://michellekellystyle.com
+url: https://www.michellekellystyle.com
 description: London-based interior design studio
 permalink: pretty
 exclude:
-- Gruntfile.js
-- Gemfile
-- Gemfile.lock
+- bower.json
 - package.json
+- config.codekit3
 - README*
+- LICENSE*
+- CHANGELOG*
 - node_modules
 - ".gitignore"
 - bower_components
-- config.codekit3
-- CHANGELOG.md
-- LICENSE.md
-- bower.json
+- assets/scss
 gems:
 - jekyll-seo-tag
 - jekyll-sitemap
