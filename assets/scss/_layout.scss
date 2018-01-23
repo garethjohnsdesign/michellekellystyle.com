@@ -30,13 +30,37 @@
 // 2. Global
 // ---------
 
+html, body {
+  height: 100%;
+}
+
 body {
   cursor: default;
+  display: flex;
+  flex-direction: column;
   font-kerning: normal;
+}
+
+nav {
+  z-index: 2
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  z-index: 2
 }
 
 svg {
   max-width: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 ::selection {
@@ -47,22 +71,6 @@ svg {
 :focus {
   outline: 0;
 }
-
-.black {
-  color: $black;
-    &:hover {
-    color: $medium-gray;   
-  }
-}
-
-.gray {
-  color: $medium-gray;
-    &:hover {
-    color: $black;   
-  }
-}
-
-
 
 // 3. Typography
 // -------------
@@ -75,46 +83,8 @@ i, cite, em, var, address, dfn {
   font-style: normal;
 }
 
-
-// 5. Loading
-// ------
-
-.loader {
-  z-index: 3;
-  position: fixed;
-  background: $white;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%; 
-  opacity: 1;
-  transition: $primary-transition;
-  visibility: visible; 
-  &.loaded {
-    opacity: 0;
-    visibility: hidden;
-  }
-}
-
-
 // 6. Navigation
 // ------
-
-.navigation__logo {
-  z-index: 2;
-}
-
-.navigation__job {
-  z-index: 2;
-}
-
-.navigation__job {
-  color: $secondary-color;
-}
-
-.navigation__hamburger {
-  z-index: 2;
-}
 
 .navigation--mobile {
   z-index: 1;
@@ -141,133 +111,44 @@ i, cite, em, var, address, dfn {
 // 7. Projects
 // ----------
 
-.projects__list a {
-  display: block;
-  width: 100%;
-  position: relative; 
-  color: transparent;
-  &:hover {
-    color: $white;   
-  }
-}
-    
-.projects__list a:hover img {
-  filter: saturate(100%) brightness(70%); 
-}
-    
-.projects__list a img {
-  transition: $primary-transition;
-  padding-bottom: 1rem;
-}
-
-
 // 8. Project
 // ---------
-
-.project__credits {
-  color: $secondary-color;
-}
-
-.project__pagination a {
-  color: $secondary-color;
-  &:hover {
-    color: $black;  
-  }
-}
 
 // 9. Info
 // ---------
 
-.wrapper {
-  min-height: 100vh;
-  padding: 1rem;
-  @include breakpoint(medium) {
-    padding: 1rem;
-  }
-  @include breakpoint(large) {
-    padding: 1.5rem;
-  }
+.content {
+    @include xy-cell();
 }
 
-.item__director {
-//   font-family: $secondary-font-family;
-  color: $secondary-color;
+.home {
+  @include links ($white, $black)
 }
 
-.cv__title {
-  color: $secondary-color;
-}
-
-.cv__item {
-  border-bottom: 1px solid $secondary-color;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.home__selected {
-  color: $secondary-color;
-}
-
-.item__play {
+.logo_test {
+  z-index: 1;
   position: absolute;
-  top: 0rem;
-  left: 0rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  padding: 1rem;
+  color: #fefefe;
   width: 100%;
-  height: 100%;
+  text-align: center;
 }
 
-.info__content p {
-//   margin-top: 2rem;
-  color: $secondary-color;
+.home .orbit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
 }
 
-.info__content a {
-//   margin-top: 2rem;
-  color: $secondary-color;
-  border-bottom: 1px solid $secondary-color;
-  &:hover {
-    color: $black; 
-    border-bottom: 1px solid $black;
-  }
-}
-
-
-
-.navigation__secondary a {
-  color: $secondary-color;
-}
-
-.navigation__secondary__cell {
-  padding-left: 0rem;
-}
-
-.footer a {
-  color: $secondary-color;
-  &:hover {
-    color: $primary-color;   
-  }
-}
-
-.grid-item {
-  padding: $global-padding;
-}
-
-.grid[data-columns]::before {
-  @include breakpoint(small) {
-  content: '1 .cell';
-  }
-  @include breakpoint(medium) {
-  content: '2 .cell';
-  }
-  @include breakpoint(large) {
-  content: '3 .cell';
-  }
-}
-
-.grid-item a:hover img {
-  filter: saturate(100%) brightness(70%); 
-}
-    
-.grid-item a img {
-  transition: $primary-transition;
+.home .orbit-slide {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+//   z-index: 1;
 }

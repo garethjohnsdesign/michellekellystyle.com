@@ -1,7 +1,7 @@
 ---
 title: About
 position: 4
-layout: about
+layout: page
 ---
 
 Michelle can work with you to create and design a beautiful interior space. From a single room, house, residence or commercial project.

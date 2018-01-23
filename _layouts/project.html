@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<section class="project">
-
 <!-- Carousel -->
 {% if page.images %}
 <div class="project__carousel">
@@ -16,8 +14,8 @@ layout: default
 
 
 <!-- Meta -->
-<div class="row align-center project__meta">
-  <div class="small-8 medium-7 large-7 columns text-center">
+<div class="grid-x align-center project__meta">
+  <div class="small-8 medium-7 large-7 cell text-center">
     <div class="project__meta__title">{{ page.title }}</div>
     {% if page.architect %}
     <p>Architect &mdash; {{ page.architect }}</p>
@@ -44,19 +42,17 @@ layout: default
 
 
 <!-- Content -->
-<div class="row align-center">
-  <div class="small-8 medium-7 large-7 columns text-center">
+<div class="grid-x align-center">
+  <div class="small-8 medium-7 large-7 cell text-center">
     {{ content }}
   </div>
 </div>
 <!-- End Content -->
 
 <!-- Content -->
-<div class="row align-center">
-  <div class="small-8 medium-7 large-7 columns text-center">
+<div class="grid-x align-center">
+  <div class="small-8 medium-7 large-7 cell text-center">
     {% include pagination.html %}
   </div>
 </div>
 <!-- End Content -->
-
-</section>

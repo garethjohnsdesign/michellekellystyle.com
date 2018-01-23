@@ -18,7 +18,7 @@ images:
 - "/uploads/seaside-house-12.jpg"
 architect: 
 contractor: Mirz Construction
-is-featured: true
+is-featured: false
 layout: project
 ---
 

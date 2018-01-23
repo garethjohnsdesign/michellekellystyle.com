@@ -65,18 +65,19 @@
 // 1. Global
 // ---------
 
+// $global-font-size: 100%;
 $global-font-size: 18px;
-$global-width: rem-calc(1440);
-// $global-width: rem-calc(1024);
+$global-width: rem-calc(1200);
 $global-lineheight: 1.5;
-$light-gray: #e6e6e6;
-$medium-gray: #999999;
+// $light-gray: #e6e6e6;
+$light-gray: #f1f1ef;
+$medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
-$black: #0a0a0a;
+$black: #333333;
 $white: #fefefe;
 $foundation-palette: (
   primary: $black,
-  secondary: $medium-gray,
+  secondary: #767676,
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
@@ -114,7 +115,7 @@ $breakpoints: (
   xxlarge: 1440px,
 );
 $print-breakpoint: large;
-$breakpoint-classes: (small medium large xlarge xxlarge);
+$breakpoint-classes: (small medium large);
 
 // 3. The Grid
 // -----------
@@ -137,32 +138,22 @@ $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-color: inherit;
-// $header-lineheight: 1.4;
-$header-lineheight: 1.2;
-// $header-margin-bottom: 0.5rem;
-$header-margin-bottom: 0rem;
+$header-lineheight: 1.4;
+$header-margin-bottom: 0.5rem;
 $header-styles: (
   small: (
     'h1': ('font-size': 24),
     'h2': ('font-size': 20),
     'h3': ('font-size': 19),
-    'h4': ('font-size': 24),
+    'h4': ('font-size': 18),
     'h5': ('font-size': 17),
     'h6': ('font-size': 18),
   ),
   medium: (
-    'h1': ('font-size': 32),
-    'h2': ('font-size': 32),
-    'h3': ('font-size': 32),
-    'h4': ('font-size': 24),
-    'h5': ('font-size': 20),
-    'h6': ('font-size': 18),
-  ),
-  large: (
-    'h1': ('font-size': 32),
-    'h2': ('font-size': 32),
-    'h3': ('font-size': 32),
-    'h4': ('font-size': 24),
+    'h1': ('font-size': 48),
+    'h2': ('font-size': 40),
+    'h3': ('font-size': 31),
+    'h4': ('font-size': 25),
     'h5': ('font-size': 20),
     'h6': ('font-size': 18),
   ),
@@ -180,8 +171,7 @@ $code-background: $light-gray;
 $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
 $anchor-color: $primary-color;
-// $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
-$anchor-color-hover: $secondary-color;
+$anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
 $hr-width: $global-width;
@@ -485,10 +475,8 @@ $menu-margin: 0;
 $menu-nested-margin: $global-menu-nested-margin;
 $menu-items-padding: $global-menu-padding;
 $menu-simple-margin: 1rem;
-// $menu-item-color-active: $white;
-$menu-item-color-active: $secondary-color;
-// $menu-item-background-active: get-color(primary);
-$menu-item-background-active: $white;
+$menu-item-color-active: $white;
+$menu-item-background-active: get-color(primary);
 $menu-icon-spacing: 0.25rem;
 $menu-item-background-hover: $light-gray;
 $menu-state-back-compat: true;
@@ -539,7 +527,8 @@ $orbit-bullet-margin-top: 0.8rem;
 $orbit-bullet-margin-bottom: 0.8rem;
 $orbit-caption-background: rgba($black, 0.5);
 $orbit-caption-padding: 1rem;
-$orbit-control-background-hover: rgba($black, 0.5);
+// $orbit-control-background-hover: rgba($black, 0.5);
+$orbit-control-background-hover: rgba($black, 0);
 $orbit-control-padding: 1rem;
 $orbit-control-zindex: 10;
 
@@ -734,8 +723,7 @@ $prototype-text-overflow: ellipsis;
 // 46. Responsive Embed
 // --------------------
 
-// $responsive-embed-margin-bottom: rem-calc(16);
-$responsive-embed-margin-bottom: rem-calc(32);
+$responsive-embed-margin-bottom: rem-calc(16);
 $responsive-embed-ratios: (
   default: 4 by 3,
   widescreen: 16 by 9,
@@ -881,9 +869,9 @@ $grid-margin-gutters: (
 );
 */
 $grid-margin-gutters: (
-  small: 32px,
-  medium: 32px,
-  large: 48px
+  small: 48px,
+  medium: 64px,
+  large: 72px,
 );
 $grid-padding-gutters: $grid-margin-gutters;
 $grid-container-padding: $grid-padding-gutters;
