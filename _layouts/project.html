@@ -2,16 +2,15 @@
 layout: default
 ---
 
-<!-- Carousel -->
-{% if page.images %}
-<div class="project__carousel">
-{% for image in page.images %}
-    <img src="{{image}}">
-{% endfor %}
+<div class="grid-x align-center project__meta">
+  <div class="small-8 medium-7 large-7 cell text-center">
+  {% for images in page.images %}
+  {% if images.type == "portrait" %}
+  Test
+  {% endif %}
+  {% endfor %}
+  </div>
 </div>
-{% endif %}
-<!-- End Carousel -->
-
 
 <!-- Meta -->
 <div class="grid-x align-center project__meta">
@@ -23,17 +22,6 @@ layout: default
     {% if page.contractor %}
     <div class="project__meta__detail">Contractor &mdash; {{ page.contractor }}</div>
     {% endif %}
-    
-
-{% for ingredient in page.images.image %}
-{{ page.author.name }}
-
-<img src="{{ page.author.image }}" />
-
-{{ page.author.bio }}
-{% endfor %}}
- 
-
   </div>
 </div>
 <!-- End Meta -->
