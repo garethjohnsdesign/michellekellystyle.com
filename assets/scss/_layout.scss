@@ -86,6 +86,7 @@ i, cite, em, var, address, dfn {
 // 6. Navigation
 // ------
 
+/*
 .navigation--mobile {
   z-index: 1;
   position: fixed;
@@ -107,6 +108,7 @@ i, cite, em, var, address, dfn {
    padding: 1rem 0rem;
   }
 }
+*/
 
 // 7. Projects
 // ----------
@@ -117,15 +119,17 @@ i, cite, em, var, address, dfn {
 // 9. Info
 // ---------
 
-.content {
-    @include xy-cell();
+
+main {
+  padding: 2rem;
 }
 
 .home {
   @include links ($white, $black)
+  text-shadow: 1px 1px 3px rgba(150, 150, 150, 0.3);
 }
 
-.logo_test {
+.home__site-title {
   z-index: 1;
   position: absolute;
   top: 50%;

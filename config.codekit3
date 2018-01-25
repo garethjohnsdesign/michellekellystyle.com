@@ -9,13 +9,6 @@
 	],
 "creatorBuild": "26148",
 "files": {
-	"\/.rbenv-version": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.rbenv-version",
-		"oF": 0
-		},
 	"\/404.md": {
 		"cB": 0,
 		"cS": 0,
@@ -346,16 +339,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/_uploads\/hackney-apartment-thumb.jpg": {
-		"ft": 16384,
-		"iS": 143589,
-		"oA": 0,
-		"oAP": "\/_uploads\/hackney-apartment-thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/_uploads\/hackney-house-01.jpg": {
 		"ft": 16384,
 		"iS": 222291,
@@ -498,12 +481,12 @@
 		},
 	"\/_uploads\/hackney-house-thumb.jpg": {
 		"ft": 16384,
-		"iS": 133076,
+		"iS": 143589,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/_uploads\/hair-salon-01.jpg": {
@@ -553,7 +536,7 @@
 		"oAP": "\/_uploads\/hair-salon-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/_uploads\/living-etc-01.jpg": {
@@ -653,7 +636,7 @@
 		"oAP": "\/_uploads\/london-cabin-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/_uploads\/london-fields-house-thumb.jpg": {
@@ -663,7 +646,7 @@
 		"oAP": "\/_uploads\/london-fields-house-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/_uploads\/seaside-house-01.jpg": {
@@ -793,7 +776,7 @@
 		"oAP": "\/_uploads\/seaside-house-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/about.md": {
@@ -972,6 +955,20 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/fonts\/cooper-light.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/cooper-light.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/cooper-light.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/cooper-light.woff2",
+		"oF": 0
 		},
 	"\/assets\/fonts\/FreightTextBook.eot": {
 		"cB": 0,

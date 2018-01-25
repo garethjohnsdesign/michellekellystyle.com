@@ -133,7 +133,8 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: $body-font-family;
+// $header-font-family: $body-font-family;
+$header-font-family: $secondary-font-family;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
@@ -156,6 +157,14 @@ $header-styles: (
     'h4': ('font-size': 25),
     'h5': ('font-size': 20),
     'h6': ('font-size': 18),
+  ),
+  large: (
+  'h1': ('font-size': 64),
+  'h2': ('font-size': 40),
+  'h3': ('font-size': 31),
+  'h4': ('font-size': 25),
+  'h5': ('font-size': 20),
+  'h6': ('font-size': 18),
   ),
 );
 $header-text-rendering: optimizeLegibility;
@@ -870,8 +879,8 @@ $grid-margin-gutters: (
 */
 $grid-margin-gutters: (
   small: 48px,
-  medium: 64px,
-  large: 72px,
+  medium: 48px,
+  large: 48px,
 );
 $grid-padding-gutters: $grid-margin-gutters;
 $grid-container-padding: $grid-padding-gutters;
