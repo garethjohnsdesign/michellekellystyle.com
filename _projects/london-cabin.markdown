@@ -19,5 +19,4 @@ is-featured: false
 layout: project
 ---
 
-
 Working with the owners to create a unique and charming cosy  one bedroom cabin
