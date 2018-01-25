@@ -22,10 +22,6 @@ images:
 architect: Brian O’Tuama Architects
 contractor: McNally Construction
 is-featured: true
-author:
-  name: Sawyer
-  image: "/uploads/hackney-house-14.jpg"
-  bio: Test
 layout: project
 ---
 
