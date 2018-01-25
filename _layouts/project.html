@@ -2,20 +2,9 @@
 layout: default
 ---
 
-<div class="grid-x align-center project__meta">
-  <div class="small-8 medium-7 large-7 cell text-center">
-  {% for images in page.images %}
-  {% if images.type == "portrait" %}
-  Test
-  {% endif %}
-  {% endfor %}
-  </div>
-</div>
-
 <!-- Meta -->
-<div class="grid-x align-center project__meta">
-  <div class="small-8 medium-7 large-7 cell text-center">
-    <h3>{{ page.title }}</h3>
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+  <div class="shrink cell text-center">
     {% if page.architect %}
     <div class="project__meta__detail">Architect &mdash; {{ page.architect }}</div>
     {% endif %}
@@ -25,6 +14,28 @@ layout: default
   </div>
 </div>
 <!-- End Meta -->
+
+<div class="grid-x align-center project__meta">
+  <div class="small-8 medium-7 large-7 cell text-center">
+    <h3>{{ page.title }}</h3>
+  </div>
+</div>
+
+<div class="grid-container">
+<div class="grid-x grid-padding-x grid-padding-y align-center project__meta">
+  {% for images in page.images %}
+  {% if images.is-landscape %}
+  <div class="small-12 medium-12 large-12 cell">
+  <img src="{{ images.image }}" />
+  </div>
+  {% else %}
+  <div class="small-12 medium-6 cell">
+  <img src="{{ images.image }}" />
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>
+</div>
 
 
 <!-- Content -->
