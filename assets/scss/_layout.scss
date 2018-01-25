@@ -121,7 +121,7 @@ i, cite, em, var, address, dfn {
 
 
 main {
-  padding: 2rem;
+  @include xy-gutters($gutter-position: right left);
 }
 
 .home {
@@ -159,5 +159,5 @@ main {
 }
 
 .item__title {
-  @include xy-gutters($gutter-position: top);
+  padding-top: $global-padding;
 }

@@ -18,10 +18,10 @@ layout: default
   <div class="small-8 medium-7 large-7 cell text-center">
     <h3>{{ page.title }}</h3>
     {% if page.architect %}
-    <p>Architect &mdash; {{ page.architect }}</p>
+    <div class="project__meta__detail">Architect &mdash; {{ page.architect }}</div>
     {% endif %}
     {% if page.contractor %}
-    <p>Contractor &mdash; {{ page.contractor }}</p>
+    <div class="project__meta__detail">Contractor &mdash; {{ page.contractor }}</div>
     {% endif %}
     
     {% if page.images %}
