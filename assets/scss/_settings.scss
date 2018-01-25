@@ -67,7 +67,8 @@
 
 // $global-font-size: 100%;
 $global-font-size: 18px;
-$global-width: rem-calc(1200);
+// $global-width: rem-calc(1200);
+$global-width: rem-calc(1024);
 $global-lineheight: 1.5;
 // $light-gray: #e6e6e6;
 $light-gray: #f1f1ef;
@@ -116,6 +117,7 @@ $breakpoints: (
 );
 $print-breakpoint: large;
 $breakpoint-classes: (small medium large);
+$breakpoint-classes: (small medium large xlarge xxlarge);
 
 // 3. The Grid
 // -----------
@@ -897,9 +899,7 @@ $grid-margin-gutters: (
 $grid-margin-gutters: (
   small: 48px,
   medium: 52px,
-  large: 56px,
-  xlarge: 72px,
-  xxlarge: 88px,
+  large: 56px
 );
 $grid-padding-gutters: $grid-margin-gutters;
 $grid-container-padding: $grid-padding-gutters;
