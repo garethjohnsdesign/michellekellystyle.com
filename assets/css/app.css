@@ -3442,7 +3442,7 @@ a {
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #2c2c2c; }
+    color: #999999; }
   a img {
     border: 0; }
 
@@ -5237,7 +5237,10 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 .icon-arrows {
-  font-size: 32px; }
+  font-size: 32px;
+  cursor: pointer; }
+  .icon-arrows:hover {
+    color: #333333; }
 
 @font-face {
   font-family: 'Gallery';
@@ -6090,3 +6093,12 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
+
+.item__title {
+  margin-top: 1.3333333333rem; }
+  @media print, screen and (min-width: 40em) {
+    .item__title {
+      margin-top: 1.3333333333rem; } }
+  @media print, screen and (min-width: 64em) {
+    .item__title {
+      margin-top: 1.3333333333rem; } }

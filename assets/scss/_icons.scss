@@ -17,4 +17,8 @@ Single-colored icons can be modified like so:
 
 .icon-arrows {
   font-size: 32px;
+  cursor: pointer;
+  &:hover {
+    color: $black;   
+  }
 }

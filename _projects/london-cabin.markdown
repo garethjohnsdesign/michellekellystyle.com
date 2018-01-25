@@ -1,8 +1,8 @@
 ---
-title: Loft Apartment
+title: London Cabin
 date: 2017-01-01 00:01:00 Z
 position: 3
-image: "/uploads/hackney-apartment-thumb.jpg"
+image: "/uploads/london-cabin-thumb.jpg"
 images:
 - "/uploads/hackney-apartment-01.jpg"
 - "/uploads/hackney-apartment-02.jpg"
@@ -15,8 +15,9 @@ images:
 - "/uploads/hackney-apartment-09.jpg"
 architect: Mad Atelier
 contractor: Mirz Construction
-is-featured: true
+is-featured: false
 layout: project
 ---
 
-Creating a stylish and artistic space insuring not only a very individual look but also meeting the needs of a family with two small children. Producing a unique and fun living environment for entertaining friends and raising a family. 
+
+Working with the owners to create a unique and charming cosy  one bedroom cabin
