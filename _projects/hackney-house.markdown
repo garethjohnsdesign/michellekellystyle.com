@@ -4,7 +4,8 @@ date: 2017-01-01 00:04:00 Z
 position: 0
 image: "/uploads/hackney-house-thumb.jpg"
 images:
-- "/uploads/hackney-house-01.jpg"
+- image: "/uploads/hackney-house-01.jpg"
+  type: portrait
 - "/uploads/hackney-house-02.jpg"
 - "/uploads/hackney-house-03.jpg"
 - "/uploads/hackney-house-04.jpg"
