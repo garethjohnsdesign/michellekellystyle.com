@@ -5,9 +5,9 @@ position: 0
 image: "/uploads/hackney-house-thumb.jpg"
 images:
 - image: "/uploads/hackney-house-01.jpg"
-  type: portrait
+  is-landscape: true
 - image: "/uploads/hackney-house-02.jpg"
-  type: portrait
+  is-landscape: true
 - image: "/uploads/hackney-house-03.jpg"
   type: portrait
 - image: "/uploads/hackney-house-04.jpg"
