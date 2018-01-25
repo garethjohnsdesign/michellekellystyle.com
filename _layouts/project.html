@@ -24,18 +24,16 @@ layout: default
     <div class="project__meta__detail">Contractor &mdash; {{ page.contractor }}</div>
     {% endif %}
     
-    {% if page.images %}
-      <div class="lightgallery">
-      {% for image in page.images %}
-      {% if forloop.first == true %}
-        <a href="{{image}}"><svg class="icon icon-enlarge"><use xlink:href="/assets/icons/symbol-defs.svg#icon-enlarge"></use></svg></a>
-        {% else %}
-        <a href="{{image}}" class="press-images"></a>
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-    
-    </div>
+
+{% for ingredient in page.images.image %}
+{{ page.author.name }}
+
+<img src="{{ page.author.image }}" />
+
+{{ page.author.bio }}
+{% endfor %}}
+ 
+
   </div>
 </div>
 <!-- End Meta -->
