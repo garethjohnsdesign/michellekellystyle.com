@@ -9,15 +9,15 @@ images:
 - image: "/uploads/london-cabin-02.jpg"
   is-landscape: 
 - image: "/uploads/london-cabin-05.jpg"
-  is-landscape:
+  is-landscape: 
 - image: "/uploads/london-cabin-03.jpg"
   is-landscape: true
 - image: "/uploads/london-cabin-06.jpg"
   is-landscape: 
 - image: "/uploads/london-cabin-07.jpg"
-  is-landscape:
-architect:
-contractor:
+  is-landscape: 
+architect: 
+contractor: 
 is-featured: false
 layout: project
 ---
