@@ -112,6 +112,11 @@ main {
   text-shadow: 1px 1px 3px rgba(150, 150, 150, 0.4);
 }
 
+.home .reveal {
+  @include links ($black, $medium-gray)
+  text-shadow: 1px 1px 3px rgba(150, 150, 150, 0);
+}
+
 .home__site-title {
   z-index: 1;
   position: absolute;
@@ -133,6 +138,16 @@ main {
   left: 0;
   width: 100%;
   z-index: 1;
+}
+
+.home .hamburger-inner {
+  background-color: $white;
+  &::before {
+    background-color: $white;  
+  }
+  &::after {
+    background-color: $white;  
+  }
 }
 
 .home .orbit-slide {
