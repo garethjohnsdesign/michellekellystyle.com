@@ -99,6 +99,10 @@ a {
   transition: color .35s cubic-bezier(.39, .575, .565, 1);
 }
 
+.navigation {
+  @include xy-gutters($gutter-position: top right left);
+}
+
 main {
   @include xy-gutters($gutter-position: right left);
 }
