@@ -7247,19 +7247,13 @@ a {
   transition: color 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
 
 .navigation {
-  margin-top: 1.3333333333rem;
-  margin-right: 1.3333333333rem;
-  margin-left: 1.3333333333rem; }
+  margin-top: 1.3333333333rem; }
   @media print, screen and (min-width: 40em) {
     .navigation {
-      margin-top: 1.4444444444rem;
-      margin-right: 1.4444444444rem;
-      margin-left: 1.4444444444rem; } }
+      margin-top: 1.4444444444rem; } }
   @media print, screen and (min-width: 64em) {
     .navigation {
-      margin-top: 1.5555555556rem;
-      margin-right: 1.5555555556rem;
-      margin-left: 1.5555555556rem; } }
+      margin-top: 1.5555555556rem; } }
 
 main {
   margin-right: 1.3333333333rem;

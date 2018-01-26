@@ -100,7 +100,7 @@ a {
 }
 
 .navigation {
-  @include xy-gutters($gutter-position: top right left);
+  @include xy-gutters($gutter-position: top);
 }
 
 main {
