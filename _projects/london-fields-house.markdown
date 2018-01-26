@@ -5,13 +5,13 @@ position: 2
 image: "/uploads/london-fields-house-thumb.jpg"
 images:
 - image: "/uploads/london-fields-house-01.jpg"
-  is-landscape:
+  is-landscape: 
 - image: "/uploads/london-fields-house-02.jpg"
   is-landscape: 
 - image: "/uploads/london-fields-house-03.jpg"
   is-landscape: true
 - image: "/uploads/london-fields-house-04.jpg"
-  is-landscape:
+  is-landscape: 
 - image: "/uploads/london-fields-house-14.jpg"
   is-landscape: 
 - image: "/uploads/london-fields-house-05.jpg"
@@ -19,7 +19,7 @@ images:
 - image: "/uploads/london-fields-house-06.jpg"
   is-landscape: 
 - image: "/uploads/london-fields-house-07.jpg"
-  is-landscape:
+  is-landscape: 
 - image: "/uploads/london-fields-house-08.jpg"
   is-landscape: 
 - image: "/uploads/london-fields-house-09.jpg"
@@ -33,7 +33,8 @@ images:
 - image: "/uploads/london-fields-house-13.jpg"
   is-landscape: 
 architect: 
-contractor:
+contractor: 
 is-featured: true
 layout: project
 ---
+
