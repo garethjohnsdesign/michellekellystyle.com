@@ -86,30 +86,6 @@ i, cite, em, var, address, dfn {
 // 6. Navigation
 // ------
 
-/*
-.navigation--mobile {
-  z-index: 1;
-  position: fixed;
-  background: $white;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%; 
-  opacity: 0;
-  transition: $primary-transition;
-  visibility: hidden;
-  font-family: $header-font-family;
-  font-size: 1.25rem;
-  &.open {
-    opacity: 1;
-    visibility: visible;
-  }
-  a {
-   padding: 1rem 0rem;
-  }
-}
-*/
-
 // 7. Projects
 // ----------
 
@@ -119,13 +95,17 @@ i, cite, em, var, address, dfn {
 // 9. Info
 // ---------
 
+a {
+  transition: color .35s cubic-bezier(.39, .575, .565, 1);
+}
+
 main {
   @include xy-gutters($gutter-position: right left);
 }
 
 .home {
   @include links ($white, $black)
-  text-shadow: 1px 1px 3px rgba(150, 150, 150, 0.3);
+  text-shadow: 1px 1px 3px rgba(150, 150, 150, 0.4);
 }
 
 .home__site-title {
@@ -135,9 +115,12 @@ main {
   transform: translateY(-50%);
   z-index: 10;
   padding: 1rem;
-  color: #fefefe;
+  color: $white;
   width: 100%;
   text-align: center;
+  font-size: 80px;
+  font-family: $secondary-font-family;
+  @include links ($white, $light-gray);
 }
 
 .home .orbit {
@@ -153,10 +136,18 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  
-//   z-index: 1;
 }
 
-.item__title {
+.project__title {
   padding-top: $global-padding;
+}
+
+.projects__list a:hover img {
+  filter: saturate(80%) brightness(80%); 
+}
+    
+.projects__list a img {
+  transition: $primary-transition;
+  display: block;
+  filter: saturate(100%) brightness(100%); 
 }

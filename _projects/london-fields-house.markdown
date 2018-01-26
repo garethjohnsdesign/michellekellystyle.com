@@ -4,22 +4,36 @@ date: 2017-01-01 00:02:00 Z
 position: 2
 image: "/uploads/london-fields-house-thumb.jpg"
 images:
-- "/uploads/seaside-house-01.jpg"
-- "/uploads/seaside-house-02.jpg"
-- "/uploads/seaside-house-03.jpg"
-- "/uploads/seaside-house-04.jpg"
-- "/uploads/seaside-house-05.jpg"
-- "/uploads/seaside-house-06.jpg"
-- "/uploads/seaside-house-07.jpg"
-- "/uploads/seaside-house-08.jpg"
-- "/uploads/seaside-house-09.jpg"
-- "/uploads/seaside-house-10.jpg"
-- "/uploads/seaside-house-11.jpg"
-- "/uploads/seaside-house-12.jpg"
+- image: "/uploads/london-fields-house-01.jpg"
+  is-landscape:
+- image: "/uploads/london-fields-house-02.jpg"
+  is-landscape: 
+- image: "/uploads/london-fields-house-03.jpg"
+  is-landscape: true
+- image: "/uploads/london-fields-house-04.jpg"
+  is-landscape:
+- image: "/uploads/london-fields-house-14.jpg"
+  is-landscape: 
+- image: "/uploads/london-fields-house-05.jpg"
+  is-landscape: true
+- image: "/uploads/london-fields-house-06.jpg"
+  is-landscape: 
+- image: "/uploads/london-fields-house-07.jpg"
+  is-landscape:
+- image: "/uploads/london-fields-house-08.jpg"
+  is-landscape: 
+- image: "/uploads/london-fields-house-09.jpg"
+  is-landscape: 
+- image: "/uploads/london-fields-house-10.jpg"
+  is-landscape: 
+- image: "/uploads/london-fields-house-11.jpg"
+  is-landscape: 
+- image: "/uploads/london-fields-house-12.jpg"
+  is-landscape: 
+- image: "/uploads/london-fields-house-13.jpg"
+  is-landscape: 
 architect: 
-contractor: Mirz Construction
+contractor:
 is-featured: true
 layout: project
 ---
-
-Interior redesign, refurbishment and project management of a turn of the century five-bedroom seaside house with a limited budget. Creating a romantic and chic environment by mixing a bohemian vintage feel with modern flourishes to create a beautiful functional family holiday home. 

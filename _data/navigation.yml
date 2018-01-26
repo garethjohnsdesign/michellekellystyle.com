@@ -1,11 +1,8 @@
 - title: Projects
   url: /projects
 
-- title: Profile
-  url: /profile
-  
-- title: Services
-  url: /services
+- title: About
+  url: /about
   
 - title: Contact
   url: /contact

@@ -8,15 +8,11 @@
 }
 
 .pace .pace-progress {
-  background: #19212F;
+  background: #333333;
   position: fixed;
   z-index: 2000;
   top: 0;
   right: 100%;
   width: 100%;
-  height: 5px;
-}
-
-.pace-running {
-  background-color: #F6F6F3;
+  height: 2px;
 }

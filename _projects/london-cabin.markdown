@@ -4,17 +4,24 @@ date: 2017-01-01 00:01:00 Z
 position: 3
 image: "/uploads/london-cabin-thumb.jpg"
 images:
-- "/uploads/hackney-apartment-01.jpg"
-- "/uploads/hackney-apartment-02.jpg"
-- "/uploads/hackney-apartment-03.jpg"
-- "/uploads/hackney-apartment-04.jpg"
-- "/uploads/hackney-apartment-05.jpg"
-- "/uploads/hackney-apartment-06.jpg"
-- "/uploads/hackney-apartment-07.jpg"
-- "/uploads/hackney-apartment-08.jpg"
-- "/uploads/hackney-apartment-09.jpg"
-architect: Mad Atelier
-contractor: Mirz Construction
+- image: "/uploads/london-cabin-01.jpg"
+  is-landscape: true
+- image: "/uploads/london-cabin-02.jpg"
+  is-landscape: 
+- image: "/uploads/london-cabin-03.jpg"
+  is-landscape: true
+- image: "/uploads/london-cabin-04.jpg"
+  is-landscape:
+- image: "/uploads/london-cabin-14.jpg"
+  is-landscape: 
+- image: "/uploads/london-cabin-05.jpg"
+  is-landscape:
+- image: "/uploads/london-cabin-06.jpg"
+  is-landscape: 
+- image: "/uploads/london-cabin-07.jpg"
+  is-landscape:
+architect:
+contractor:
 is-featured: false
 layout: project
 ---
