@@ -7,13 +7,13 @@
   display: none; }
 
 .pace .pace-progress {
-  background: #333333;
+  background: #8a8a8a;
   position: fixed;
   z-index: 2000;
   top: 0;
   right: 100%;
   width: 100%;
-  height: 2px; }
+  height: 4px; }
 
 @font-face {
   font-family: 'Cooper Light';
@@ -23,7 +23,7 @@
 
 @font-face {
   font-family: 'GrotesqueMTStd';
-  src: url("../fonts/GrotesqueMTStd.woff2") format("woff2"), url("../fonts/GrotesqueMTStd.woff") format("woff");
+  src: url("../fonts/grotesque-mt-std.woff2") format("woff2"), url("../fonts/grotesque-mt-std.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 

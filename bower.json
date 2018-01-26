@@ -34,26 +34,15 @@
   "private": true,
   "dependencies": {
     "foundation-sites": "^6.4.3",
-    "animate.css": "^3.5.2",
     "what-input": "^5.0.4",
     "jquery": "^3.3.1",
-    "flickity": "^2.0.10",
-    "wow": "^1.1.2",
     "modernizr": "^3.5.0",
-    "fizzy-ui-utils": "^2.0.5",
-    "unipointer": "^2.2.1",
     "lightgallery": "^1.6.6",
     "motion-ui": "^1.2.3",
-    "matches-selector": "desandro-matches-selector#^2.0.2",
-    "tap-listener": "^2.0.0",
-    "svgxuse": "^1.2.6",
-    "get-size": "^2.0.2",
-    "ev-emitter": "^1.1.1",
-    "unidragger": "^2.2.3"
+    "svgxuse": "^1.2.6"
   },
   "resolutions": {
     "what-input": "^5.0.4",
-    "jquery": "^3.3.1",
-    "unipointer": "^2.2.0"
+    "jquery": "^3.3.1"
   }
 }

@@ -26,11 +26,11 @@ layout: default
   {% for images in page.images %}
   {% if images.is-landscape %}
   <div class="small-12 medium-12 large-12 cell">
-  <img src="{{ images.image }}" />
+  <img src="{{ images.image }}" data-aos="fade-in">
   </div>
   {% else %}
   <div class="small-12 medium-6 cell">
-  <img src="{{ images.image }}" />
+  <img src="{{ images.image }}" data-aos="fade-in">
   </div>
   {% endif %}
   {% endfor %}

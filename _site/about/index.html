@@ -18,7 +18,9 @@
 <meta name="google-site-verification" content="IAgMKxo_xZJauaD5LGwByTtp3HZHLiLvFhLpSZfNrsY" />
 <script type="application/ld+json">
 {"name":"Michelle Kelly","description":"London-based interior design studio","@type":"WebSite","url":"https://www.michellekellystyle.com/about/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.michellekellystyle.com/assets/img/layout/logo.svg"}},"headline":"About","@context":"http://schema.org"}</script>
-  <title>About — Michelle Kelly</title>
+  <title>
+  About — Michelle Kelly
+  </title>
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
@@ -34,6 +36,31 @@
 </head>
 <body class="page">
 <nav>
+  <div class="full reveal overlay__menu navigation" id="menuModal" data-reveal data-v-offset="0">       
+  <div class="grid-y" style="height: 100vh;">
+      <div class="overlay__menu__nav">
+        <div class="grid-x grid-padding-x grid-padding-y align-justify">
+          <div class="shrink cell navigation__logo">
+            <a data-close aria-label="Close modal"><svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></a>
+          </div>
+          <div class="shrink cell">
+            <a data-close aria-label="Close modal"><svg class="icon icon-close"><use xlink:href="/assets/icons/symbol-defs.svg#icon-close"></use></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="overlay__menu__menu" style="height: 100%; width: 100%; position: absolute">
+        <div class="grid-y align-center" style="height: 100%;">
+          <div class="shrink cell">
+            <ul class="vertical menu text-center">
+              <li><a href="/projects"><h2>Projects</h2></a></li>
+              <li><a href="/about"><h2>About</h2></a></li>
+              <li><a href="/contact"><h2>Contact</h2></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
   <div class="grid-x grid-padding-x grid-padding-y align-justify small-align-center">
   <div class="medium-4 cell text-left show-for-medium align-self-middle">
     <ul class="menu simple align-left">
@@ -59,7 +86,7 @@
 <main class="grid-y align-center " id="barba-wrapper">
   <div class="barba-container">
     <div class="grid-x grid-padding-x align-center text-center">
-  <div class="small-12 medium-8 cell">
+  <div class="small-12 medium-8 cell" data-aos="fade-in">
     <p>Michelle can work with you to create and design a beautiful interior space. From a single room, house, residence or commercial project.</p>
 <p>Once Michelle has established the brief and budget with the client she will develop a raft of ideas from which the final direction can be agreed.  She will then work with architects, contractors, suppliers and the client to achieve the best possible results.</p>
 <p>For each project Michelle sources colour schemes, wallpapers, furniture, furnishings, floorings, tiles, antiques, art, lighting and unique objects to create a beautiful and inspiring environment.</p>

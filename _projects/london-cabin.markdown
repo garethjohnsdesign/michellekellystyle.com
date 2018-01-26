@@ -8,14 +8,10 @@ images:
   is-landscape: true
 - image: "/uploads/london-cabin-02.jpg"
   is-landscape: 
-- image: "/uploads/london-cabin-03.jpg"
-  is-landscape: true
-- image: "/uploads/london-cabin-04.jpg"
-  is-landscape:
-- image: "/uploads/london-cabin-14.jpg"
-  is-landscape: 
 - image: "/uploads/london-cabin-05.jpg"
   is-landscape:
+- image: "/uploads/london-cabin-03.jpg"
+  is-landscape: true
 - image: "/uploads/london-cabin-06.jpg"
   is-landscape: 
 - image: "/uploads/london-cabin-07.jpg"
