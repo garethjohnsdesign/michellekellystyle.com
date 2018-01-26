@@ -5,19 +5,19 @@ position: 2
 image: "/uploads/seaside-house-thumb.jpg"
 images:
 - image: "/uploads/seaside-house-01.jpg"
-  is-landscape:
+  is-landscape: 
 - image: "/uploads/seaside-house-02.jpg"
   is-landscape: 
 - image: "/uploads/seaside-house-03.jpg"
-  is-landscape:
+  is-landscape: 
 - image: "/uploads/seaside-house-04.jpg"
-  is-landscape:
+  is-landscape: 
 - image: "/uploads/seaside-house-05.jpg"
-  is-landscape:
+  is-landscape: 
 - image: "/uploads/seaside-house-06.jpg"
   is-landscape: 
 - image: "/uploads/seaside-house-07.jpg"
-  is-landscape:
+  is-landscape: 
 - image: "/uploads/seaside-house-08.jpg"
   is-landscape: 
 - image: "/uploads/seaside-house-09.jpg"
