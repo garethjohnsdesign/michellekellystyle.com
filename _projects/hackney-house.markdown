@@ -36,4 +36,4 @@ is-featured: true
 layout: project
 ---
 
-Working with the architect to create a unique and light-filled three bedroom family home in Classic Victorian terrace. Blending the original Victorian charm and features with elegant design for luxurious modern living. Test Hello
+Working with the architect to create a unique and light-filled three bedroom family home in Classic Victorian terrace. Blending the original Victorian charm and features with elegant design for luxurious modern living.

@@ -13,16 +13,14 @@ layout: compress
   
 <!-- Navigation -->
 <nav>
-  {% include overlay-menu.html %}
-  {% include navigation.html %}
+{% include overlay-menu.html %}
+{% include navigation.html %}
 </nav>
 <!-- End Navigation -->
 
 <!-- Content -->
-<main class="grid-y align-center {% if page.layout == "project" %}align-center{% endif %}" id="barba-wrapper">
-  <div class="barba-container">
-    {{content}}
-  </div>
+<main class="grid-y align-center {% if page.layout == "project" %}align-center{% endif %}">
+{{content}}
 </main>
 <!-- End Content -->
 
