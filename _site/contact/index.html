@@ -32,6 +32,31 @@
   <link rel="stylesheet" type="text/css" href="/assets/css/app.css">
   <link rel="canonical" href="https://www.michellekellystyle.com/contact/">
   <link rel="alternate" type="application/rss+xml" title="Michelle Kelly" href="https://www.michellekellystyle.com/feed.xml">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.1.1/turbolinks.js" defer></script>
+<script>
+document.addEventListener("turbolinks:load", toggleTransition)
+function toggleTransition() {
+  const body = document.body
+  const transitionClass = "turbolinks-animation"
+  if (body.classList.contains(transitionClass)) {
+    body.classList.remove(transitionClass)
+  }
+  body.classList.add(transitionClass)
+}
+</script>
+<style>
+.turbolinks-progress-bar {
+  height: 5px;
+  background-color: green;
+}
+.turbolinks-animation {
+  animation: 2s ease-in-out 2s animatePageLoad;
+}
+@keyframes animatePageLoad {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+</style>
 </head>
 <body class="contact">
 <nav>
@@ -90,6 +115,7 @@
 <a href="mailto:info@michellekellystyle.com">info@michellekellystyle.com</a></p>
   </div>
 </div>
+<!--
 <div class="grid-x grid-padding-x grid-padding-y align-center text-center">
   <div class="small-12 medium-10 large-8 cell" data-aos="fade-in">
   <h3>Press</h3>
@@ -106,6 +132,7 @@
         </div>
   </div>
 </div>
+-->
 <div class="grid-x grid-padding-x align-center text-center">
   <div class="small-10 medium-8 large-6 xxlarge-4 cell" data-aos="fade-in">
   <small>All artwork and photography are copyrighted and protected under international copyright laws. Artwork may not be reproduced in any form, stored, or manipulated without prior written permission from Michelle Kelly Style and the copyright holders.</small>
@@ -118,7 +145,7 @@
     <a href="/contact">©</a>
   </div>
   <div class="small-6 cell text-right">
-    <a href="http://garethjohnsdesign.com" target="_blank">Colophon</a>
+    <a href="https://www.instagram.com/kittykellystyle/" target="_blank">Instagram</a>
   </div>
 </footer>
 </footer>

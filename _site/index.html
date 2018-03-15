@@ -33,6 +33,31 @@
   <link rel="stylesheet" type="text/css" href="/assets/css/app.css">
   <link rel="canonical" href="https://www.michellekellystyle.com/">
   <link rel="alternate" type="application/rss+xml" title="Michelle Kelly" href="https://www.michellekellystyle.com/feed.xml">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.1.1/turbolinks.js" defer></script>
+<script>
+document.addEventListener("turbolinks:load", toggleTransition)
+function toggleTransition() {
+  const body = document.body
+  const transitionClass = "turbolinks-animation"
+  if (body.classList.contains(transitionClass)) {
+    body.classList.remove(transitionClass)
+  }
+  body.classList.add(transitionClass)
+}
+</script>
+<style>
+.turbolinks-progress-bar {
+  height: 5px;
+  background-color: green;
+}
+.turbolinks-animation {
+  animation: 2s ease-in-out 2s animatePageLoad;
+}
+@keyframes animatePageLoad {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+</style>
 </head>
 <body class="home">
 <nav>
@@ -87,12 +112,13 @@
 <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
   <div class="orbit-wrapper">
     <div class="orbit-controls">
-          <div class="home__site-title show-for-medium"><a href="/projects">Michelle Kelly</a></div>
+          <div class="home__site-title show-for-medium"><a href="/projects"><h1>Michelle Kelly<h1><h3>Interior Design</h3></a></div>
           <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span><svg class="icon icon-arrows icon-arrow-left"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-left"></use></svg></button>
           <button class="orbit-next"><span class="show-for-sr">Next Slide</span><svg class="icon icon-arrows icon-arrow-right"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-right"></use></svg></button>
     </div>
     <ul class="orbit-container">      
       <li class="is-active orbit-slide" style="background-image: url(/uploads/hackney-house-thumb.jpg)"></li>
+      <li class="orbit-slide" style="background-image: url(/uploads/hackney-loft-thumb.jpg)"></li>
       <li class="orbit-slide" style="background-image: url(/uploads/hair-salon-thumb.jpg)"></li>
       <li class="orbit-slide" style="background-image: url(/uploads/london-fields-house-thumb.jpg)"></li>
     </ul>
@@ -105,7 +131,7 @@
     <a href="/contact">©</a>
   </div>
   <div class="small-6 cell text-right">
-    <a href="http://garethjohnsdesign.com" target="_blank">Colophon</a>
+    <a href="https://www.instagram.com/kittykellystyle/" target="_blank">Instagram</a>
   </div>
 </footer>
 </footer>
