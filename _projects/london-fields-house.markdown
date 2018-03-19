@@ -38,3 +38,4 @@ is-featured: true
 layout: project
 ---
 
+Working with the owners to create a beautiful family home
