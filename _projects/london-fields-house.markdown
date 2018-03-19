@@ -32,8 +32,8 @@ images:
   is-landscape: 
 - image: "/uploads/london-fields-house-13.jpg"
   is-landscape: 
-architect: 
-contractor: 
+architect: Brian O'Tuama Architects
+contractor: Evoke Projects London 
 is-featured: true
 layout: project
 ---
