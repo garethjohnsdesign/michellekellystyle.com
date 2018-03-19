@@ -7255,6 +7255,9 @@ a {
     .navigation {
       margin-top: 1.5555555556rem; } }
 
+.navigation h3 {
+  margin-bottom: 0; }
+
 main {
   margin-right: 1.3333333333rem;
   margin-left: 1.3333333333rem; }

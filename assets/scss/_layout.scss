@@ -103,6 +103,10 @@ a {
   @include xy-gutters($gutter-position: top);
 }
 
+.navigation h3 {
+  margin-bottom: 0;
+}
+
 main {
   @include xy-gutters($gutter-position: right left);
 }
