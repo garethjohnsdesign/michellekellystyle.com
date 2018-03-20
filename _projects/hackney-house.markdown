@@ -17,7 +17,7 @@ images:
 - image: "/uploads/hackney-house-07.jpg"
   is-landscape: 
 - image: "/uploads/hackney-house-08.jpg"
-  is-landscape:
+  is-landscape: 
 - image: "/uploads/hackney-house-09.jpg"
   is-landscape: 
 - image: "/uploads/hackney-house-10.jpg"
@@ -31,13 +31,13 @@ images:
 - image: "/uploads/hackney-house-14.jpg"
   is-landscape: 
 - image: "/uploads/hackney-house-15.jpg"
-  is-landscape:
+  is-landscape: 
 - image: "/uploads/hackney-house-16.jpg"
   is-landscape: 
 - image: "/uploads/hackney-house-17.jpg"
   is-landscape: 
 - image: "/uploads/hackney-house-18.jpg"
-  is-landscape:
+  is-landscape: 
 - image: "/uploads/hackney-house-19.jpg"
   is-landscape: 
 - image: "/uploads/hackney-house-20.jpg"
