@@ -1424,24 +1424,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/img\/logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/img\/logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/assets\/img\/og-image.png": {
 		"ft": 32768,
-		"iS": 16824,
+		"iS": 38781,
 		"oA": 0,
 		"oAP": "\/assets\/img\/og-image.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1471,6 +1461,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/min\/app-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/min\/contact-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/min\/contact-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
