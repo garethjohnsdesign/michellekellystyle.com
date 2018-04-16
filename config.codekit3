@@ -7,7 +7,7 @@
 		"uuidString": "550FEDE5-7AFF-4FD3-8DBE-A45DE2D02921"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.ruby-version": {
 		"cB": 0,
@@ -218,6 +218,7 @@
 	"\/_uploads\/guardian-01.jpg": {
 		"ft": 16384,
 		"iS": 92562,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/guardian-01.jpg",
 		"oF": 0,
@@ -228,6 +229,7 @@
 	"\/_uploads\/guardian-02.jpg": {
 		"ft": 16384,
 		"iS": 111146,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/guardian-02.jpg",
 		"oF": 0,
@@ -238,6 +240,7 @@
 	"\/_uploads\/hackney-apartment-01.jpg": {
 		"ft": 16384,
 		"iS": 92562,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-apartment-01.jpg",
 		"oF": 0,
@@ -248,6 +251,7 @@
 	"\/_uploads\/hackney-apartment-02.jpg": {
 		"ft": 16384,
 		"iS": 111146,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-apartment-02.jpg",
 		"oF": 0,
@@ -258,6 +262,7 @@
 	"\/_uploads\/hackney-apartment-03.jpg": {
 		"ft": 16384,
 		"iS": 126568,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-apartment-03.jpg",
 		"oF": 0,
@@ -268,6 +273,7 @@
 	"\/_uploads\/hackney-apartment-04.jpg": {
 		"ft": 16384,
 		"iS": 100147,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-apartment-04.jpg",
 		"oF": 0,
@@ -278,6 +284,7 @@
 	"\/_uploads\/hackney-apartment-05.jpg": {
 		"ft": 16384,
 		"iS": 43055,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-apartment-05.jpg",
 		"oF": 0,
@@ -288,6 +295,7 @@
 	"\/_uploads\/hackney-apartment-06.jpg": {
 		"ft": 16384,
 		"iS": 102401,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-apartment-06.jpg",
 		"oF": 0,
@@ -298,6 +306,7 @@
 	"\/_uploads\/hackney-apartment-07.jpg": {
 		"ft": 16384,
 		"iS": 62093,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-apartment-07.jpg",
 		"oF": 0,
@@ -308,6 +317,7 @@
 	"\/_uploads\/hackney-apartment-08.jpg": {
 		"ft": 16384,
 		"iS": 43350,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-apartment-08.jpg",
 		"oF": 0,
@@ -318,6 +328,7 @@
 	"\/_uploads\/hackney-apartment-09.jpg": {
 		"ft": 16384,
 		"iS": 131621,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-apartment-09.jpg",
 		"oF": 0,
@@ -328,6 +339,7 @@
 	"\/_uploads\/hackney-house-01.jpg": {
 		"ft": 16384,
 		"iS": 400205,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-01.jpg",
 		"oF": 0,
@@ -338,6 +350,7 @@
 	"\/_uploads\/hackney-house-02.jpg": {
 		"ft": 16384,
 		"iS": 397542,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-02.jpg",
 		"oF": 0,
@@ -348,6 +361,7 @@
 	"\/_uploads\/hackney-house-03.jpg": {
 		"ft": 16384,
 		"iS": 190528,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-03.jpg",
 		"oF": 0,
@@ -358,6 +372,7 @@
 	"\/_uploads\/hackney-house-04.jpg": {
 		"ft": 16384,
 		"iS": 220257,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-04.jpg",
 		"oF": 0,
@@ -368,6 +383,7 @@
 	"\/_uploads\/hackney-house-05.jpg": {
 		"ft": 16384,
 		"iS": 258135,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-05.jpg",
 		"oF": 0,
@@ -378,6 +394,7 @@
 	"\/_uploads\/hackney-house-06.jpg": {
 		"ft": 16384,
 		"iS": 470211,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-06.jpg",
 		"oF": 0,
@@ -388,6 +405,7 @@
 	"\/_uploads\/hackney-house-07.jpg": {
 		"ft": 16384,
 		"iS": 348433,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-07.jpg",
 		"oF": 0,
@@ -398,6 +416,7 @@
 	"\/_uploads\/hackney-house-08.jpg": {
 		"ft": 16384,
 		"iS": 385194,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-08.jpg",
 		"oF": 0,
@@ -408,6 +427,7 @@
 	"\/_uploads\/hackney-house-09.jpg": {
 		"ft": 16384,
 		"iS": 297130,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-09.jpg",
 		"oF": 0,
@@ -418,6 +438,7 @@
 	"\/_uploads\/hackney-house-10.jpg": {
 		"ft": 16384,
 		"iS": 269033,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-10.jpg",
 		"oF": 0,
@@ -428,6 +449,7 @@
 	"\/_uploads\/hackney-house-11.jpg": {
 		"ft": 16384,
 		"iS": 336896,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-11.jpg",
 		"oF": 0,
@@ -438,6 +460,7 @@
 	"\/_uploads\/hackney-house-12.jpg": {
 		"ft": 16384,
 		"iS": 377089,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-12.jpg",
 		"oF": 0,
@@ -448,6 +471,7 @@
 	"\/_uploads\/hackney-house-13.jpg": {
 		"ft": 16384,
 		"iS": 467038,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-13.jpg",
 		"oF": 0,
@@ -458,6 +482,7 @@
 	"\/_uploads\/hackney-house-14.jpg": {
 		"ft": 16384,
 		"iS": 362163,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-14.jpg",
 		"oF": 0,
@@ -468,6 +493,7 @@
 	"\/_uploads\/hackney-house-15.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-15.jpg",
 		"oF": 0,
@@ -478,6 +504,7 @@
 	"\/_uploads\/hackney-house-16.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-16.jpg",
 		"oF": 0,
@@ -488,6 +515,7 @@
 	"\/_uploads\/hackney-house-17.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-17.jpg",
 		"oF": 0,
@@ -498,6 +526,7 @@
 	"\/_uploads\/hackney-house-18.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-18.jpg",
 		"oF": 0,
@@ -508,6 +537,7 @@
 	"\/_uploads\/hackney-house-19.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-19.jpg",
 		"oF": 0,
@@ -518,6 +548,7 @@
 	"\/_uploads\/hackney-house-20.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-20.jpg",
 		"oF": 0,
@@ -528,6 +559,7 @@
 	"\/_uploads\/hackney-house-21.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-21.jpg",
 		"oF": 0,
@@ -538,6 +570,7 @@
 	"\/_uploads\/hackney-house-22.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-22.jpg",
 		"oF": 0,
@@ -548,6 +581,7 @@
 	"\/_uploads\/hackney-house-23.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-23.jpg",
 		"oF": 0,
@@ -558,6 +592,7 @@
 	"\/_uploads\/hackney-house-24.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-24.jpg",
 		"oF": 0,
@@ -568,6 +603,7 @@
 	"\/_uploads\/hackney-house-25.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-25.jpg",
 		"oF": 0,
@@ -578,6 +614,7 @@
 	"\/_uploads\/hackney-house-26.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-26.jpg",
 		"oF": 0,
@@ -588,6 +625,7 @@
 	"\/_uploads\/hackney-house-thumb.jpg": {
 		"ft": 16384,
 		"iS": 143589,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-house-thumb.jpg",
 		"oF": 0,
@@ -598,6 +636,7 @@
 	"\/_uploads\/hackney-loft-01.jpg": {
 		"ft": 16384,
 		"iS": 127324,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-loft-01.jpg",
 		"oF": 0,
@@ -608,6 +647,7 @@
 	"\/_uploads\/hackney-loft-02.jpg": {
 		"ft": 16384,
 		"iS": 147249,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-loft-02.jpg",
 		"oF": 0,
@@ -618,6 +658,7 @@
 	"\/_uploads\/hackney-loft-03.jpg": {
 		"ft": 16384,
 		"iS": 163242,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-loft-03.jpg",
 		"oF": 0,
@@ -628,6 +669,7 @@
 	"\/_uploads\/hackney-loft-04.jpg": {
 		"ft": 16384,
 		"iS": 135810,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-loft-04.jpg",
 		"oF": 0,
@@ -638,6 +680,7 @@
 	"\/_uploads\/hackney-loft-05.jpg": {
 		"ft": 16384,
 		"iS": 71118,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-loft-05.jpg",
 		"oF": 0,
@@ -648,6 +691,7 @@
 	"\/_uploads\/hackney-loft-06.jpg": {
 		"ft": 16384,
 		"iS": 137117,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-loft-06.jpg",
 		"oF": 0,
@@ -658,6 +702,7 @@
 	"\/_uploads\/hackney-loft-07.jpg": {
 		"ft": 16384,
 		"iS": 97106,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-loft-07.jpg",
 		"oF": 0,
@@ -668,6 +713,7 @@
 	"\/_uploads\/hackney-loft-08.jpg": {
 		"ft": 16384,
 		"iS": 71414,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-loft-08.jpg",
 		"oF": 0,
@@ -678,6 +724,7 @@
 	"\/_uploads\/hackney-loft-09.jpg": {
 		"ft": 16384,
 		"iS": 168232,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-loft-09.jpg",
 		"oF": 0,
@@ -688,6 +735,7 @@
 	"\/_uploads\/hackney-loft-thumb.jpg": {
 		"ft": 16384,
 		"iS": 154801,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hackney-loft-thumb.jpg",
 		"oF": 0,
@@ -698,6 +746,7 @@
 	"\/_uploads\/hair-salon-01.jpg": {
 		"ft": 16384,
 		"iS": 346592,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hair-salon-01.jpg",
 		"oF": 0,
@@ -708,6 +757,7 @@
 	"\/_uploads\/hair-salon-02.jpg": {
 		"ft": 16384,
 		"iS": 410928,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hair-salon-02.jpg",
 		"oF": 0,
@@ -718,6 +768,7 @@
 	"\/_uploads\/hair-salon-03.jpg": {
 		"ft": 16384,
 		"iS": 293989,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hair-salon-03.jpg",
 		"oF": 0,
@@ -728,6 +779,7 @@
 	"\/_uploads\/hair-salon-04.jpg": {
 		"ft": 16384,
 		"iS": 425385,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hair-salon-04.jpg",
 		"oF": 0,
@@ -738,6 +790,7 @@
 	"\/_uploads\/hair-salon-thumb.jpg": {
 		"ft": 16384,
 		"iS": 260726,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/hair-salon-thumb.jpg",
 		"oF": 0,
@@ -748,6 +801,7 @@
 	"\/_uploads\/living-etc-01.jpg": {
 		"ft": 16384,
 		"iS": 538510,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/living-etc-01.jpg",
 		"oF": 0,
@@ -758,6 +812,7 @@
 	"\/_uploads\/living-etc-02.jpg": {
 		"ft": 16384,
 		"iS": 872266,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/living-etc-02.jpg",
 		"oF": 0,
@@ -768,6 +823,7 @@
 	"\/_uploads\/living-etc-03.jpg": {
 		"ft": 16384,
 		"iS": 798776,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/living-etc-03.jpg",
 		"oF": 0,
@@ -778,6 +834,7 @@
 	"\/_uploads\/living-etc-04.jpg": {
 		"ft": 16384,
 		"iS": 580699,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/living-etc-04.jpg",
 		"oF": 0,
@@ -788,6 +845,7 @@
 	"\/_uploads\/living-etc-05.jpg": {
 		"ft": 16384,
 		"iS": 625823,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/living-etc-05.jpg",
 		"oF": 0,
@@ -798,6 +856,7 @@
 	"\/_uploads\/living-etc-06.jpg": {
 		"ft": 16384,
 		"iS": 578810,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/living-etc-06.jpg",
 		"oF": 0,
@@ -808,6 +867,7 @@
 	"\/_uploads\/living-etc-07.jpg": {
 		"ft": 16384,
 		"iS": 543843,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/living-etc-07.jpg",
 		"oF": 0,
@@ -818,6 +878,7 @@
 	"\/_uploads\/living-etc-08.jpg": {
 		"ft": 16384,
 		"iS": 530893,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/living-etc-08.jpg",
 		"oF": 0,
@@ -828,6 +889,7 @@
 	"\/_uploads\/living-etc-09.jpg": {
 		"ft": 16384,
 		"iS": 509163,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/living-etc-09.jpg",
 		"oF": 0,
@@ -838,6 +900,7 @@
 	"\/_uploads\/london-cabin-01.jpg": {
 		"ft": 16384,
 		"iS": 312858,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/london-cabin-01.jpg",
 		"oF": 0,
@@ -848,6 +911,7 @@
 	"\/_uploads\/london-cabin-02.jpg": {
 		"ft": 16384,
 		"iS": 178263,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/london-cabin-02.jpg",
 		"oF": 0,
@@ -858,6 +922,7 @@
 	"\/_uploads\/london-cabin-03.jpg": {
 		"ft": 16384,
 		"iS": 195716,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/london-cabin-03.jpg",
 		"oF": 0,
@@ -868,6 +933,7 @@
 	"\/_uploads\/london-cabin-04.jpg": {
 		"ft": 16384,
 		"iS": 320583,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/london-cabin-04.jpg",
 		"oF": 0,
@@ -878,6 +944,7 @@
 	"\/_uploads\/london-cabin-05.jpg": {
 		"ft": 16384,
 		"iS": 256476,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/london-cabin-05.jpg",
 		"oF": 0,
@@ -888,6 +955,7 @@
 	"\/_uploads\/london-cabin-06.jpg": {
 		"ft": 16384,
 		"iS": 258429,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/london-cabin-06.jpg",
 		"oF": 0,
@@ -898,6 +966,7 @@
 	"\/_uploads\/london-cabin-07.jpg": {
 		"ft": 16384,
 		"iS": 220347,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/london-cabin-07.jpg",
 		"oF": 0,
@@ -908,6 +977,7 @@
 	"\/_uploads\/london-cabin-thumb.jpg": {
 		"ft": 16384,
 		"iS": 297641,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/london-cabin-thumb.jpg",
 		"oF": 0,
@@ -918,6 +988,7 @@
 	"\/_uploads\/london-fields-house-01.jpg": {
 		"ft": 16384,
 		"iS": 184958,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/london-fields-house-01.jpg",
 		"oF": 0,
@@ -928,6 +999,7 @@
 	"\/_uploads\/london-fields-house-02.jpg": {
 		"ft": 16384,
 		"iS": 175219,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/london-fields-house-02.jpg",
 		"oF": 0,
@@ -938,6 +1010,7 @@
 	"\/_uploads\/london-fields-house-03.jpg": {
 		"ft": 16384,
 		"iS": 189322,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/london-fields-house-03.jpg",
 		"oF": 0,
@@ -948,6 +1021,7 @@
 	"\/_uploads\/london-fields-house-04.jpg": {
 		"ft": 16384,
 		"iS": 252471,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/london-fields-house-04.jpg",
 		"oF": 0,
@@ -958,6 +1032,7 @@
 	"\/_uploads\/london-fields-house-05.jpg": {
 		"ft": 16384,
 		"iS": 215208,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/london-fields-house-05.jpg",
 		"oF": 0,
@@ -968,6 +1043,7 @@
 	"\/_uploads\/london-fields-house-06.jpg": {
 		"ft": 16384,
 		"iS": 204813,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/london-fields-house-06.jpg",
 		"oF": 0,
@@ -978,6 +1054,7 @@
 	"\/_uploads\/london-fields-house-07.jpg": {
 		"ft": 16384,
 		"iS": 242740,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/london-fields-house-07.jpg",
 		"oF": 0,
@@ -988,6 +1065,7 @@
 	"\/_uploads\/london-fields-house-08.jpg": {
 		"ft": 16384,
 		"iS": 150207,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/london-fields-house-08.jpg",
 		"oF": 0,
@@ -998,6 +1076,7 @@
 	"\/_uploads\/london-fields-house-09.jpg": {
 		"ft": 16384,
 		"iS": 271333,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/london-fields-house-09.jpg",
 		"oF": 0,
@@ -1008,6 +1087,7 @@
 	"\/_uploads\/london-fields-house-10.jpg": {
 		"ft": 16384,
 		"iS": 196709,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/london-fields-house-10.jpg",
 		"oF": 0,
@@ -1018,6 +1098,7 @@
 	"\/_uploads\/london-fields-house-11.jpg": {
 		"ft": 16384,
 		"iS": 162719,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/london-fields-house-11.jpg",
 		"oF": 0,
@@ -1028,6 +1109,7 @@
 	"\/_uploads\/london-fields-house-12.jpg": {
 		"ft": 16384,
 		"iS": 212072,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/london-fields-house-12.jpg",
 		"oF": 0,
@@ -1038,6 +1120,7 @@
 	"\/_uploads\/london-fields-house-13.jpg": {
 		"ft": 16384,
 		"iS": 246809,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/london-fields-house-13.jpg",
 		"oF": 0,
@@ -1048,6 +1131,7 @@
 	"\/_uploads\/london-fields-house-14.jpg": {
 		"ft": 16384,
 		"iS": 168682,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/london-fields-house-14.jpg",
 		"oF": 0,
@@ -1058,6 +1142,7 @@
 	"\/_uploads\/london-fields-house-thumb.jpg": {
 		"ft": 16384,
 		"iS": 189864,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/london-fields-house-thumb.jpg",
 		"oF": 0,
@@ -1068,6 +1153,7 @@
 	"\/_uploads\/seaside-house-01.jpg": {
 		"ft": 16384,
 		"iS": 251370,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/seaside-house-01.jpg",
 		"oF": 0,
@@ -1078,6 +1164,7 @@
 	"\/_uploads\/seaside-house-02.jpg": {
 		"ft": 16384,
 		"iS": 208762,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/seaside-house-02.jpg",
 		"oF": 0,
@@ -1088,6 +1175,7 @@
 	"\/_uploads\/seaside-house-03.jpg": {
 		"ft": 16384,
 		"iS": 198441,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/seaside-house-03.jpg",
 		"oF": 0,
@@ -1098,6 +1186,7 @@
 	"\/_uploads\/seaside-house-04.jpg": {
 		"ft": 16384,
 		"iS": 235930,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/seaside-house-04.jpg",
 		"oF": 0,
@@ -1108,6 +1197,7 @@
 	"\/_uploads\/seaside-house-05.jpg": {
 		"ft": 16384,
 		"iS": 185852,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/seaside-house-05.jpg",
 		"oF": 0,
@@ -1118,6 +1208,7 @@
 	"\/_uploads\/seaside-house-06.jpg": {
 		"ft": 16384,
 		"iS": 329239,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/seaside-house-06.jpg",
 		"oF": 0,
@@ -1128,6 +1219,7 @@
 	"\/_uploads\/seaside-house-07.jpg": {
 		"ft": 16384,
 		"iS": 192193,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/seaside-house-07.jpg",
 		"oF": 0,
@@ -1138,6 +1230,7 @@
 	"\/_uploads\/seaside-house-08.jpg": {
 		"ft": 16384,
 		"iS": 198656,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/seaside-house-08.jpg",
 		"oF": 0,
@@ -1148,6 +1241,7 @@
 	"\/_uploads\/seaside-house-09.jpg": {
 		"ft": 16384,
 		"iS": 435965,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/seaside-house-09.jpg",
 		"oF": 0,
@@ -1158,6 +1252,7 @@
 	"\/_uploads\/seaside-house-10.jpg": {
 		"ft": 16384,
 		"iS": 204638,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/seaside-house-10.jpg",
 		"oF": 0,
@@ -1168,6 +1263,7 @@
 	"\/_uploads\/seaside-house-11.jpg": {
 		"ft": 16384,
 		"iS": 323734,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/seaside-house-11.jpg",
 		"oF": 0,
@@ -1178,6 +1274,7 @@
 	"\/_uploads\/seaside-house-12.jpg": {
 		"ft": 16384,
 		"iS": 277431,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/seaside-house-12.jpg",
 		"oF": 0,
@@ -1188,6 +1285,7 @@
 	"\/_uploads\/seaside-house-thumb.jpg": {
 		"ft": 16384,
 		"iS": 227803,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/seaside-house-thumb.jpg",
 		"oF": 0,
@@ -6849,6 +6947,7 @@
 	"\/bower_components\/lightgallery\/demo\/img\/1-1600.jpg": {
 		"ft": 16384,
 		"iS": 241923,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/1-1600.jpg",
 		"oF": 0,
@@ -6859,6 +6958,7 @@
 	"\/bower_components\/lightgallery\/demo\/img\/1-375.jpg": {
 		"ft": 16384,
 		"iS": 23648,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/1-375.jpg",
 		"oF": 0,
@@ -6869,6 +6969,7 @@
 	"\/bower_components\/lightgallery\/demo\/img\/1-480.jpg": {
 		"ft": 16384,
 		"iS": 34414,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/1-480.jpg",
 		"oF": 0,
@@ -6879,6 +6980,7 @@
 	"\/bower_components\/lightgallery\/demo\/img\/1.jpg": {
 		"ft": 16384,
 		"iS": 91130,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/1.jpg",
 		"oF": 0,
@@ -6889,6 +6991,7 @@
 	"\/bower_components\/lightgallery\/demo\/img\/13-1600.jpg": {
 		"ft": 16384,
 		"iS": 129996,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/13-1600.jpg",
 		"oF": 0,
@@ -6899,6 +7002,7 @@
 	"\/bower_components\/lightgallery\/demo\/img\/13-375.jpg": {
 		"ft": 16384,
 		"iS": 22812,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/13-375.jpg",
 		"oF": 0,
@@ -6909,6 +7013,7 @@
 	"\/bower_components\/lightgallery\/demo\/img\/13-480.jpg": {
 		"ft": 16384,
 		"iS": 35693,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/13-480.jpg",
 		"oF": 0,
@@ -6919,6 +7024,7 @@
 	"\/bower_components\/lightgallery\/demo\/img\/13.jpg": {
 		"ft": 16384,
 		"iS": 124149,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/13.jpg",
 		"oF": 0,
@@ -6929,6 +7035,7 @@
 	"\/bower_components\/lightgallery\/demo\/img\/2-1600.jpg": {
 		"ft": 16384,
 		"iS": 187925,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/2-1600.jpg",
 		"oF": 0,
@@ -6939,6 +7046,7 @@
 	"\/bower_components\/lightgallery\/demo\/img\/2-375.jpg": {
 		"ft": 16384,
 		"iS": 30307,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/2-375.jpg",
 		"oF": 0,
@@ -6949,6 +7057,7 @@
 	"\/bower_components\/lightgallery\/demo\/img\/2-480.jpg": {
 		"ft": 16384,
 		"iS": 48290,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/2-480.jpg",
 		"oF": 0,
@@ -6959,6 +7068,7 @@
 	"\/bower_components\/lightgallery\/demo\/img\/2.jpg": {
 		"ft": 16384,
 		"iS": 326478,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/2.jpg",
 		"oF": 0,
@@ -6969,6 +7079,7 @@
 	"\/bower_components\/lightgallery\/demo\/img\/4-1600.jpg": {
 		"ft": 16384,
 		"iS": 153989,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/4-1600.jpg",
 		"oF": 0,
@@ -6979,6 +7090,7 @@
 	"\/bower_components\/lightgallery\/demo\/img\/4-375.jpg": {
 		"ft": 16384,
 		"iS": 18396,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/4-375.jpg",
 		"oF": 0,
@@ -6989,6 +7101,7 @@
 	"\/bower_components\/lightgallery\/demo\/img\/4-480.jpg": {
 		"ft": 16384,
 		"iS": 25839,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/4-480.jpg",
 		"oF": 0,
@@ -6999,6 +7112,7 @@
 	"\/bower_components\/lightgallery\/demo\/img\/4.jpg": {
 		"ft": 16384,
 		"iS": 70944,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/4.jpg",
 		"oF": 0,
@@ -7009,6 +7123,7 @@
 	"\/bower_components\/lightgallery\/demo\/img\/thumb-1.jpg": {
 		"ft": 16384,
 		"iS": 68187,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/thumb-1.jpg",
 		"oF": 0,
@@ -7019,6 +7134,7 @@
 	"\/bower_components\/lightgallery\/demo\/img\/thumb-13.jpg": {
 		"ft": 16384,
 		"iS": 76594,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/thumb-13.jpg",
 		"oF": 0,
@@ -7029,6 +7145,7 @@
 	"\/bower_components\/lightgallery\/demo\/img\/thumb-2.jpg": {
 		"ft": 16384,
 		"iS": 92856,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/thumb-2.jpg",
 		"oF": 0,
@@ -7039,6 +7156,7 @@
 	"\/bower_components\/lightgallery\/demo\/img\/thumb-4.jpg": {
 		"ft": 16384,
 		"iS": 53719,
+		"jF": 0,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/thumb-4.jpg",
 		"oF": 0,
@@ -13144,7 +13262,8 @@
 	"creationDate": 499792706,
 	"displayValue": "Michelle Kelly",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "brackets_gray"
+	"iconImageName": "\/assets\/favicons\/apple-touch-icon.png",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -14947,6 +15066,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
