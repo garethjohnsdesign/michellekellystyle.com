@@ -7,15 +7,15 @@ images:
 - image: "/uploads/london-cabin-01.jpg"
   aspect: landscape
 - image: "/uploads/london-cabin-02.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/london-cabin-05.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/london-cabin-03.jpg"
   aspect: landscape
 - image: "/uploads/london-cabin-06.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/london-cabin-07.jpg"
-  aspect: portrait 
+  aspect: portrait
 architect: 
 contractor: 
 is-featured: false

@@ -5,19 +5,19 @@ position: 0
 image: "/uploads/hackney-loft-thumb.jpg"
 images:
 - image: "/uploads/hackney-loft-01.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/hackney-loft-02.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/hackney-loft-03.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/hackney-loft-04.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/hackney-loft-05.jpg"
   aspect: landscape
 - image: "/uploads/hackney-loft-06.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/hackney-loft-07.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/hackney-loft-08.jpg"
   aspect: landscape
 architect: Mad Atelier
