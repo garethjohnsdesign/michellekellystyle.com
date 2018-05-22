@@ -33,7 +33,6 @@
   <link rel="stylesheet" type="text/css" href="/assets/css/app.css">
   <link rel="canonical" href="https://www.michellekellystyle.com/">
   <link rel="alternate" type="application/rss+xml" title="Michelle Kelly" href="https://www.michellekellystyle.com/feed.xml">
-<!--
 <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.1.1/turbolinks.js" defer></script>
 <script>
 document.addEventListener("turbolinks:load", toggleTransition)
@@ -59,16 +58,21 @@ function toggleTransition() {
   100% { opacity: 1; }
 }
 </style>
--->
 </head>
-<body class="home">
-  <div class="curtain-menu-wrapper">
-    <ul class="curtain-menu-list menu vertical">
-      <li><a href="/projects"><h3>Projects</h3></a></li>
-      <li><a href="/about"><h3>About</h3></a></li>
-      <li><a href="/contact"><h3>Contact</h3></a></li>
-    </ul>
-  </div>
+<body>
+<div class="off-canvas-wrapper">
+<div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap">
+<div class="grid-y align-center" style="height: 100%;">
+	<div class="shrink cell">	
+		<ul class="menu vertical align-center align-middle">
+		  <li><a href="/projects"><h3>Projects</h3></a></li>
+		  <li><a href="/about"><h3>About</h3></a></li>
+		  <li><a href="/contact"><h3>Contact</h3></a></li>
+		</ul>
+	</div>
+</div>
+</div>
+<div class="off-canvas-content home" data-off-canvas-content>
 <nav>
 <div class="grid-x grid-padding-x align-justify small-align-center navigation">
   <div class="medium-4 cell text-left show-for-medium align-self-middle">
@@ -79,19 +83,11 @@ function toggleTransition() {
   <div class="auto cell text-center align-middle navigation__center navigation__title">
     <div class="navigation__title__desktop">
       <a href="/projects">
-        <h2>Michelle Kelly</h2>
+        <h3>Michelle Kelly</h3>
         <h6 class="show-for-medium">Interior Design</h6>
         </a>
     </div>
-<!--
-<div class="curtain-menu-button" data-curtain-menu-button>
-  <div class="curtain-menu-button-toggle">
-    <div class="bar1"></div>
-    <div class="bar2"></div>
-  </div>
-</div>
--->
-    <button class="hamburger hamburger--collapse" type="button" data-curtain-menu-button>
+    <button class="hamburger hamburger--collapse show-for-small-only" type="button" data-toggle="offCanvas">
       <span class="hamburger-box"><span class="hamburger-inner"></span></span>
     </button>
   </div>
@@ -104,7 +100,7 @@ function toggleTransition() {
 </div>
 </nav>
 <main class="grid-y align-center">
-<div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
+<div class="orbit" role="region" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
   <div class="orbit-wrapper">
     <div class="orbit-controls">
       <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span><svg class="icon icon-arrows icon-arrow-left"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-left"></use></svg></button>
@@ -112,64 +108,64 @@ function toggleTransition() {
     </div>
     <ul class="orbit-container">      
       <li class="orbit-slide">
-      <div class="grid-y align-center" style="height: 100%;">
+      <div class="grid-y align-center" style="height: 100vh;">
         <div class="shrink cell">
           <div class="grid-x align-center">
             <div class="small-10 medium-8 large-6 cell">
-          <img data-interchange=
-          "
-          [https://michelle-kelly.imgix.net/uploads/hackney-house-thumb.jpg?ixlib=jekyll-1.1.0&w=640&h=640&auto=format&lossless=true&q=40&fit=crop&dpr=2, small]
-          [https://michelle-kelly.imgix.net/uploads/hackney-house-thumb.jpg?ixlib=jekyll-1.1.0&w=1024&h=731&auto=format&lossless=true&q=40&fit=crop&dpr=2, medium]
-          "
-          >
+	          <img data-interchange=
+	          "
+	          [https://michelle-kelly.imgix.net/uploads/hackney-house-thumb.jpg?ixlib=jekyll-1.1.0&w=640&h=640&auto=format&lossless=true&q=40&fit=crop&dpr=2, small]
+	          [https://michelle-kelly.imgix.net/uploads/hackney-house-thumb.jpg?ixlib=jekyll-1.1.0&w=1024&h=731&auto=format&lossless=true&q=40&fit=crop&dpr=2, medium]
+	          "
+	          >
            </div>
           </div>
         </div>
       </div>
       </li>
       <li class="orbit-slide">
-      <div class="grid-y align-center" style="height: 100%;">
+      <div class="grid-y align-center" style="height: 100vh;">
         <div class="shrink cell">
           <div class="grid-x align-center">
             <div class="small-10 medium-8 large-6 cell">
-          <img data-interchange=
-          "
-          [https://michelle-kelly.imgix.net/uploads/hackney-loft-thumb.jpg?ixlib=jekyll-1.1.0&w=640&h=640&auto=format&lossless=true&q=40&fit=crop&dpr=2, small]
-          [https://michelle-kelly.imgix.net/uploads/hackney-loft-thumb.jpg?ixlib=jekyll-1.1.0&w=1024&h=731&auto=format&lossless=true&q=40&fit=crop&dpr=2, medium]
-          "
-          >
+	          <img data-interchange=
+	          "
+	          [https://michelle-kelly.imgix.net/uploads/hackney-loft-thumb.jpg?ixlib=jekyll-1.1.0&w=640&h=640&auto=format&lossless=true&q=40&fit=crop&dpr=2, small]
+	          [https://michelle-kelly.imgix.net/uploads/hackney-loft-thumb.jpg?ixlib=jekyll-1.1.0&w=1024&h=731&auto=format&lossless=true&q=40&fit=crop&dpr=2, medium]
+	          "
+	          >
            </div>
           </div>
         </div>
       </div>
       </li>
       <li class="orbit-slide">
-      <div class="grid-y align-center" style="height: 100%;">
+      <div class="grid-y align-center" style="height: 100vh;">
         <div class="shrink cell">
           <div class="grid-x align-center">
             <div class="small-10 medium-8 large-6 cell">
-          <img data-interchange=
-          "
-          [https://michelle-kelly.imgix.net/uploads/hair-salon-thumb.jpg?ixlib=jekyll-1.1.0&w=640&h=640&auto=format&lossless=true&q=40&fit=crop&dpr=2, small]
-          [https://michelle-kelly.imgix.net/uploads/hair-salon-thumb.jpg?ixlib=jekyll-1.1.0&w=1024&h=731&auto=format&lossless=true&q=40&fit=crop&dpr=2, medium]
-          "
-          >
+	          <img data-interchange=
+	          "
+	          [https://michelle-kelly.imgix.net/uploads/hair-salon-thumb.jpg?ixlib=jekyll-1.1.0&w=640&h=640&auto=format&lossless=true&q=40&fit=crop&dpr=2, small]
+	          [https://michelle-kelly.imgix.net/uploads/hair-salon-thumb.jpg?ixlib=jekyll-1.1.0&w=1024&h=731&auto=format&lossless=true&q=40&fit=crop&dpr=2, medium]
+	          "
+	          >
            </div>
           </div>
         </div>
       </div>
       </li>
       <li class="orbit-slide">
-      <div class="grid-y align-center" style="height: 100%;">
+      <div class="grid-y align-center" style="height: 100vh;">
         <div class="shrink cell">
           <div class="grid-x align-center">
             <div class="small-10 medium-8 large-6 cell">
-          <img data-interchange=
-          "
-          [https://michelle-kelly.imgix.net/uploads/london-fields-house-thumb.jpg?ixlib=jekyll-1.1.0&w=640&h=640&auto=format&lossless=true&q=40&fit=crop&dpr=2, small]
-          [https://michelle-kelly.imgix.net/uploads/london-fields-house-thumb.jpg?ixlib=jekyll-1.1.0&w=1024&h=731&auto=format&lossless=true&q=40&fit=crop&dpr=2, medium]
-          "
-          >
+	          <img data-interchange=
+	          "
+	          [https://michelle-kelly.imgix.net/uploads/london-fields-house-thumb.jpg?ixlib=jekyll-1.1.0&w=640&h=640&auto=format&lossless=true&q=40&fit=crop&dpr=2, small]
+	          [https://michelle-kelly.imgix.net/uploads/london-fields-house-thumb.jpg?ixlib=jekyll-1.1.0&w=1024&h=731&auto=format&lossless=true&q=40&fit=crop&dpr=2, medium]
+	          "
+	          >
            </div>
           </div>
         </div>

@@ -2,25 +2,6 @@
 layout: default
 ---
 
-<!-- Meta -->
-<div class="grid-x grid-padding-x grid-padding-y align-center">
-  <div class="shrink cell text-center">
-    {% if page.architect %}
-    <div class="project__meta__detail">Architect &mdash; {{ page.architect }}</div>
-    {% endif %}
-    {% if page.contractor %}
-    <div class="project__meta__detail">Contractor &mdash; {{ page.contractor }}</div>
-    {% endif %}
-  </div>
-</div>
-<!-- End Meta -->
-
-<div class="grid-x align-center project__meta">
-  <div class="small-8 medium-7 large-7 cell text-center">
-    <h3>{{ page.title }}</h3>
-  </div>
-</div>
-
 <div class="grid-container">
 <div class="grid-x grid-padding-x grid-padding-y align-center project__meta">
   {% for image in page.images %}
@@ -36,6 +17,25 @@ layout: default
   {% endfor %}
 </div>
 </div>
+
+<div class="grid-x align-center project__meta">
+  <div class="small-8 medium-7 large-7 cell text-center">
+    <h3>{{ page.title }}</h3>
+  </div>
+</div>
+
+<!-- Meta -->
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+  <div class="shrink cell text-center">
+    {% if page.architect %}
+    <div class="project__meta__detail">Architect &mdash; {{ page.architect }}</div>
+    {% endif %}
+    {% if page.contractor %}
+    <div class="project__meta__detail">Contractor &mdash; {{ page.contractor }}</div>
+    {% endif %}
+  </div>
+</div>
+<!-- End Meta -->
 
 
 <!-- Content -->

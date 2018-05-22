@@ -35,7 +35,6 @@
   <link rel="stylesheet" type="text/css" href="/assets/css/app.css">
   <link rel="canonical" href="https://www.michellekellystyle.com/projects/seaside-house/">
   <link rel="alternate" type="application/rss+xml" title="Michelle Kelly" href="https://www.michellekellystyle.com/feed.xml">
-<!--
 <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.1.1/turbolinks.js" defer></script>
 <script>
 document.addEventListener("turbolinks:load", toggleTransition)
@@ -61,16 +60,21 @@ function toggleTransition() {
   100% { opacity: 1; }
 }
 </style>
--->
 </head>
-<body class="project">
-  <div class="curtain-menu-wrapper">
-    <ul class="curtain-menu-list menu vertical">
-      <li><a href="/projects"><h3>Projects</h3></a></li>
-      <li><a href="/about"><h3>About</h3></a></li>
-      <li><a href="/contact"><h3>Contact</h3></a></li>
-    </ul>
-  </div>
+<body>
+<div class="off-canvas-wrapper">
+<div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap">
+<div class="grid-y align-center" style="height: 100%;">
+	<div class="shrink cell">	
+		<ul class="menu vertical align-center align-middle">
+		  <li><a href="/projects"><h3>Projects</h3></a></li>
+		  <li><a href="/about"><h3>About</h3></a></li>
+		  <li><a href="/contact"><h3>Contact</h3></a></li>
+		</ul>
+	</div>
+</div>
+</div>
+<div class="off-canvas-content project" data-off-canvas-content>
 <nav>
 <div class="grid-x grid-padding-x align-justify small-align-center navigation">
   <div class="medium-4 cell text-left show-for-medium align-self-middle">
@@ -81,19 +85,11 @@ function toggleTransition() {
   <div class="auto cell text-center align-middle navigation__center navigation__title">
     <div class="navigation__title__desktop">
       <a href="/projects">
-        <h2>Michelle Kelly</h2>
+        <h3>Michelle Kelly</h3>
         <h6 class="show-for-medium">Interior Design</h6>
         </a>
     </div>
-<!--
-<div class="curtain-menu-button" data-curtain-menu-button>
-  <div class="curtain-menu-button-toggle">
-    <div class="bar1"></div>
-    <div class="bar2"></div>
-  </div>
-</div>
--->
-    <button class="hamburger hamburger--collapse" type="button" data-curtain-menu-button>
+    <button class="hamburger hamburger--collapse show-for-small-only" type="button" data-toggle="offCanvas">
       <span class="hamburger-box"><span class="hamburger-inner"></span></span>
     </button>
   </div>
@@ -106,16 +102,6 @@ function toggleTransition() {
 </div>
 </nav>
 <main class="grid-y align-center">
-<div class="grid-x grid-padding-x grid-padding-y align-center">
-  <div class="shrink cell text-center">
-    <div class="project__meta__detail">Contractor &mdash; Mirz Construction</div>
-  </div>
-</div>
-<div class="grid-x align-center project__meta">
-  <div class="small-8 medium-7 large-7 cell text-center">
-    <h3>Seaside House</h3>
-  </div>
-</div>
 <div class="grid-container">
 <div class="grid-x grid-padding-x grid-padding-y align-center project__meta">
    <div class="small-12 medium-6 cell">
@@ -215,6 +201,16 @@ data-aos="fade-in"
 >
    </div>
 </div>
+</div>
+<div class="grid-x align-center project__meta">
+  <div class="small-8 medium-7 large-7 cell text-center">
+    <h3>Seaside House</h3>
+  </div>
+</div>
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+  <div class="shrink cell text-center">
+    <div class="project__meta__detail">Contractor &mdash; Mirz Construction</div>
+  </div>
 </div>
 <div class="grid-x grid-padding-y align-center">
   <div class="small-8 medium-7 large-7 cell text-center">

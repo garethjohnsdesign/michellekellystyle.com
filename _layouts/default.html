@@ -9,11 +9,24 @@ layout: compress
 {% include head.html %}
 <!-- End Head -->
 
-<body class="{{page.layout | slugify}}">
-  
-<!-- Navigation -->
+<body>
 
-{% include overlay-menu.html %}
+<div class="off-canvas-wrapper">
+<div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap">
+
+<div class="grid-y align-center" style="height: 100%;">
+	<div class="shrink cell">	
+		<ul class="menu vertical align-center align-middle">
+		  {% for entry in site.data.navigation %}
+		  <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}"><h3>{{ entry.title }}</h3></a></li>
+		  {% endfor %}
+		</ul>
+	</div>
+</div>
+  
+</div>
+<div class="off-canvas-content {{page.layout | slugify}}" data-off-canvas-content>
+<!-- Navigation -->
 <nav>
 {% include navigation.html %}
 </nav>
@@ -30,6 +43,8 @@ layout: compress
 {% include footer.html %}
 </footer>
 <!-- End Footer-->
+</div>
+</div>
 
 <!-- Scripts -->
 {% include scripts.html %}
