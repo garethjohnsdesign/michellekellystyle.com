@@ -7,37 +7,37 @@ images:
 - image: "/uploads/hackney-house-01.jpg"
   aspect: landscape
 - image: "/uploads/hackney-house-04.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/hackney-house-05.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/hackney-house-03.jpg"
   aspect: landscape
 - image: "/uploads/hackney-house-08.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/hackney-house-09.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/hackney-house-10.jpg"
   aspect: landscape
 - image: "/uploads/hackney-house-11.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/hackney-house-12.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/hackney-house-13.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/hackney-house-14.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/hackney-house-15.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/hackney-house-16.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/hackney-house-17.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/hackney-house-18.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/hackney-house-19.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/hackney-house-20.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/hackney-house-21.jpg"
   aspect: landscape
 - image: "/uploads/hackney-house-22.jpg"

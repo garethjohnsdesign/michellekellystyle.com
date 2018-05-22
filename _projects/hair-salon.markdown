@@ -7,9 +7,9 @@ images:
 - image: "/uploads/hair-salon-04.jpg"
   aspect: landscape
 - image: "/uploads/hair-salon-02.jpg"
-  aspect: portrait 
+  aspect: portrait
 - image: "/uploads/hair-salon-03.jpg"
-  aspect: portrait 
+  aspect: portrait
 architect: 
 contractor: Mirz Construction
 is-featured: true
