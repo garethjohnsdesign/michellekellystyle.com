@@ -5,17 +5,17 @@ position: 3
 image: "/uploads/london-cabin-thumb.jpg"
 images:
 - image: "/uploads/london-cabin-01.jpg"
-  is-landscape: true
+  aspect: landscape
 - image: "/uploads/london-cabin-02.jpg"
-  is-landscape: 
+  aspect: portrait 
 - image: "/uploads/london-cabin-05.jpg"
-  is-landscape: 
+  aspect: portrait 
 - image: "/uploads/london-cabin-03.jpg"
-  is-landscape: true
+  aspect: landscape
 - image: "/uploads/london-cabin-06.jpg"
-  is-landscape: 
+  aspect: portrait 
 - image: "/uploads/london-cabin-07.jpg"
-  is-landscape: 
+  aspect: portrait 
 architect: 
 contractor: 
 is-featured: false

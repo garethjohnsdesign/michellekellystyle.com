@@ -72,7 +72,7 @@ $global-lineheight: 1.5;
 // $light-gray: #e6e6e6;
 $light-gray: #f1f1ef;
 $medium-gray: #cacaca;
-$dark-gray: #8a8a8a;
+$dark-gray: #262626;
 $black: #333333;
 $white: #fefefe;
 $foundation-palette: (
@@ -115,7 +115,7 @@ $breakpoints: (
   xxlarge: 1600px,
 );
 $print-breakpoint: large;
-$breakpoint-classes: (small medium large);
+// $breakpoint-classes: (small medium large);
 $breakpoint-classes: (small medium large xlarge xxlarge);
 
 // 3. The Grid

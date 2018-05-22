@@ -5,11 +5,11 @@ position: 1
 image: "/uploads/hair-salon-thumb.jpg"
 images:
 - image: "/uploads/hair-salon-04.jpg"
-  is-landscape: true
+  aspect: landscape
 - image: "/uploads/hair-salon-02.jpg"
-  is-landscape: 
+  aspect: portrait 
 - image: "/uploads/hair-salon-03.jpg"
-  is-landscape: 
+  aspect: portrait 
 architect: 
 contractor: Mirz Construction
 is-featured: true

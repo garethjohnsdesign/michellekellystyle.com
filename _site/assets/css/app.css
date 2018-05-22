@@ -4563,12 +4563,12 @@ blockquote {
   border-left: 1px solid #cacaca; }
   blockquote, blockquote p {
     line-height: 1.6;
-    color: #8a8a8a; }
+    color: #262626; }
 
 cite {
   display: block;
   font-size: 0.7222222222rem;
-  color: #8a8a8a; }
+  color: #262626; }
   cite:before {
     content: "— "; }
 
@@ -4600,7 +4600,7 @@ kbd {
   margin-bottom: 0.5rem;
   font-weight: normal;
   line-height: 1.4;
-  color: #8a8a8a; }
+  color: #262626; }
 
 .lead {
   font-size: 22.5px;
@@ -4706,7 +4706,7 @@ ul.no-bullet, ol.no-bullet {
     content: " (" attr(title) ")"; }
   pre,
   blockquote {
-    border: 1px solid #8a8a8a;
+    border: 1px solid #262626;
     page-break-inside: avoid; }
   thead {
     display: table-header-group; }
@@ -5010,7 +5010,7 @@ textarea {
   [type='text']:focus, [type='password']:focus, [type='date']:focus, [type='datetime']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='week']:focus, [type='email']:focus, [type='number']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='url']:focus, [type='color']:focus,
   textarea:focus {
     outline: none;
-    border: 1px solid #8a8a8a;
+    border: 1px solid #262626;
     background-color: #fefefe;
     box-shadow: 0 0 5px #cacaca;
     transition: box-shadow 0.5s, border-color 0.25s ease-in-out; }
@@ -5163,7 +5163,7 @@ select {
   font-weight: normal;
   line-height: 1.5;
   color: #333333;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='32' height='24' viewBox='0 0 32 24'><polygon points='0,0 32,0 16,24' style='fill: rgb%28138, 138, 138%29'></polygon></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='32' height='24' viewBox='0 0 32 24'><polygon points='0,0 32,0 16,24' style='fill: rgb%2838, 38, 38%29'></polygon></svg>");
   background-origin: content-box;
   background-position: right -0.8888888889rem center;
   background-repeat: no-repeat;
@@ -5175,7 +5175,7 @@ select {
       background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAYCAYAAACbU/80AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAIpJREFUeNrEkckNgDAMBBfRkEt0ObRBBdsGXUDgmQfK4XhH2m8czQAAy27R3tsw4Qfe2x8uOO6oYLb6GlOor3GF+swURAOmUJ+RwtEJs9WvTGEYxBXqI1MQAZhCfUQKRzDMVj+TwrAIV6jvSUEkYAr1LSkcyTBb/V+KYfX7xAeusq3sLDtGH3kEGACPWIflNZfhRQAAAABJRU5ErkJggg=="); } }
   select:focus {
     outline: none;
-    border: 1px solid #8a8a8a;
+    border: 1px solid #262626;
     background-color: #fefefe;
     box-shadow: 0 0 5px #cacaca;
     transition: box-shadow 0.5s, border-color 0.25s ease-in-out; }
@@ -5209,7 +5209,7 @@ select {
 
 .close-button {
   position: absolute;
-  color: #8a8a8a;
+  color: #262626;
   cursor: pointer; }
   [data-whatinput='mouse'] .close-button {
     outline: 0; }
@@ -5474,9 +5474,9 @@ select {
     border-radius: 50%;
     background-color: #cacaca; }
     .orbit-bullets button:hover {
-      background-color: #8a8a8a; }
+      background-color: #262626; }
     .orbit-bullets button.is-active {
-      background-color: #8a8a8a; }
+      background-color: #262626; }
 
 body.is-reveal-open {
   overflow: hidden; }
@@ -6452,7 +6452,7 @@ Single-colored icons can be modified like so:
   font-size: 32px;
   cursor: pointer; }
   .icon-arrows:hover {
-    color: #333333; }
+    color: #cacaca; }
 
 @font-face {
   font-family: 'Gallery';
@@ -7277,11 +7277,11 @@ main {
       margin-left: 1.5555555556rem; } }
 
 .home {
-  text-shadow: 1px 1px 3px rgba(150, 150, 150, 0.4); }
+  background-color: #262626; }
   .home a {
     color: #fefefe; }
     .home a:hover {
-      color: #333333; }
+      color: #cacaca; }
 
 .home .reveal {
   text-shadow: 1px 1px 3px rgba(150, 150, 150, 0); }
@@ -7322,10 +7322,7 @@ main {
     background-color: #fefefe; }
 
 .home .orbit-slide {
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; }
+  height: 100vh; }
 
 .project__title {
   padding-top: 1rem; }
@@ -7343,3 +7340,9 @@ main {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
+.about {
+  background-color: #f1f1ef; }
+
+.contact {
+  background-color: #fad954; }

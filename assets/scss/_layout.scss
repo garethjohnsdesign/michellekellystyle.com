@@ -112,8 +112,8 @@ main {
 }
 
 .home {
-  @include links ($white, $black)
-  text-shadow: 1px 1px 3px rgba(150, 150, 150, 0.4);
+  background-color: $dark-gray;
+  @include links ($white, $medium-gray)
 }
 
 .home .reveal {
@@ -156,9 +156,6 @@ main {
 
 .home .orbit-slide {
   height: 100vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
 }
 
 .project__title {
@@ -178,4 +175,12 @@ main {
 @keyframes fadeIn {
   0% {opacity: 0;}
   100% {opacity: 1;}
+}
+
+.about {
+  background-color: $light-gray;
+}
+
+.contact {
+  background-color: #fad954;
 }

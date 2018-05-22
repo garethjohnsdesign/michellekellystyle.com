@@ -5,29 +5,29 @@ position: 2
 image: "/uploads/seaside-house-thumb.jpg"
 images:
 - image: "/uploads/seaside-house-01.jpg"
-  is-landscape: 
+  aspect: portrait 
 - image: "/uploads/seaside-house-02.jpg"
-  is-landscape: 
+  aspect: portrait 
 - image: "/uploads/seaside-house-03.jpg"
-  is-landscape: 
+  aspect: portrait 
 - image: "/uploads/seaside-house-04.jpg"
-  is-landscape: 
+  aspect: portrait 
 - image: "/uploads/seaside-house-05.jpg"
-  is-landscape: 
+  aspect: portrait 
 - image: "/uploads/seaside-house-06.jpg"
-  is-landscape: 
+  aspect: portrait 
 - image: "/uploads/seaside-house-07.jpg"
-  is-landscape: 
+  aspect: portrait 
 - image: "/uploads/seaside-house-08.jpg"
-  is-landscape: 
+  aspect: portrait 
 - image: "/uploads/seaside-house-09.jpg"
-  is-landscape: 
+  aspect: portrait 
 - image: "/uploads/seaside-house-10.jpg"
-  is-landscape: 
+  aspect: portrait 
 - image: "/uploads/seaside-house-11.jpg"
-  is-landscape: 
+  aspect: portrait 
 - image: "/uploads/seaside-house-12.jpg"
-  is-landscape: 
+  aspect: portrait 
 architect: 
 contractor: Mirz Construction
 is-featured: false

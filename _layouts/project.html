@@ -23,16 +23,16 @@ layout: default
 
 <div class="grid-container">
 <div class="grid-x grid-padding-x grid-padding-y align-center project__meta">
-  {% for images in page.images %}
-  {% if images.is-landscape %}
-  <div class="small-12 medium-12 large-12 cell">
-  <img src="{{ images.image }}" data-aos="fade-in">
-  </div>
-  {% else %}
-  <div class="small-12 medium-6 cell">
-  <img src="{{ images.image }}" data-aos="fade-in">
-  </div>
-  {% endif %}
+  {% for image in page.images %}
+   {% if image.aspect == "landscape" %}
+   <div class="small-12 medium-12 cell">
+   {% include images/landscape.html %}
+   </div>
+   {% elsif image.aspect == "portrait" %}
+   <div class="small-12 medium-6 cell">
+   {% include images/portrait.html %}
+   </div>
+   {% endif %}
   {% endfor %}
 </div>
 </div>
@@ -53,3 +53,5 @@ layout: default
   </div>
 </div>
 <!-- End Content -->
+
+

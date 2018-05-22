@@ -5,21 +5,21 @@ position: 0
 image: "/uploads/hackney-loft-thumb.jpg"
 images:
 - image: "/uploads/hackney-loft-01.jpg"
-  is-landscape: 
+  aspect: portrait 
 - image: "/uploads/hackney-loft-02.jpg"
-  is-landscape: 
+  aspect: portrait 
 - image: "/uploads/hackney-loft-03.jpg"
-  is-landscape: 
+  aspect: portrait 
 - image: "/uploads/hackney-loft-04.jpg"
-  is-landscape: 
+  aspect: portrait 
 - image: "/uploads/hackney-loft-05.jpg"
-  is-landscape: true
+  aspect: landscape
 - image: "/uploads/hackney-loft-06.jpg"
-  is-landscape: 
+  aspect: portrait 
 - image: "/uploads/hackney-loft-07.jpg"
-  is-landscape: 
+  aspect: portrait 
 - image: "/uploads/hackney-loft-08.jpg"
-  is-landscape: true
+  aspect: landscape
 architect: Mad Atelier
 contractor: Mirz Construction
 is-featured: true

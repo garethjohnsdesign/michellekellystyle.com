@@ -6,19 +6,35 @@ layout: default
   <div class="orbit-wrapper">
     
     <div class="orbit-controls">
-          <div class="home__site-title show-for-medium"><a href="/projects"><h1>{{site.title}}<h1><h3>Interior Design</h3></a></div>
-          <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span><svg class="icon icon-arrows icon-arrow-left"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-left"></use></svg></button>
-          <button class="orbit-next"><span class="show-for-sr">Next Slide</span><svg class="icon icon-arrows icon-arrow-right"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-right"></use></svg></button>
+      <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span><svg class="icon icon-arrows icon-arrow-left"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-left"></use></svg></button>
+      <button class="orbit-next"><span class="show-for-sr">Next Slide</span><svg class="icon icon-arrows icon-arrow-right"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-right"></use></svg></button>
     </div>
     
     <ul class="orbit-container">      
       {% assign projects = site.projects | sort: 'position' | where: "is-featured", "true" %}
       {% for project in projects %}
-      {% if forloop.first == true %}
-      <li class="is-active orbit-slide" style="background-image: url({{project.image}})"></li>
-      {% else %}
-      <li class="orbit-slide" style="background-image: url({{project.image}})"></li>
-      {% endif %}
+      <li class="orbit-slide">
+      
+<div class="grid-y align-center" style="height: 100%;">
+  <div class="shrink cell">
+    
+    <div class="grid-x align-center">
+      <div class="small-10 medium-8 large-6 cell">
+    <img data-interchange=
+    "
+    [{{ project.image | imgix_url: w: 640, h: 640, auto: "format", lossless: "true", q: 60, fit: "crop", dpr: 1}}, small]
+    [{{ project.image | imgix_url: w: 1024, h: 731, auto: "format", lossless: "true", q: 60, fit: "crop", dpr: 1}}, medium]
+    [{{ project.image | imgix_url: w: 1200, h: 857, auto: "format", lossless: "true", q: 60, fit: "crop", dpr: 1}}, large]
+    [{{ project.image | imgix_url: w: 1440, h: 1029, auto: "format", lossless: "true", q: 60, fit: "crop", dpr: 1}}, xlarge]
+    [{{ project.image | imgix_url: w: 1440, h: 1029, auto: "format", lossless: "true", q: 60, fit: "crop", dpr: 1}}, xxlarge]
+    "
+    >
+    
+
+  </div>
+</div>
+
+      </li>
       {% endfor %}
     </ul>
   </div>
