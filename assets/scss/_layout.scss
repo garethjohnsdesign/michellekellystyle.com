@@ -30,6 +30,7 @@
 // 2. Global
 // ---------
 
+/*
 html, body {
   height: 100%;
 }
@@ -40,6 +41,7 @@ body {
   flex-direction: column;
   font-kerning: normal;
 }
+*/
 
 nav {
   z-index: 2
@@ -103,17 +105,19 @@ a {
   @include xy-gutters($gutter-position: top);
 }
 
-.navigation h3 {
+.navigation h2 {
   margin-bottom: 0;
 }
 
 main {
-  @include xy-gutters($gutter-position: right left);
+//   @include xy-gutters($gutter-position: right left);
 }
 
 .home {
+/*
   background-color: $dark-gray;
   @include links ($white, $medium-gray)
+*/
 }
 
 .home .reveal {
@@ -155,7 +159,7 @@ main {
 }
 
 .home .orbit-slide {
-  height: 100vh;
+  height: 50vh;
 }
 
 .project__title {
@@ -172,11 +176,7 @@ main {
   filter: saturate(100%) brightness(100%); 
 }
 
-@keyframes fadeIn {
-  0% {opacity: 0;}
-  100% {opacity: 1;}
-}
-
+/*
 .about {
   background-color: $light-gray;
 }
@@ -184,3 +184,79 @@ main {
 .contact {
   background-color: #fad954;
 }
+*/
+
+
+
+$curtain-menu-color: $primary-color;
+$curtain-menu-text-color: $white;
+$curtain-menu-font-size: rem-calc(45);
+$curtain-menu-button-size: rem-calc(40);
+
+.curtain-menu {
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  align-items: stretch;
+  background-color: red;
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+
+.curtain-menu-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+//   transition-delay: 0.5s;
+  visibility: hidden;
+
+  .curtain-menu-list {
+    li {
+      width: 100%;
+      font-size: $curtain-menu-font-size;
+      min-height: $curtain-menu-font-size;
+//       padding: 1rem;
+      text-align: center;
+      justify-content: center;
+      transition: all 0.2s ease-in;
+
+      &:hover {
+        background: rgba($white, 0.7);
+
+        a {
+          color: $curtain-menu-color;
+        }
+      }
+
+      a {
+        color: $curtain-menu-text-color;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+
+.curtain-menu-open {
+  .curtain-menu-wrapper {
+    visibility: visible;
+    pointer-events:all;
+    opacity: 1;
+  }
+}
+
+
+
+
+

@@ -15,21 +15,23 @@ layout: default
       {% for project in projects %}
       <li class="orbit-slide">
       
-<div class="grid-y align-center" style="height: 100%;">
-  <div class="shrink cell">
-    
-    <div class="grid-x align-center">
-      <div class="small-10 medium-8 large-6 cell">
-    <img data-interchange=
-    "
-    [{{ project.image | imgix_url: w: 640, h: 640, auto: "format", lossless: "true", q: 40, fit: "crop", dpr: 2}}, small]
-    [{{ project.image | imgix_url: w: 1024, h: 731, auto: "format", lossless: "true", q: 40, fit: "crop", dpr: 2}}, medium]
-    "
-    >
-    
-
-  </div>
-</div>
+      <div class="grid-y align-center" style="height: 100%;">
+        <div class="shrink cell">
+          
+          <div class="grid-x align-center">
+            <div class="small-10 medium-8 large-6 cell">
+          <img data-interchange=
+          "
+          [{{ project.image | imgix_url: w: 640, h: 640, auto: "format", lossless: "true", q: 40, fit: "crop", dpr: 2}}, small]
+          [{{ project.image | imgix_url: w: 1024, h: 731, auto: "format", lossless: "true", q: 40, fit: "crop", dpr: 2}}, medium]
+          "
+          >
+           </div>
+          </div>
+          
+      
+        </div>
+      </div>
 
       </li>
       {% endfor %}

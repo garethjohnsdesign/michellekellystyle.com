@@ -35,6 +35,7 @@
   <link rel="stylesheet" type="text/css" href="/assets/css/app.css">
   <link rel="canonical" href="https://www.michellekellystyle.com/projects/seaside-house/">
   <link rel="alternate" type="application/rss+xml" title="Michelle Kelly" href="https://www.michellekellystyle.com/feed.xml">
+<!--
 <script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.1.1/turbolinks.js" defer></script>
 <script>
 document.addEventListener("turbolinks:load", toggleTransition)
@@ -47,7 +48,6 @@ function toggleTransition() {
   body.classList.add(transitionClass)
 }
 </script>
-<!--
 <style>
 .turbolinks-progress-bar {
   height: 5px;
@@ -63,33 +63,15 @@ function toggleTransition() {
 </style>
 -->
 </head>
-<body class="project seaside-house">
-<nav>
-<div class="full reveal overlay__menu navigation" id="menuModal" data-reveal data-v-offset="0">       
-  <div class="grid-y" style="height: 100vh;">
-      <div class="overlay__menu__nav">
-        <div class="grid-x grid-padding-x grid-padding-y align-justify">
-          <div class="shrink cell navigation__logo">
-            <a data-close aria-label="Close modal"><svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></a>
-          </div>
-          <div class="shrink cell">
-            <a data-close aria-label="Close modal"><svg class="icon icon-close"><use xlink:href="/assets/icons/symbol-defs.svg#icon-close"></use></svg></a>
-          </div>
-        </div>
-      </div>
-      <div class="overlay__menu__menu" style="height: 100%; width: 100%; position: absolute">
-        <div class="grid-y align-center" style="height: 100%;">
-          <div class="shrink cell">
-            <ul class="vertical menu text-center">
-              <li><a href="/projects"><h2>Projects</h2></a></li>
-              <li><a href="/about"><h2>About</h2></a></li>
-              <li><a href="/contact"><h2>Contact</h2></a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
+<body class="project">
+  <div class="curtain-menu-wrapper">
+    <ul class="curtain-menu-list menu vertical">
+      <li><a href="/projects"><h3>Projects</h3></a></li>
+      <li><a href="/about"><h3>About</h3></a></li>
+      <li><a href="/contact"><h3>Contact</h3></a></li>
+    </ul>
   </div>
-</div>
+<nav>
 <div class="grid-x grid-padding-x align-justify small-align-center navigation">
   <div class="medium-4 cell text-left show-for-medium align-self-middle">
     <ul class="menu simple align-left">
@@ -99,11 +81,19 @@ function toggleTransition() {
   <div class="auto cell text-center align-middle navigation__center navigation__title">
     <div class="navigation__title__desktop">
       <a href="/projects">
-        <h3>Michelle Kelly</h3>
+        <h2>Michelle Kelly</h2>
         <h6 class="show-for-medium">Interior Design</h6>
         </a>
     </div>
-    <button class="hamburger hamburger--collapse show-for-small-only" type="button" data-open="menuModal">
+<!--
+<div class="curtain-menu-button" data-curtain-menu-button>
+  <div class="curtain-menu-button-toggle">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+  </div>
+</div>
+-->
+    <button class="hamburger hamburger--collapse" type="button" data-curtain-menu-button>
       <span class="hamburger-box"><span class="hamburger-inner"></span></span>
     </button>
   </div>
@@ -115,7 +105,7 @@ function toggleTransition() {
   </div>
 </div>
 </nav>
-<main class="grid-y align-center align-center">
+<main class="grid-y align-center">
 <div class="grid-x grid-padding-x grid-padding-y align-center">
   <div class="shrink cell text-center">
     <div class="project__meta__detail">Contractor &mdash; Mirz Construction</div>
@@ -245,7 +235,7 @@ data-aos="fade-in"
 </div>
 </main>
 <footer>
-<footer class="grid-x grid-padding-x grid-padding-y">
+<footer class="grid-x grid-padding-x grid-padding-y hide-for-small-only">
   <div class="small-6 cell text-left">
     <a href="/contact">©</a>
   </div>

@@ -9,17 +9,18 @@ layout: compress
 {% include head.html %}
 <!-- End Head -->
 
-<body class="{{page.layout | slugify}} {{page.title | slugify}}">
+<body class="{{page.layout | slugify}}">
   
 <!-- Navigation -->
-<nav>
+
 {% include overlay-menu.html %}
+<nav>
 {% include navigation.html %}
 </nav>
 <!-- End Navigation -->
 
 <!-- Content -->
-<main class="grid-y align-center {% if page.layout == "project" %}align-center{% endif %}">
+<main class="grid-y align-center">
 {{content}}
 </main>
 <!-- End Content -->
