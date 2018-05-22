@@ -22,11 +22,8 @@ layout: default
       <div class="small-10 medium-8 large-6 cell">
     <img data-interchange=
     "
-    [{{ project.image | imgix_url: w: 640, h: 640, auto: "format", lossless: "true", q: 60, fit: "crop", dpr: 1}}, small]
-    [{{ project.image | imgix_url: w: 1024, h: 731, auto: "format", lossless: "true", q: 60, fit: "crop", dpr: 1}}, medium]
-    [{{ project.image | imgix_url: w: 1200, h: 857, auto: "format", lossless: "true", q: 60, fit: "crop", dpr: 1}}, large]
-    [{{ project.image | imgix_url: w: 1440, h: 1029, auto: "format", lossless: "true", q: 60, fit: "crop", dpr: 1}}, xlarge]
-    [{{ project.image | imgix_url: w: 1440, h: 1029, auto: "format", lossless: "true", q: 60, fit: "crop", dpr: 1}}, xxlarge]
+    [{{ project.image | imgix_url: w: 640, h: 640, auto: "format", lossless: "true", q: 40, fit: "crop", dpr: 2}}, small]
+    [{{ project.image | imgix_url: w: 1024, h: 731, auto: "format", lossless: "true", q: 40, fit: "crop", dpr: 2}}, medium]
     "
     >
     
