@@ -1,16 +1,16 @@
-/*! lightgallery - v1.6.6 - 2017-12-20
+/*! lightgallery - v1.6.11 - 2018-05-22
 * http://sachinchoolur.github.io/lightGallery/
-* Copyright (c) 2017 Sachin N; Licensed GPLv3 */
-/*! lightgallery - v1.6.6 - 2017-12-20
+* Copyright (c) 2018 Sachin N; Licensed GPLv3 */
+/*! lightgallery - v1.6.11 - 2018-05-22
 * http://sachinchoolur.github.io/lightGallery/
-* Copyright (c) 2017 Sachin N; Licensed GPLv3 */
+* Copyright (c) 2018 Sachin N; Licensed GPLv3 */
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
     // AMD. Register as an anonymous module unless amdModuleId is set
     define(['jquery'], function (a0) {
       return (factory(a0));
     });
-  } else if (typeof exports === 'object') {
+  } else if (typeof module === 'object' && module.exports) {
     // Node. Does not work with strict CommonJS, but
     // only CommonJS-like environments that support module.exports,
     // like Node.
@@ -447,7 +447,7 @@
             }
         }
 
-        var youtube = src.match(/\/\/(?:www\.)?youtu(?:\.be|be\.com)\/(?:watch\?v=|embed\/)?([a-z0-9\-\_\%]+)/i);
+        var youtube = src.match(/\/\/(?:www\.)?youtu(?:\.be|be\.com|be-nocookie\.com)\/(?:watch\?v=|embed\/)?([a-z0-9\-\_\%]+)/i);
         var vimeo = src.match(/\/\/(?:www\.)?vimeo.com\/([0-9a-z\-_]+)/i);
         var dailymotion = src.match(/\/\/(?:www\.)?dai.ly\/([0-9a-z\-_]+)/i);
         var vk = src.match(/\/\/(?:www\.)?(?:vk\.com|vkontakte\.ru)\/(?:video_ext\.php\?)(.*)/i);
@@ -1155,28 +1155,21 @@
         var isMoved = false;
         if (_this.s.enableDrag && _this.doCss()) {
             _this.$slide.on('mousedown.lg', function(e) {
-                // execute only on .lg-object
-                if (!_this.$outer.hasClass('lg-zoomed')) {
-                    if ($(e.target).hasClass('lg-object') || $(e.target).hasClass('lg-video-play')) {
-                        e.preventDefault();
+                if (!_this.$outer.hasClass('lg-zoomed') && !_this.lgBusy && !$(e.target).text().trim()) {
+                    e.preventDefault();
+                    _this.manageSwipeClass();
+                    startCoords = e.pageX;
+                    isDraging = true;
 
-                        if (!_this.lgBusy) {
-                            _this.manageSwipeClass();
-                            startCoords = e.pageX;
-                            isDraging = true;
+                    // ** Fix for webkit cursor issue https://code.google.com/p/chromium/issues/detail?id=26723
+                    _this.$outer.scrollLeft += 1;
+                    _this.$outer.scrollLeft -= 1;
 
-                            // ** Fix for webkit cursor issue https://code.google.com/p/chromium/issues/detail?id=26723
-                            _this.$outer.scrollLeft += 1;
-                            _this.$outer.scrollLeft -= 1;
+                    // *
 
-                            // *
+                    _this.$outer.removeClass('lg-grab').addClass('lg-grabbing');
 
-                            _this.$outer.removeClass('lg-grab').addClass('lg-grabbing');
-
-                            _this.$el.trigger('onDragstart.lg');
-                        }
-
-                    }
+                    _this.$el.trigger('onDragstart.lg');
                 }
             });
 
@@ -1266,6 +1259,10 @@
                     mousedown = false;
                 }
 
+            });
+            
+            _this.$outer.on('mousemove.lg', function() {
+                mousedown = false;
             });
 
             _this.$outer.on('mouseup.lg', function(e) {
@@ -2275,9 +2272,9 @@
 
 }));
 
-/*! lg-video - v1.2.0 - 2017-11-16
+/*! lg-video - v1.2.2 - 2018-05-01
 * http://sachinchoolur.github.io/lightGallery
-* Copyright (c) 2017 Sachin N; Licensed GPLv3 */
+* Copyright (c) 2018 Sachin N; Licensed GPLv3 */
 
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
@@ -2285,13 +2282,13 @@
     define(['jquery'], function (a0) {
       return (factory(a0));
     });
-  } else if (typeof exports === 'object') {
+  } else if (typeof module === 'object' && module.exports) {
     // Node. Does not work with strict CommonJS, but
     // only CommonJS-like environments that support module.exports,
     // like Node.
     module.exports = factory(require('jquery'));
   } else {
-    factory(jQuery);
+    factory(root["jQuery"]);
   }
 }(this, function ($) {
 
@@ -2353,6 +2350,17 @@
             _this.core.$el.on('onAfterSlide.lg.tm', function(event, prevIndex) {
                 _this.core.$slide.eq(prevIndex).removeClass('lg-video-playing');
             });
+            
+            if (_this.core.s.autoplayFirstVideo) {
+                _this.core.$el.on('onAferAppendSlide.lg.tm', function (e, index) {
+                    if (!_this.core.lGalleryOn) {
+                        var $el = _this.core.$slide.eq(index);
+                        setTimeout(function () {
+                            _this.loadVideoOnclick($el);
+                        }, 100);
+                    }
+                });
+            }
         };
     
         Video.prototype.loadVideo = function(src, addClass, noPoster, index, html) {
@@ -2412,7 +2420,7 @@
                     a = a + '&' + $.param(this.core.s.vkPlayerParams);
                 }
     
-                video = '<iframe class="lg-video-object lg-vk ' + addClass + '" width="560" height="315" src="http://vk.com/video_ext.php?' + isVideo.vk[1] + a + '" frameborder="0" allowfullscreen></iframe>';
+                video = '<iframe class="lg-video-object lg-vk ' + addClass + '" width="560" height="315" src="//vk.com/video_ext.php?' + isVideo.vk[1] + a + '" frameborder="0" allowfullscreen></iframe>';
     
             }
     

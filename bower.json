@@ -39,7 +39,8 @@
     "modernizr": "^3.5.0",
     "lightgallery": "^1.6.6",
     "motion-ui": "^1.2.3",
-    "svgxuse": "^1.2.6"
+    "svgxuse": "^1.2.6",
+    "lazysizes": "^4.0.2"
   },
   "resolutions": {
     "what-input": "^5.0.4",

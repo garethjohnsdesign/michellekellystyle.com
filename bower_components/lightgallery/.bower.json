@@ -1,6 +1,6 @@
 {
   "name": "lightgallery",
-  "version": "1.6.6",
+  "version": "1.6.11",
   "description": "A lightweight, customizable, modular, responsive, lightbox gallery plugin for jQuery.",
   "main": [
     "dist/js/lightgallery.min.js",
@@ -39,13 +39,13 @@
   "devDependencies": {
     "qunit": "~1.12.0"
   },
-  "_release": "1.6.6",
+  "_release": "1.6.11",
   "_resolution": {
     "type": "version",
-    "tag": "1.6.6",
-    "commit": "df652b8505745a7213f6677973045ae040a68c22"
+    "tag": "1.6.11",
+    "commit": "be72066a9afe576a0730ff104a47db3f3bc93313"
   },
   "_source": "https://github.com/sachinchoolur/lightGallery.git",
-  "_target": "^1.3.9",
+  "_target": "^1.6.6",
   "_originalSource": "lightgallery"
 }
