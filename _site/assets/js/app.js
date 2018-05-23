@@ -20,6 +20,7 @@ window.addEventListener('load', AOS.refresh);
 // -------------
 
 $(document).on('turbolinks:click', function(){
+  
   $('.page-content')
     .addClass('animated fadeOut')
     .off('webkitAnimationEnd oanimationend msAnimationEnd animationend')

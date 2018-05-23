@@ -18,14 +18,14 @@ layout: compress
 	<div class="shrink cell">	
 		<ul class="menu vertical align-center align-middle">
 		  {% for entry in site.data.navigation %}
-		  <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}"><h3>{{ entry.title }}</h3></a></li>
+		  <li><a href="{{ site.baseurl }}{{ entry.url }}"><h3>{{ entry.title }}</h3></a></li>
 		  {% endfor %}
 		</ul>
 	</div>
 </div>
   
 </div>
-<div class="off-canvas-content {{page.layout | slugify}}" data-off-canvas-content>
+<div class="off-canvas-content {{page.layout | slugify}}" id="{{page.layout | slugify}}" data-toggler=".home-open" data-off-canvas-content>
 <!-- Navigation -->
 <nav>
 {% include navigation.html %}
