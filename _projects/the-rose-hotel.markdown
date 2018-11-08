@@ -57,7 +57,7 @@ images:
 - image: "/uploads/the-rose-hotel-26.jpg"
   aspect: landscape
 architect: MAD Atelier
-contractor: HGT construction 
+contractor: HGT construction
 photographer: Seth Carnill
 is-featured: true
 layout: project
