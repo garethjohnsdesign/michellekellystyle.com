@@ -1,7 +1,7 @@
 ---
 title: London Cabin
 date: 2017-01-01 00:01:00 Z
-position: 3
+position: 6
 image: "/uploads/london-cabin-thumb.jpg"
 images:
 - image: "/uploads/london-cabin-01.jpg"

@@ -1,7 +1,7 @@
 ---
 title: Hair Salon
 date: 2017-01-01 00:03:00 Z
-position: 1
+position: 2
 image: "/uploads/hair-salon-thumb.jpg"
 images:
 - image: "/uploads/hair-salon-04.jpg"

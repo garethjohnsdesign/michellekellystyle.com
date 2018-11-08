@@ -1,7 +1,7 @@
 ---
 title: London Fields House
 date: 2017-01-01 00:02:00 Z
-position: 2
+position: 4
 image: "/uploads/london-fields-house-thumb.jpg"
 images:
 - image: "/uploads/london-fields-house-01.jpg"

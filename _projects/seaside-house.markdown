@@ -1,7 +1,7 @@
 ---
 title: Seaside House
 date: 2017-01-01 00:02:00 Z
-position: 2
+position: 5
 image: "/uploads/seaside-house-thumb.jpg"
 images:
 - image: "/uploads/seaside-house-01.jpg"
