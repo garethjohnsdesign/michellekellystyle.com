@@ -27,15 +27,13 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
-  <link rel="manifest" href="/assets/favicons/manifest.json">
+  <link rel="manifest" href="/assets/favicons/site.webmanifest">
   <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#000000">
   <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
   <link rel="stylesheet" type="text/css" href="/assets/css/app.css">
-  <link rel="canonical" href="https://www.michellekellystyle.com/projects/london-cabin/">
-  <link rel="alternate" type="application/rss+xml" title="Michelle Kelly" href="https://www.michellekellystyle.com/feed.xml">
-  <meta name="turbolinks-cache-control" content="no-cache">
 </head>
 <body>
 <div class="off-canvas-wrapper">
@@ -53,28 +51,32 @@
 <div class="off-canvas-content project" id="project" data-toggler=".home-open" data-off-canvas-content>
 <nav>
 <div class="grid-x grid-padding-x align-justify small-align-center navigation">
+<!--
   <div class="medium-4 cell text-left show-for-medium align-self-middle">
     <ul class="menu simple align-left">
       <li><a href="/projects">Projects</a></li>
     </ul>
   </div>
+-->
   <div class="auto cell text-center align-middle navigation__center navigation__title">
     <div class="navigation__title__desktop">
-      <a href="/projects">
+      <a data-toggle="offCanvas closed home">
         <h3>Michelle Kelly</h3>
         <h6 class="show-for-large">Interior Design</h6>
         </a>
     </div>
-    <button class="hamburger hamburger--collapse show-for-small-only" id="closed" data-toggle="offCanvas closed home" data-toggler=".is-active" type="button">
+    <button class="hamburger hamburger--collapse" id="closed" data-toggle="offCanvas closed home" data-toggler=".is-active" type="button">
       <span class="hamburger-box"><span class="hamburger-inner"></span></span>
     </button>
   </div>
+<!--
   <div class="medium-4 cell text-right navigation__right show-for-medium align-self-middle">
     <ul class="menu simple align-right">
       <li><a href="/about">About</a></li>
       <li><a href="/contact">Contact</a></li>
     </ul>
   </div>
+-->
 </div>
 </nav>
 <main class="grid-y align-center page-content">
@@ -168,11 +170,8 @@ class="lazyload"
 </div>
 </main>
 <footer>
-<footer class="grid-x grid-padding-x grid-padding-y hide-for-small-only">
-  <div class="small-6 cell text-left">
-    <a href="/contact">©</a>
-  </div>
-  <div class="small-6 cell text-right">
+<footer class="grid-x grid-padding-x grid-padding-y align-center">
+  <div class="small-6 cell text-center">
     <a href="https://www.instagram.com/kittykellystyle/" target="_blank"><svg class="icon icon-instagram"><use xlink:href="/assets/icons/symbol-defs.svg#icon-instagram"></use></svg></a>
   </div>
 </footer>

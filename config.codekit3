@@ -1708,63 +1708,11 @@
 		"oAP": "/assets/favicons/favicon.ico",
 		"oF": 0
 		},
-	"/assets/favicons/manifest.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/assets/favicons/manifest-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/assets/favicons/mstile-144x144.png": {
-		"ft": 32768,
-		"iS": 1912,
-		"oA": 0,
-		"oAP": "/assets/favicons/mstile-144x144.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/assets/favicons/mstile-150x150.png": {
 		"ft": 32768,
 		"iS": 3339,
 		"oA": 0,
 		"oAP": "/assets/favicons/mstile-150x150.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/favicons/mstile-310x150.png": {
-		"ft": 32768,
-		"iS": 2396,
-		"oA": 0,
-		"oAP": "/assets/favicons/mstile-310x150.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/favicons/mstile-310x310.png": {
-		"ft": 32768,
-		"iS": 4809,
-		"oA": 0,
-		"oAP": "/assets/favicons/mstile-310x310.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/favicons/mstile-70x70.png": {
-		"ft": 32768,
-		"iS": 1190,
-		"oA": 0,
-		"oAP": "/assets/favicons/mstile-70x70.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1780,6 +1728,13 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/assets/favicons/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/assets/favicons/site.webmanifest",
+		"oF": 0
 		},
 	"/assets/fonts/cooper-light.woff": {
 		"cB": 0,
@@ -1839,8 +1794,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/og-image.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},

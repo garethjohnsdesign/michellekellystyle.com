@@ -108,11 +108,14 @@ main {
   @include xy-gutters($gutter-position: right left);
 }
 
+/*
 .home {
   background-color: $dark-gray;
   @include links ($white, $medium-gray)
 }
+*/
 
+/*
 .home .hamburger-inner {
   background-color: $white;
   &::before {
@@ -122,6 +125,7 @@ main {
     background-color: $white;  
   }
 }
+*/
 
 .home-open {
   @include links ($black, $medium-gray)

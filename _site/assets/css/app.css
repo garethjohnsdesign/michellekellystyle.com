@@ -4465,7 +4465,7 @@ h6, .h6 {
   h5, .h5 {
     font-size: 1rem; }
   h6, .h6 {
-    font-size: 1rem; } }
+    font-size: 0.8888888889rem; } }
 
 @media print, screen and (min-width: 64em) {
   h1, .h1 {
@@ -4479,7 +4479,7 @@ h6, .h6 {
   h5, .h5 {
     font-size: 1rem; }
   h6, .h6 {
-    font-size: 1rem; } }
+    font-size: 0.8888888889rem; } }
 
 @media screen and (min-width: 90em) {
   h1, .h1 {
@@ -4493,7 +4493,7 @@ h6, .h6 {
   h5, .h5 {
     font-size: 1rem; }
   h6, .h6 {
-    font-size: 1rem; } }
+    font-size: 0.8888888889rem; } }
 
 @media screen and (min-width: 100em) {
   h1, .h1 {
@@ -4507,7 +4507,7 @@ h6, .h6 {
   h5, .h5 {
     font-size: 1rem; }
   h6, .h6 {
-    font-size: 1rem; } }
+    font-size: 0.8888888889rem; } }
 
 a {
   line-height: inherit;
@@ -6707,7 +6707,7 @@ select {
     filter: opacity(50%); }
 
 .hamburger-box {
-  width: 3rem;
+  width: 2rem;
   height: 18px;
   display: inline-block;
   position: relative; }
@@ -6717,7 +6717,7 @@ select {
   top: 50%;
   margin-top: -1px; }
   .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-    width: 3rem;
+    width: 2rem;
     height: 2px;
     background-color: #333333;
     border-radius: 0;
@@ -6777,10 +6777,11 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 .icon-arrows {
+  color: #f1f1ef;
   font-size: 32px;
   cursor: pointer; }
   .icon-arrows:hover {
-    color: #cacaca; }
+    color: #333333; }
 
 @font-face {
   font-family: 'Gallery';
@@ -6909,7 +6910,7 @@ Single-colored icons can be modified like so:
   position: absolute;
   top: 0;
   width: 100%;
-  background-color: transparent; }
+  background-color: rgba(0, 0, 0, 0); }
   .lg-toolbar .lg-icon {
     color: #999;
     cursor: pointer;
@@ -6933,7 +6934,7 @@ Single-colored icons can be modified like so:
     content: "\e0f2"; }
 
 .lg-sub-html {
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0);
   bottom: 0;
   color: #333333;
   font-size: 16px;
@@ -7602,20 +7603,23 @@ main {
       margin-right: 1.5555555556rem;
       margin-left: 1.5555555556rem; } }
 
+/*
 .home {
-  background-color: #262626; }
-  .home a {
-    color: #fefefe; }
-    .home a:hover {
-      color: #cacaca; }
-
+  background-color: $dark-gray;
+  @include links ($white, $medium-gray)
+}
+*/
+/*
 .home .hamburger-inner {
-  background-color: #fefefe; }
-  .home .hamburger-inner::before {
-    background-color: #fefefe; }
-  .home .hamburger-inner::after {
-    background-color: #fefefe; }
-
+  background-color: $white;
+  &::before {
+    background-color: $white;  
+  }
+  &::after {
+    background-color: $white;  
+  }
+}
+*/
 .home-open a {
   color: #333333; }
   .home-open a:hover {

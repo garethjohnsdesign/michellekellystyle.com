@@ -1,6 +1,11 @@
+$(document).on('turbolinks:load', function() {
+
+// 1. Foundation
+// --------------------
+
 $(document).foundation();
 
-// 1. Animate on Scroll
+// 2. Animate on Scroll
 // --------------------
 
 $(function() {
@@ -15,27 +20,15 @@ $(function() {
 window.addEventListener('load', AOS.refresh);
 });
 
-
-// 2. Turbolinks
-// -------------
-
-$(document).on('turbolinks:click', function(){
-  
+// if call was fired by turbolinks
+if (event.originalEvent.data.timing.visitStart) { 
   $('.page-content')
-    .addClass('animated fadeOut')
-    .off('webkitAnimationEnd oanimationend msAnimationEnd animationend')
+    .addClass('animated fadeIn')
+    .one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function(){
+      $('.page-content').removeClass('animated');
+    });
+}else{
+  $('.page-content').removeClass('hide')
+} 
+
 });
-
-
-$(document).on('turbolinks:load', function(event){
-    // if call was fired by turbolinks
-    if (event.originalEvent.data.timing.visitStart) { 
-      $('.page-content')
-        .addClass('animated fadeIn')
-        .one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function(){
-          $('.page-content').removeClass('animated');
-        });
-    }else{
-      $('.page-content').removeClass('hide')
-    } 
- });
