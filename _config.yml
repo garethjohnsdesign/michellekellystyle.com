@@ -22,7 +22,6 @@ defaults:
     layout: page
 url: https://www.michellekellystyle.com
 description: London-based interior design studio
-permalink: pretty
 exclude:
 - bower.json
 - package.json
@@ -39,6 +38,7 @@ plugins:
 - jekyll-sitemap
 - jekyll-feed
 - jekyll/imgix
+permalink: pretty
 markdown: kramdown
 kramdown:
   input: GFM
