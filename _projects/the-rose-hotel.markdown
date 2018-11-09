@@ -10,8 +10,6 @@ images:
   aspect: portrait
 - image: "/uploads/the-rose-hotel-03.jpg"
   aspect: portrait
-- image: "/uploads/the-rose-hotel-04.jpg"
-  aspect: landscape
 - image: "/uploads/the-rose-hotel-05.jpg"
   aspect: landscape
 - image: "/uploads/the-rose-hotel-06.jpg"
@@ -21,8 +19,6 @@ images:
 - image: "/uploads/the-rose-hotel-08.jpg"
   aspect: landscape
 - image: "/uploads/the-rose-hotel-09.jpg"
-  aspect: landscape
-- image: "/uploads/the-rose-hotel-10.jpg"
   aspect: landscape
 - image: "/uploads/the-rose-hotel-11.jpg"
   aspect: portrait
@@ -42,16 +38,12 @@ images:
   aspect: landscape
 - image: "/uploads/the-rose-hotel-19.jpg"
   aspect: landscape
-- image: "/uploads/the-rose-hotel-20.jpg"
-  aspect: landscape
 - image: "/uploads/the-rose-hotel-21.jpg"
   aspect: landscape
 - image: "/uploads/the-rose-hotel-22.jpg"
   aspect: landscape
 - image: "/uploads/the-rose-hotel-23.jpg"
   aspect: landscape
-- image: "/uploads/the-rose-hotel-24.jpg"
-  aspect: portrait
 - image: "/uploads/the-rose-hotel-25.jpg"
   aspect: landscape
 - image: "/uploads/the-rose-hotel-26.jpg"
