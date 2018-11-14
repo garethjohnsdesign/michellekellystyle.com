@@ -9,13 +9,6 @@
 	],
 "creatorBuild": "28905",
 "files": {
-	"/.ruby-version": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/.ruby-version",
-		"oF": 0
-		},
 	"/404.md": {
 		"cB": 0,
 		"cS": 0,
