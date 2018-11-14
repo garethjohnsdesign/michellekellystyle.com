@@ -279,6 +279,12 @@
 		"oAP": "/_projects/the-rose-hotel.markdown",
 		"oF": 0
 		},
+	"/_site": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/_site",
+		"oF": 0
+		},
 	"/_uploads/conde-nast-traveller-01.jpg": {
 		"ft": 16384,
 		"iS": 397210,
@@ -1903,6 +1909,70 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/assets/img/arrow-left.png": {
+		"ft": 32768,
+		"iS": 243,
+		"oA": 0,
+		"oAP": "/assets/img/arrow-left.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/arrow-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/img/arrow-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/assets/img/arrow-left@2x.png": {
+		"ft": 32768,
+		"iS": 400,
+		"oA": 0,
+		"oAP": "/assets/img/arrow-left@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/arrow-right.png": {
+		"ft": 32768,
+		"iS": 225,
+		"oA": 0,
+		"oAP": "/assets/img/arrow-right.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/arrow-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/img/arrow-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/assets/img/arrow-right@2x.png": {
+		"ft": 32768,
+		"iS": 418,
+		"oA": 0,
+		"oAP": "/assets/img/arrow-right@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/assets/img/og-image.png": {
 		"ft": 32768,
@@ -14862,6 +14932,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/Gemfile",
+		"oF": 0
+		},
+	"/Gemfile.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/Gemfile.lock",
 		"oF": 0
 		},
 	"/humans.txt": {

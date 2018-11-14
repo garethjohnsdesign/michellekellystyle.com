@@ -4430,7 +4430,7 @@ h2, .h2 {
   margin-bottom: 0.5rem; }
 
 h3, .h3 {
-  font-size: 1.6666666667rem;
+  font-size: 1.5555555556rem;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.5rem; }
@@ -4459,7 +4459,7 @@ h6, .h6 {
   h2, .h2 {
     font-size: 2.4444444444rem; }
   h3, .h3 {
-    font-size: 1.6666666667rem; }
+    font-size: 1.5555555556rem; }
   h4, .h4 {
     font-size: 1.2222222222rem; }
   h5, .h5 {
@@ -4473,7 +4473,7 @@ h6, .h6 {
   h2, .h2 {
     font-size: 2.5555555556rem; }
   h3, .h3 {
-    font-size: 1.7777777778rem; }
+    font-size: 1.5555555556rem; }
   h4, .h4 {
     font-size: 1.2222222222rem; }
   h5, .h5 {
@@ -4487,7 +4487,7 @@ h6, .h6 {
   h2, .h2 {
     font-size: 2.6666666667rem; }
   h3, .h3 {
-    font-size: 2rem; }
+    font-size: 1.7777777778rem; }
   h4, .h4 {
     font-size: 1.2222222222rem; }
   h5, .h5 {
@@ -4501,7 +4501,7 @@ h6, .h6 {
   h2, .h2 {
     font-size: 2.7777777778rem; }
   h3, .h3 {
-    font-size: 2rem; }
+    font-size: 1.7777777778rem; }
   h4, .h4 {
     font-size: 1.2222222222rem; }
   h5, .h5 {
@@ -7662,63 +7662,17 @@ main {
   height: 5px;
   background-color: #333333; }
 
-/*
-.turbolinks-animation {
-  animation: 2s ease-in-out 2s animatePageLoad;
-}
+.orbit-controls {
+  width: 100vw; }
 
-@keyframes animatePageLoad {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-*/
-.animated {
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-animation-fill-mode: both;
-  animation-fill-mode: both; }
+.orbit-previous, .orbit-next {
+  height: 100%;
+  width: 50vw; }
 
-.animated.infinite {
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite; }
+.orbit-previous {
+  cursor: url("/assets/img/arrow-left.png") 32 32, auto;
+  cursor: -webkit-image-set(url("/assets/img/arrow-left.png") 1x, url("/assets/img/arrow-left@2x.png") 2x) 32 32, auto; }
 
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-@keyframes fadeIn {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 1; } }
-
-.fadeIn {
-  -webkit-animation-name: fadeIn;
-  animation-name: fadeIn; }
-
-@-webkit-keyframes fadeOut {
-  from {
-    opacity: 1; }
-  to {
-    opacity: 0; } }
-
-@keyframes fadeOut {
-  from {
-    opacity: 1; }
-  to {
-    opacity: 0; } }
-
-.fadeOut {
-  -webkit-animation-name: fadeOut;
-  animation-name: fadeOut; }
-
-/* fade image in after load */
-.lazyload,
-.lazyloading {
-  opacity: 0; }
-
-.lazyloaded {
-  opacity: 1;
-  transition: opacity 300ms; }
+.orbit-next {
+  cursor: url("/assets/img/arrow-right.png") 32 32, auto;
+  cursor: -webkit-image-set(url("/assets/img/arrow-right.png") 1x, url("/assets/img/arrow-right@2x.png") 2x) 32 32, auto; }
