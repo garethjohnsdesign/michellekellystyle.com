@@ -21,7 +21,7 @@ layout: default
         {% for image in press.images %}
           <div class="press__images" data-src="{{image}}">
             {% if forloop.first == true %}
-            <a href="{{image}}">{{press.title}}</a>
+            <a href="{{image}}">{{press.title}} — {{press.date | date: "%b %Y"}}</a>
             {% else %}
             <a href="{{image}}"></a>
             {% endif %}
@@ -30,7 +30,7 @@ layout: default
         </div>
       {% else %}
       <div>
-      <a href="{{press.link}}" target="_blank" rel="noopener">{{press.title}}</a>
+      <a href="{{press.link}}" target="_blank" rel="noopener">{{press.title}} — {{press.date | date: "%b %Y"}}</a>
       </div>
       {% endif %}
 
