@@ -4515,7 +4515,7 @@ a {
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #333333; }
+    color: #999999; }
   a img {
     border: 0; }
 
@@ -7620,23 +7620,25 @@ main {
   }
 }
 */
-.home-open a {
-  color: #333333; }
-  .home-open a:hover {
-    color: #cacaca; }
-
-.home-open .hamburger-inner {
-  background-color: #333333; }
-  .home-open .hamburger-inner::before {
-    background-color: #333333; }
-  .home-open .hamburger-inner::after {
-    background-color: #333333; }
-
-.off-canvas a {
-  color: #333333; }
-  .off-canvas a:hover {
-    color: #cacaca; }
-
+/*
+.home-open {
+  @include links ($black, $medium-gray)
+  .hamburger-inner {
+  background-color: $black;
+  &::before {
+    background-color: $black;  
+  }
+  &::after {
+    background-color: $black;  
+  }
+}
+}
+*/
+/*
+.off-canvas {
+  @include links ($black, $medium-gray)
+}
+*/
 .home .orbit {
   position: absolute;
   top: 0;

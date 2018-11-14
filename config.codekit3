@@ -167,6 +167,13 @@
 		"oAP": "/_layouts/projects.html",
 		"oF": 0
 		},
+	"/_press/a-little-bird.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/_press/a-little-bird.markdown",
+		"oF": 0
+		},
 	"/_press/code-nast-traveller.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -186,6 +193,41 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/_press/living-etc.markdown",
+		"oF": 0
+		},
+	"/_press/remodlista.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/_press/remodlista.markdown",
+		"oF": 0
+		},
+	"/_press/suitcase.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/_press/suitcase.markdown",
+		"oF": 0
+		},
+	"/_press/the-telegraph.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/_press/the-telegraph.markdown",
+		"oF": 0
+		},
+	"/_press/wallpaper.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/_press/wallpaper.markdown",
+		"oF": 0
+		},
+	"/_press/we-heart.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/_press/we-heart.markdown",
 		"oF": 0
 		},
 	"/_projects/hackney-house.markdown": {
@@ -282,6 +324,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/conde-nast-traveller-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/elle-decoration-01.jpg": {
+		"ft": 16384,
+		"iS": 910142,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/elle-decoration-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/elle-decoration-02.jpg": {
+		"ft": 16384,
+		"iS": 836530,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/elle-decoration-02.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
