@@ -4,7 +4,7 @@ timezone: UTC
 collections:
   posts:
     title: Posts
-    output: true
+    output: false
   press:
     title: Press
     output: false
@@ -24,6 +24,7 @@ url: https://www.michellekellystyle.com
 description: London-based interior design studio
 exclude:
 - bower.json
+- Gemfile.lock
 - package.json
 - config.codekit3
 - README*
@@ -41,6 +42,7 @@ plugins:
 permalink: pretty
 markdown: kramdown
 kramdown:
+  auto_ids: false
   input: GFM
   hard_wrap: false
 highlighter: rouge
