@@ -1,6 +1,6 @@
 ---
 title: Conde Nast Traveller
-date: 2018-11-01 00:01:00 Z
+date: 2018-09-01 00:01:00 Z
 position: 0
 images:
 - "/uploads/conde-nast-traveller-01.jpg"
