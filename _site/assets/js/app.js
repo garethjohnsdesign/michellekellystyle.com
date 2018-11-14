@@ -20,15 +20,4 @@ $(function() {
 window.addEventListener('load', AOS.refresh);
 });
 
-// if call was fired by turbolinks
-if (event.originalEvent.data.timing.visitStart) { 
-  $('.page-content')
-    .addClass('animated fadeIn')
-    .one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function(){
-      $('.page-content').removeClass('animated');
-    });
-}else{
-  $('.page-content').removeClass('hide')
-} 
-
 });

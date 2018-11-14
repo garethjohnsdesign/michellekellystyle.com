@@ -46,12 +46,54 @@ layout: default
 </div>
 <!-- End Content -->
 
-<!-- Content -->
+<!-- Press -->
+
+    {% assign title = page.title %}
+    {% assign press-sorted = site.press | where:"project",title %}
+
+    {% if press-sorted.size > 0 %}
+
+    <div class="grid-x grid-padding-x grid-padding-y align-center text-center">
+      <div class="small-12 medium-10 large-8 cell">
+        <h3>Press</h3>
+    
+          {% for press in press-sorted %}
+            
+            {% if press.images %}
+              <div class="gallery">
+              {% for image in press.images %}
+                <div class="press__images" data-src="{{image}}">
+                  {% if forloop.first == true %}
+                  <a href="{{image}}">{{press.title}} — {{press.date | date: "%b %Y"}}</a>
+                  {% else %}
+                  <a href="{{image}}"></a>
+                  {% endif %}
+                </div>
+              {% endfor %}
+              </div>
+            {% else %}
+            <div>
+            <a href="{{press.link}}" target="_blank" rel="noopener">{{press.title}} — {{press.date | date: "%b %Y"}}</a>
+            </div>
+            {% endif %}
+      
+          {% endfor %}
+    
+      </div>
+    </div>
+    
+    {% endif %}
+
+<!-- End Press -->
+
+<!-- Pagination -->
 <div class="grid-x align-center">
   <div class="small-8 medium-7 large-7 cell text-center">
     {% include pagination.html %}
   </div>
 </div>
-<!-- End Content -->
+<!-- End Pagination -->
 
-
+{% if press-sorted.size > 0 %}
+<script defer src="/assets/js/min/contact-min.js"></script>
+{% endif %}

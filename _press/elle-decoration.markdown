@@ -5,5 +5,6 @@ position: 1
 images:
 - "/uploads/elle-decoration-01.jpg"
 - "/uploads/elle-decoration-02.jpg"
+project: The Rose Hotel
 ---
 

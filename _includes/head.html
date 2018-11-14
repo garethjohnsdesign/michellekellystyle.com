@@ -27,4 +27,14 @@
   
   <link rel="stylesheet" type="text/css" href="{{ "/assets/css/app.css" | prepend: site.baseurl }}">
 
+  <!-- Scripts -->
+  {% include scripts.html %}
+  <!-- End Scripts -->
+  
+  <!-- Google Analytics -->
+  {% if site.analytics %}
+  {% include analytics.html %}
+  {% endif %}
+  <!-- End Google Analytics -->
+
 </head>

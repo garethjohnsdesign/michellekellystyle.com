@@ -18,7 +18,7 @@ layout: compress
 	<div class="shrink cell">	
 		<ul class="menu vertical align-center align-middle">
 		  {% for entry in site.data.navigation %}
-		  <li><a href="{{ site.baseurl }}{{ entry.url }}"><h3>{{ entry.title }}</h3></a></li>
+		  <li><a href="{{ site.baseurl }}{{ entry.url }}"><h4>{{ entry.title }}</h4></a></li>
 		  {% endfor %}
 		</ul>
 	</div>
@@ -46,15 +46,6 @@ layout: compress
 </div>
 </div>
 
-<!-- Scripts -->
-{% include scripts.html %}
-<!-- End Scripts -->
-
-<!-- Google Analytics -->
-{% if site.analytics %}
-{% include analytics.html %}
-{% endif %}
-<!-- End Google Analytics -->
 </body>
 
 </html>
