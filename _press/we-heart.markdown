@@ -1,0 +1,8 @@
+---
+title: We Heart
+date: 2018-07-31 00:01:00 Z
+position: 6
+link: https://www.we-heart.com/2018/07/31/the-rose-deal-kent-design-hotel/
+project: The Rose Hotel
+---
+

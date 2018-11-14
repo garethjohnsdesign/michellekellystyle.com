@@ -1,0 +1,51 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+<!-- Head -->
+{% include head.html %}
+<!-- End Head -->
+
+<body>
+
+<div class="off-canvas-wrapper">
+<div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap">
+
+<div class="grid-y align-center" style="height: 100%;">
+	<div class="shrink cell">	
+		<ul class="menu vertical align-center align-middle">
+		  {% for entry in site.data.navigation %}
+		  <li><a href="{{ site.baseurl }}{{ entry.url }}"><h3>{{ entry.title }}</h3></a></li>
+		  {% endfor %}
+		</ul>
+	</div>
+</div>
+  
+</div>
+<div class="off-canvas-content {{page.layout | slugify}}" id="{{page.layout | slugify}}" data-toggler=".home-open" data-off-canvas-content>
+<!-- Navigation -->
+<nav>
+{% include navigation.html %}
+</nav>
+<!-- End Navigation -->
+
+<!-- Content -->
+<main class="grid-y align-center page-content">
+{{content}}
+</main>
+<!-- End Content -->
+
+<!-- Footer -->
+<footer>
+{% include footer.html %}
+</footer>
+<!-- End Footer-->
+</div>
+</div>
+
+</body>
+
+</html>

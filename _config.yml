@@ -1,0 +1,70 @@
+---
+title: Michelle Kelly
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  press:
+    title: Press
+    output: false
+  projects:
+    title: Projects
+    output: true
+  uploads:
+    title: Uploads
+    output: false
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+url: https://www.michellekellystyle.com
+description: London-based interior design studio
+exclude:
+- bower.json
+- Gemfile.lock
+- package.json
+- config.codekit3
+- README*
+- LICENSE*
+- CHANGELOG*
+- node_modules
+- ".gitignore"
+- bower_components
+- assets/scss
+plugins:
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+- jekyll/imgix
+permalink: pretty
+markdown: kramdown
+kramdown:
+  auto_ids: false
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+company: Michelle Kelly
+job: Interior Design
+email: info@michellekellystyle.com
+google_site_verification: IAgMKxo_xZJauaD5LGwByTtp3HZHLiLvFhLpSZfNrsY
+analytics: UA-96956025-1
+logo: "/assets/img/layout/logo.svg"
+per_page: 12
+date_format: "%b %d, %Y"
+future: true
+social:
+  facebook: 
+  instagram: 
+  twitter: 
+  vimeo: 
+compress_html:
+  comments:
+  - "<!-- "
+  - " -->"
+  blanklines: true
+  profile: false
+imgix:
+  source: https://michelle-kelly.imgix.net
