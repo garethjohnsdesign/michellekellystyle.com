@@ -272,12 +272,6 @@
 		"oAP": "/_projects/the-rose-hotel.markdown",
 		"oF": 0
 		},
-	"/_site": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/_site",
-		"oF": 0
-		},
 	"/_uploads/conde-nast-traveller-01.jpg": {
 		"ft": 16384,
 		"iS": 397210,
@@ -14861,13 +14855,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/Gemfile",
-		"oF": 0
-		},
-	"/Gemfile.lock": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/Gemfile.lock",
 		"oF": 0
 		},
 	"/humans.txt": {
