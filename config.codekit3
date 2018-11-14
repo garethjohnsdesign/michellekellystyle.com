@@ -1918,12 +1918,12 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/assets/js/contact.js": {
+	"/assets/js/gallery.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/assets/js/min/contact-min.js",
+		"oAP": "/assets/js/min/gallery-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -1938,12 +1938,12 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/assets/js/min/contact-min.js": {
+	"/assets/js/min/gallery-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "/assets/js/min/min/contact-min-min.js",
+		"oAP": "/assets/js/min/min/gallery-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -14876,24 +14876,6 @@
 		"oAP": "/index.md",
 		"oF": 1,
 		"oFM": 9,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"/LICENSE.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 1,
-		"oAP": "/LICENSE.html",
-		"oF": 1,
-		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
