@@ -1942,6 +1942,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/img/arrow-left@3x.png": {
+		"ft": 32768,
+		"iS": 671,
+		"oA": 0,
+		"oAP": "/assets/img/arrow-left@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/img/arrow-right.png": {
 		"ft": 32768,
 		"iS": 225,
@@ -1968,6 +1979,17 @@
 		"iS": 418,
 		"oA": 0,
 		"oAP": "/assets/img/arrow-right@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/img/arrow-right@3x.png": {
+		"ft": 32768,
+		"iS": 713,
+		"oA": 0,
+		"oAP": "/assets/img/arrow-right@3x.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

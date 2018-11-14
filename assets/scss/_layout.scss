@@ -188,17 +188,19 @@ main {
 }
 
 .orbit-previous {
-cursor: url('/assets/img/arrow-left.png') 32 32, auto;
+cursor: url('/assets/img/arrow-left.png') 16 16, auto !important;
 cursor: -webkit-image-set(
 url('/assets/img/arrow-left.png') 1x,
-url('/assets/img/arrow-left@2x.png') 2x
-) 32 32, auto;
+url('/assets/img/arrow-left@2x.png') 2x,
+url('/assets/img/arrow-left@3x.png') 3x
+) 16 16, auto !important;
 }
 
 .orbit-next {
-cursor: url('/assets/img/arrow-right.png') 32 32, auto;
+cursor: url('/assets/img/arrow-right.png') 16 16, auto !important;
 cursor: -webkit-image-set(
 url('/assets/img/arrow-right.png') 1x,
-url('/assets/img/arrow-right@2x.png') 2x
-) 32 32, auto;
+url('/assets/img/arrow-right@2x.png') 2x,
+url('/assets/img/arrow-right@3x.png') 3x
+) 16 16, auto !important;
 }
