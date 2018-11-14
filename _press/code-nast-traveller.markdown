@@ -7,5 +7,6 @@ images:
 - "/uploads/conde-nast-traveller-02.jpg"
 - "/uploads/conde-nast-traveller-03.jpg"
 - "/uploads/conde-nast-traveller-04.jpg"
+project: The Rose Hotel
 ---
 
