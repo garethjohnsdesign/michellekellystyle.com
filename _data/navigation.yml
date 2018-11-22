@@ -1,8 +1,11 @@
 - title: Projects
-  url: /projects
+  url: /projects/
 
 - title: About
-  url: /about
+  url: /about/
+
+- title: Press
+  url: /press/
   
 - title: Contact
-  url: /contact
+  url: /contact/

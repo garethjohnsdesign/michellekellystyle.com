@@ -2,16 +2,8 @@
 layout: default
 ---
 
-<div class="grid-x grid-padding-x align-center text-center">
-  <div class="small-12 medium-10 large-8 cell">
-    <h3>Studio</h3>
-    {{ page.studio-text | markdownify }}
-  </div>
-</div>
-
 <div class="grid-x grid-padding-x grid-padding-y align-center text-center">
   <div class="small-12 medium-10 large-8 cell">
-    <h3>Press</h3>
 
     {% assign press-sorted = site.press | sort: 'position' %}
     {% for press in press-sorted %}
@@ -40,10 +32,9 @@ layout: default
   </div>
 </div>
 
-<div class="grid-x grid-padding-x align-center text-center">
-  <div class="small-10 medium-8 large-6 xxlarge-4 cell">
-    <small>{{ page.copyright }}</small>
-  </div>
-</div>
 
-<script defer src="/assets/js/min/gallery-min.js"></script>
+
+
+
+
+
