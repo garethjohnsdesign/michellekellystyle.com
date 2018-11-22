@@ -7662,6 +7662,9 @@ main {
   height: 5px;
   background-color: #333333; }
 
+.orbit-slide {
+  z-index: 11; }
+
 .orbit-controls {
   width: 100vw; }
 
