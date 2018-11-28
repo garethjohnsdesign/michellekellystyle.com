@@ -11,40 +11,37 @@ layout: compress
 
 <body>
 
-
-    <div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap" data-auto-focus="false" style="height:100vh">
-      <div class="grid-y align-center" style="height: 100%">
-      	<div class="shrink cell">	
-      		<ul class="menu vertical align-center align-middle">
-      		  {% for entry in site.data.navigation %}
-      		  <li><a href="{{ site.baseurl }}{{ entry.url }}"><h3>{{ entry.title }}</h3></a></li>
-      		  {% endfor %}
-      		</ul>
-      	</div>
-      </div>
+  <div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap" data-auto-focus="false" style="height:100vh">
+    <div class="grid-y align-center" style="height: 100%">
+    	<div class="shrink cell">	
+    		<ul class="menu vertical align-center align-middle">
+    		  {% for entry in site.data.navigation %}
+    		  <li><a href="{{ site.baseurl }}{{ entry.url }}"><h3>{{ entry.title }}</h3></a></li>
+    		  {% endfor %}
+    		</ul>
+    	</div>
     </div>
-
-    <div class="off-canvas-content {{page.layout | slugify}}" data-off-canvas-content>
+  </div>
+  
+  <div class="off-canvas-content {{page.layout | slugify}}" data-off-canvas-content>
+    <!-- Navigation -->
+    <nav>
+    {% include navigation.html %}
+    </nav>
+    <!-- End Navigation -->
     
-      <!-- Navigation -->
-      <nav>
-      {% include navigation.html %}
-      </nav>
-      <!-- End Navigation -->
-      
-      <!-- Content -->
-      <main class="grid-y align-center page-content">
-      {{content}}
-      </main>
-      <!-- End Content -->
-      
-      <!-- Footer -->
-      <footer>
-      {% include footer.html %}
-      </footer>
-      <!-- End Footer-->
+    <!-- Content -->
+    <main class="grid-y align-center">
+    {{content}}
+    </main>
+    <!-- End Content -->
     
-    </div>
+    <!-- Footer -->
+    <footer>
+    {% include footer.html %}
+    </footer>
+    <!-- End Footer-->
+  </div>
 
 </body>
 
