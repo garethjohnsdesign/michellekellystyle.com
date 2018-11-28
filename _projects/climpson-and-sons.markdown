@@ -17,7 +17,7 @@ images:
 - image: "/uploads/climpson-and-sons-06-rev.jpg"
   aspect: portrait
 architect: 
-contractor:
+contractor: 
 is-featured: true
 layout: project
 ---
