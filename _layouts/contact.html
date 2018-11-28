@@ -9,41 +9,15 @@ layout: default
   </div>
 </div>
 
-<div class="grid-x grid-padding-x grid-padding-y align-center text-center">
-  <div class="small-12 medium-10 large-8 cell">
-    <h3>Press</h3>
-
-    {% assign press-sorted = site.press | sort: 'position' %}
-    {% for press in press-sorted %}
-      
-      {% if press.images %}
-        <div class="gallery">
-        {% for image in press.images %}
-          <div class="press__images" data-src="{{image}}">
-            {% if forloop.first == true %}
-            <a href="{{image}}">{{press.title}} — {{press.date | date: "%b %Y"}}</a>
-            {% else %}
-            <a href="{{image}}"></a>
-            {% endif %}
-          </div>
-        {% endfor %}
-        </div>
-      {% else %}
-      <div>
-      <a href="{{press.link}}" target="_blank" rel="noopener">{{press.title}} — {{press.date | date: "%b %Y"}}</a>
-      </div>
-      {% endif %}
-
-
-    {% endfor %}
-    
-  </div>
-</div>
-
 <div class="grid-x grid-padding-x align-center text-center">
   <div class="small-10 medium-8 large-6 xxlarge-4 cell">
     <small>{{ page.copyright }}</small>
   </div>
 </div>
 
-<script defer src="/assets/js/min/gallery-min.js"></script>
+<div class="grid-x grid-padding-x grid-padding-y align-center text-center">
+  <div class="small-10 medium-8 large-6 xxlarge-4 cell">
+    <h3>Site</h3>
+    <a href="https://www.garethjohnsdesign.com">Gareth Johns Design + Development</a>
+  </div>
+</div>
