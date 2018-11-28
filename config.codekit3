@@ -237,6 +237,13 @@
 		"oAP": "/_press/we-heart.markdown",
 		"oF": 0
 		},
+	"/_projects/climpson-and-sons.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/_projects/climpson-and-sons.markdown",
+		"oF": 0
+		},
 	"/_projects/hackney-house.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -291,6 +298,72 @@
 		"oA": 1,
 		"oAP": "/build/_site",
 		"oF": 0
+		},
+	"/_uploads/climpson-and-sons-01.jpg": {
+		"ft": 16384,
+		"iS": 972099,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/climpson-and-sons-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/climpson-and-sons-02.jpg": {
+		"ft": 16384,
+		"iS": 1063422,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/climpson-and-sons-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/climpson-and-sons-03.jpg": {
+		"ft": 16384,
+		"iS": 1962341,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/climpson-and-sons-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/climpson-and-sons-04.jpg": {
+		"ft": 16384,
+		"iS": 969151,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/climpson-and-sons-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/climpson-and-sons-05.jpg": {
+		"ft": 16384,
+		"iS": 1466271,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/climpson-and-sons-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/climpson-and-sons-06.jpg": {
+		"ft": 16384,
+		"iS": 2238508,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/climpson-and-sons-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/_uploads/conde-nast-traveller-01.jpg": {
 		"ft": 16384,
