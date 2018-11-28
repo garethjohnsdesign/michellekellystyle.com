@@ -19,11 +19,6 @@
 
 @import 'fonts';
 
-// 2. Colors
-// ---------
-
-@import 'colors';
-
 
 // 3. Typography
 // -------------
@@ -65,13 +60,13 @@
 // @include foundation-button-group;
 // @include foundation-callout;
 // @include foundation-card;
-@include foundation-close-button;
+// @include foundation-close-button;
 @include foundation-menu;
 // @include foundation-menu-icon;
 // @include foundation-drilldown-menu;
 // @include foundation-dropdown;
 // @include foundation-dropdown-menu;
-@include foundation-responsive-embed;
+// @include foundation-responsive-embed;
 // @include foundation-label;
 // @include foundation-media-object;
 @include foundation-off-canvas;
@@ -95,7 +90,7 @@
 // @include foundation-float-classes;
 @include foundation-flex-classes;
 
-// @include foundation-prototype-classes;
+@include foundation-prototype-classes;
 
 @include motion-ui-transitions;
 @include motion-ui-animations;

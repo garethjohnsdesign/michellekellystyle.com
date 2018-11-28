@@ -11,7 +11,7 @@ import styles from './../sass/aos.scss';
 import throttle from 'lodash.throttle';
 import debounce from 'lodash.debounce';
 
-import observe from './libs/observer';
+import observer from './libs/observer';
 
 import detect from './helpers/detector';
 import handleScroll from './helpers/handleScroll';
@@ -23,10 +23,6 @@ import elements from './helpers/elements';
  */
 let $aosElements = [];
 let initialized = false;
-
-// Detect not supported browsers (<=IE9)
-// http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
-const browserNotSupported = document.all && !window.atob;
 
 /**
  * Default options
@@ -110,12 +106,28 @@ const init = function init(settings) {
   // Create initial array with elements -> to be fullfilled later with prepare()
   $aosElements = elements();
 
+  // Detect not supported browsers (<=IE9)
+  // http://browserhacks.com/#hack-e71d8692f65334173fee715c222cb805
+  const browserNotSupported = document.all && !window.atob;
+
   /**
    * Don't init plugin if option `disable` is set
    * or when browser is not supported
    */
   if (isDisabled(options.disable) || browserNotSupported) {
     return disable();
+  }
+
+  /**
+   * Disable mutation observing if not supported
+   */
+  if (!options.disableMutationObserver && !observer.isSupported()) {
+    console.info(`
+      aos: MutationObserver is not supported on this browser,
+      code mutations observing has been disabled.
+      You may have to call "refreshHard()" by yourself.
+    `);
+    options.disableMutationObserver = true;
   }
 
   /**
@@ -164,7 +176,7 @@ const init = function init(settings) {
    * it'll refresh plugin automatically
    */
   if (!options.disableMutationObserver) {
-    observe('[data-aos]', refreshHard);
+    observer.ready('[data-aos]', refreshHard);
   }
 
   return $aosElements;
