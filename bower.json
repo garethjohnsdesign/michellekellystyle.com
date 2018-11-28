@@ -40,7 +40,6 @@
     "lightgallery": "^1.6.11",
     "motion-ui": "^2.0.3",
     "svgxuse": "^1.2.6",
-    "lazysizes": "^4.1.4",
     "turbolinks5": "^5.2.0",
     "aos": "^2.3.4"
   },

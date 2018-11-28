@@ -45,7 +45,7 @@ n.nodeType?$t.grep(t,function(t){return t===n!==i}):
 // Arraylike of elements (jQuery, arguments, Array)
 "string"!=typeof n?$t.grep(t,function(t){return-1<dt.call(n,t)!==i}):$t.filter(n,t,i)}function n(t,e){for(;(t=t[e])&&1!==t.nodeType;);return t}
 // Convert String-formatted options into Object-formatted ones
-function c(t){var n={};return $t.each(t.match(Pt)||[],function(t,e){n[e]=!0}),n}
+function c(t){var n={};return $t.each(t.match(Lt)||[],function(t,e){n[e]=!0}),n}
 /*
  * Create a callback list using the following parameters:
  *
@@ -92,7 +92,7 @@ function o(t,e){return e.toUpperCase()}
 // Convert dashed to camelCase; used by the css and data modules
 // Support: IE <=9 - 11, Edge 12 - 15
 // Microsoft forgot to hump their vendor prefix (#9572)
-function h(t){return t.replace(Mt,"ms-").replace(Ht,o)}function r(){this.expando=$t.expando+r.uid++}function s(t){return"true"===t||"false"!==t&&("null"===t?null:
+function h(t){return t.replace(Ht,"ms-").replace(Mt,o)}function r(){this.expando=$t.expando+r.uid++}function s(t){return"true"===t||"false"!==t&&("null"===t?null:
 // Only convert to a number if it doesn't change the string
 t===+t+""?+t:Bt.test(t)?JSON.parse(t):t)}function p(t,e,n){var i;
 // If nothing was found internally, try to fetch any
@@ -186,7 +186,7 @@ return $t().off(t),s.apply(this,arguments)}).guid=s.guid||(s.guid=$t.guid++)),t.
 // Prefer a tbody over its parent table for containing new rows
 function S(t,e){return u(t,"table")&&u(11!==e.nodeType?e:e.firstChild,"tr")&&$t(t).children("tbody")[0]||t}
 // Replace/restore the type attribute of script elements for safe DOM manipulation
-function E(t){return t.type=(null!==t.getAttribute("type"))+"/"+t.type,t}function O(t){return"true/"===(t.type||"").slice(0,5)?t.type=t.type.slice(5):t.removeAttribute("type"),t}function A(t,e){var n,i,o,r,s,a,l,u;if(1===e.nodeType){
+function O(t){return t.type=(null!==t.getAttribute("type"))+"/"+t.type,t}function E(t){return"true/"===(t.type||"").slice(0,5)?t.type=t.type.slice(5):t.removeAttribute("type"),t}function A(t,e){var n,i,o,r,s,a,l,u;if(1===e.nodeType){
 // 1. Copy private data: events, handlers, etc.
 if(Nt.hasData(t)&&(r=Nt.access(t),s=Nt.set(e,r),u=r.events))for(o in delete s.handle,s.events={},u)for(n=0,i=u[o].length;n<i;n++)$t.event.add(e,o,u[o][n]);
 // 2. Copy user data
@@ -194,15 +194,15 @@ Ft.hasData(t)&&(a=Ft.access(t),l=$t.extend({},a),Ft.set(e,l))}}
 // Fix IE bugs, see support tests
 function z(t,e){var n=e.nodeName.toLowerCase();
 // Fails to persist the checked state of a cloned checkbox or radio button.
-"input"===n&&Xt.test(t.type)?e.checked=t.checked:"input"!==n&&"textarea"!==n||(e.defaultValue=t.defaultValue)}function L(n,i,o,r){
+"input"===n&&Xt.test(t.type)?e.checked=t.checked:"input"!==n&&"textarea"!==n||(e.defaultValue=t.defaultValue)}function P(n,i,o,r){
 // Flatten any nested arrays
 i=ut.apply([],i);var t,e,s,a,l,u,c=0,d=n.length,f=d-1,h=i[0],p=yt(h);
 // We can't cloneNode fragments that contain checked, in WebKit
-if(p||1<d&&"string"==typeof h&&!vt.checkClone&&de.test(h))return n.each(function(t){var e=n.eq(t);p&&(i[0]=h.call(this,t,e.html())),L(e,i,o,r)});if(d&&(e=(t=$(i,n[0].ownerDocument,!1,n,r)).firstChild,1===t.childNodes.length&&(t=e),e||r)){
+if(p||1<d&&"string"==typeof h&&!vt.checkClone&&de.test(h))return n.each(function(t){var e=n.eq(t);p&&(i[0]=h.call(this,t,e.html())),P(e,i,o,r)});if(d&&(e=(t=$(i,n[0].ownerDocument,!1,n,r)).firstChild,1===t.childNodes.length&&(t=e),e||r)){
 // Use the original fragment for the last item
 // instead of the first because it can end up
 // being emptied incorrectly in certain situations (#8070).
-for(a=(s=$t.map(w(t,"script"),E)).length;c<d;c++)l=t,c!==f&&(l=$t.clone(l,!0,!0),
+for(a=(s=$t.map(w(t,"script"),O)).length;c<d;c++)l=t,c!==f&&(l=$t.clone(l,!0,!0),
 // Keep references to cloned scripts for later restoration
 a&&
 // Support: Android <=4.0 only, PhantomJS 1 only
@@ -211,9 +211,9 @@ $t.merge(s,w(l,"script"))),o.call(n[c],l,c);if(a)
 // Evaluate executable scripts on first document insertion
 for(u=s[s.length-1].ownerDocument,
 // Reenable scripts
-$t.map(s,O),c=0;c<a;c++)l=s[c],Jt.test(l.type||"")&&!Nt.access(l,"globalEval")&&$t.contains(u,l)&&(l.src&&"module"!==(l.type||"").toLowerCase()?
+$t.map(s,E),c=0;c<a;c++)l=s[c],Jt.test(l.type||"")&&!Nt.access(l,"globalEval")&&$t.contains(u,l)&&(l.src&&"module"!==(l.type||"").toLowerCase()?
 // Optional AJAX dependency, but won't run scripts if not present
-$t._evalUrl&&$t._evalUrl(l.src):m(l.textContent.replace(fe,""),u,l))}return n}function P(t,e,n){for(var i,o=e?$t.filter(e,t):t,r=0;null!=(i=o[r]);r++)n||1!==i.nodeType||$t.cleanData(w(i)),i.parentNode&&(n&&$t.contains(i.ownerDocument,i)&&k(w(i,"script")),i.parentNode.removeChild(i));return t}function q(t,e,n){var i,o,r,s,
+$t._evalUrl&&$t._evalUrl(l.src):m(l.textContent.replace(fe,""),u,l))}return n}function L(t,e,n){for(var i,o=e?$t.filter(e,t):t,r=0;null!=(i=o[r]);r++)n||1!==i.nodeType||$t.cleanData(w(i)),i.parentNode&&(n&&$t.contains(i.ownerDocument,i)&&k(w(i,"script")),i.parentNode.removeChild(i));return t}function q(t,e,n){var i,o,r,s,
 // Support: Firefox 51+
 // Retrieving style before computed somehow
 // fixes an issue with getting wrong values
@@ -253,7 +253,7 @@ if(t in ke)return t;
 for(var e=t[0].toUpperCase()+t.slice(1),n=we.length;n--;)if((t=we[n]+e)in ke)return t}
 // Return a property mapped along what jQuery.cssProps suggests or to
 // a vendor prefixed property.
-function M(t){var e=$t.cssProps[t];return e||(e=$t.cssProps[t]=R(t)||t),e}function H(t,e,n){
+function H(t){var e=$t.cssProps[t];return e||(e=$t.cssProps[t]=R(t)||t),e}function M(t,e,n){
 // Any relative (+/-) values have already been
 // normalized at this point
 var i=Ut.exec(e);return i?
@@ -371,9 +371,9 @@ return t?(l.notifyWith(s,[u,1,0]),l.resolveWith(s,[u,t])):l.rejectWith(s,[u,t]),
 u.progress(u.opts.progress).done(u.opts.done,u.opts.complete).fail(u.opts.fail).always(u.opts.always),$t.fx.timer($t.extend(r,{elem:s,anim:u,queue:u.opts.queue})),u}
 // Strip and collapse whitespace according to HTML spec
 // https://infra.spec.whatwg.org/#strip-and-collapse-ascii-whitespace
-function Q(t){var e;return(t.match(Pt)||[]).join(" ")}function X(t){return t.getAttribute&&t.getAttribute("class")||""}function Z(t){return Array.isArray(t)?t:"string"==typeof t&&t.match(Pt)||[]}function J(n,t,i,o){var e;if(Array.isArray(t))
+function Q(t){var e;return(t.match(Lt)||[]).join(" ")}function X(t){return t.getAttribute&&t.getAttribute("class")||""}function Z(t){return Array.isArray(t)?t:"string"==typeof t&&t.match(Lt)||[]}function J(n,t,i,o){var e;if(Array.isArray(t))
 // Serialize array item.
-$t.each(t,function(t,e){i||He.test(n)?
+$t.each(t,function(t,e){i||Me.test(n)?
 // Treat each array item as a scalar.
 o(n,e):
 // Item is non-scalar (array or object), encode its numeric index.
@@ -387,7 +387,7 @@ for(e in t)J(n+"["+e+"]",t[e],i,o)}
 // Base "constructor" for jQuery.ajaxPrefilter and jQuery.ajaxTransport
 function tt(r){
 // dataTypeExpression is optional and defaults to "*"
-return function(t,e){"string"!=typeof t&&(e=t,t="*");var n,i=0,o=t.toLowerCase().match(Pt)||[];if(yt(e))
+return function(t,e){"string"!=typeof t&&(e=t,t="*");var n,i=0,o=t.toLowerCase().match(Lt)||[];if(yt(e))
 // For each dataType in the dataTypeExpression
 for(;n=o[i++];)
 // Prepend if requested
@@ -559,7 +559,7 @@ f=e?e.nodeType:9;
 // Return early from calls with invalid selector or context
 if(n=n||[],"string"!=typeof t||!t||1!==f&&9!==f&&11!==f)return n;
 // Try to shortcut find operations (as opposed to filters) in HTML documents
-if(!i&&((e?e.ownerDocument||e:N)!==L&&z(e),e=e||L,q)){
+if(!i&&((e?e.ownerDocument||e:N)!==P&&z(e),e=e||P,q)){
 // If the selector is sufficiently simple, try using a "get*By*" DOM method
 // (excepting DocumentFragment context, where the methods don't exist)
 if(11!==f&&(l=vt.exec(t)))
@@ -575,7 +575,7 @@ if(s.id===o)return n.push(s),n}else
 // Support: IE, Opera, Webkit
 // TODO: identify versions
 // getElementById can match elements by name instead of ID
-if(d&&(s=d.getElementById(o))&&H(e,s)&&s.id===o)return n.push(s),n;
+if(d&&(s=d.getElementById(o))&&M(e,s)&&s.id===o)return n.push(s),n;
 // Type selector
 }else{if(l[2])return Z.apply(n,e.getElementsByTagName(t)),n;
 // Class selector
@@ -607,7 +607,7 @@ delete n[i.shift()],n[t+" "]=e}var i=[];return n}
 /**
  * Support testing using an element
  * @param {Function} fn Passed the created element and returns a boolean result
- */function o(t){var e=L.createElement("fieldset");try{return!!t(e)}catch(t){return!1}finally{
+ */function o(t){var e=P.createElement("fieldset");try{return!!t(e)}catch(t){return!1}finally{
 // Remove from its parent by default
 e.parentNode&&e.parentNode.removeChild(e),
 // release memory in IE
@@ -713,7 +713,7 @@ for(r=f.length;r--;)(s=f[r])&&-1<(o=v?tt(t,s):a[r])&&(t[o]=!(e[o]=s))}
 // Add elements to results, through postFinder if defined
 }else f=k(f===e?f.splice(u,f.length):f),v?v(null,e,f,i):Z.apply(e,f)})}function m(t){for(var o,e,n,i=t.length,r=C.relative[t[0].type],s=r||C.relative[" "],a=r?1:0,
 // The foundational matcher ensures that elements are reachable from top-level context(s)
-l=d(function(t){return t===o},s,!0),u=d(function(t){return-1<tt(o,t)},s,!0),c=[function(t,e,n){var i=!r&&(n||e!==E)||((o=e).nodeType?l(t,e,n):u(t,e,n));
+l=d(function(t){return t===o},s,!0),u=d(function(t){return-1<tt(o,t)},s,!0),c=[function(t,e,n){var i=!r&&(n||e!==O)||((o=e).nodeType?l(t,e,n):u(t,e,n));
 // Avoid hanging onto element (issue #299)
 return o=null,i}];a<i;a++)if(e=C.relative[t[a].type])c=[d(f(c),e)];else{
 // Return special upon seeing a positional matcher
@@ -721,7 +721,7 @@ if((e=C.filter[t[a].type].apply(null,t[a].matches))[I]){for(
 // Find the next relative operator (if any) for proper handling
 n=++a;n<i&&!C.relative[t[n].type];n++);return b(1<a&&f(c),1<a&&p(
 // If the preceding token was a descendant combinator, insert an implicit any-element `*`
-t.slice(0,a-1).concat({value:" "===t[a-2].type?"*":""})).replace(at,"$1"),e,a<n&&m(t.slice(a,n)),n<i&&m(t=t.slice(n)),n<i&&p(t))}c.push(e)}return f(c)}function g(g,v){var y=0<v.length,b=0<g.length,t=function(t,e,n,i,o){var r,s,a,l=0,u="0",c=t&&[],d=[],f=E,
+t.slice(0,a-1).concat({value:" "===t[a-2].type?"*":""})).replace(at,"$1"),e,a<n&&m(t.slice(a,n)),n<i&&m(t=t.slice(n)),n<i&&p(t))}c.push(e)}return f(c)}function g(g,v){var y=0<v.length,b=0<g.length,t=function(t,e,n,i,o){var r,s,a,l=0,u="0",c=t&&[],d=[],f=O,
 // We must always have either seed elements or outermost context
 h=t||b&&C.find.TAG("*",o),
 // Use integer dirruns iff this is the outermost matcher
@@ -729,7 +729,7 @@ p=F+=null==f?1:Math.random()||.1,m=h.length;
 // Add elements passing elementMatchers directly to results
 // Support: IE<9, Safari
 // Tolerate NodeList properties (IE: "length"; Safari: <number>) matching elements by id
-for(o&&(E=e===L||e||o);u!==m&&null!=(r=h[u]);u++){if(b&&r){for(s=0,e||r.ownerDocument===L||(z(r),n=!q);a=g[s++];)if(a(r,e||L,n)){i.push(r);break}o&&(F=p)}
+for(o&&(O=e===P||e||o);u!==m&&null!=(r=h[u]);u++){if(b&&r){for(s=0,e||r.ownerDocument===P||(z(r),n=!q);a=g[s++];)if(a(r,e||P,n)){i.push(r);break}o&&(F=p)}
 // Track unmatched elements for set filters
 y&&(
 // They will have gone through all possible matchers
@@ -755,9 +755,9 @@ Z.apply(i,d),
 // Seedless set matches succeeding multiple successful matchers stipulate sorting
 o&&!t&&0<d.length&&1<l+v.length&&w.uniqueSort(i)}
 // Override manipulation of globals by nested matchers
-return o&&(F=p,E=f),c};return y?l(t):t}var v,$,C,x,_,j,T,S,E,O,A,
+return o&&(F=p,O=f),c};return y?l(t):t}var v,$,C,x,_,j,T,S,O,E,A,
 // Local document vars
-z,L,P,q,D,R,M,H,
+z,P,L,q,D,R,H,M,
 // Instance-specific data
 I="sizzle"+1*new Date,N=n.document,F=0,B=0,W=t(),G=t(),U=t(),V=function(t,e){return t===e&&(A=!0),0},
 // Instance methods
@@ -836,12 +836,12 @@ var e=t&&(t.ownerDocument||t).documentElement;return!!e&&"HTML"!==e.nodeName},
  */
 z=w.setDocument=function(t){var e,n,i=t?t.ownerDocument||t:N;
 // Return early if doc is invalid or already selected
-return i!==L&&9===i.nodeType&&i.documentElement&&(
+return i!==P&&9===i.nodeType&&i.documentElement&&(
 // Update global variables
-P=(L=i).documentElement,q=!_(L),
+L=(P=i).documentElement,q=!_(P),
 // Support: IE 9-11, Edge
 // Accessing iframe documents after unload throws "permission denied" errors (jQuery #13936)
-N!==L&&(n=L.defaultView)&&n.top!==n&&(
+N!==P&&(n=P.defaultView)&&n.top!==n&&(
 // Support: IE 11, Edge
 n.addEventListener?n.addEventListener("unload",Ct,!1):n.attachEvent&&n.attachEvent("onunload",Ct)),
 /* Attributes
@@ -853,14 +853,14 @@ $.attributes=o(function(t){return t.className="i",!t.getAttribute("className")})
 /* getElement(s)By*
 	---------------------------------------------------------------------- */
 // Check if getElementsByTagName("*") returns only elements
-$.getElementsByTagName=o(function(t){return t.appendChild(L.createComment("")),!t.getElementsByTagName("*").length}),
+$.getElementsByTagName=o(function(t){return t.appendChild(P.createComment("")),!t.getElementsByTagName("*").length}),
 // Support: IE<9
-$.getElementsByClassName=gt.test(L.getElementsByClassName),
+$.getElementsByClassName=gt.test(P.getElementsByClassName),
 // Support: IE<10
 // Check if getElementById returns elements by name
 // The broken getElementById methods don't pick up programmatically-set names,
 // so use a roundabout getElementsByName test
-$.getById=o(function(t){return P.appendChild(t).id=I,!L.getElementsByName||!L.getElementsByName(I).length}),
+$.getById=o(function(t){return L.appendChild(t).id=I,!P.getElementsByName||!P.getElementsByName(I).length}),
 // ID filter and find
 $.getById?(C.filter.ID=function(t){var e=t.replace(bt,wt);return function(t){return t.getAttribute("id")===e}},C.find.ID=function(t,e){if(void 0!==e.getElementById&&q){var n=e.getElementById(t);return n?[n]:[]}}):(C.filter.ID=function(t){var n=t.replace(bt,wt);return function(t){var e=void 0!==t.getAttributeNode&&t.getAttributeNode("id");return e&&e.value===n}},
 // Support: IE 6 - 7 only
@@ -888,7 +888,7 @@ R=[],
 // whenever `document.activeElement` is accessed on an iframe
 // So, we allow :focus to pass through QSA all the time to avoid the IE error
 // See https://bugs.jquery.com/ticket/13378
-D=[],($.qsa=gt.test(L.querySelectorAll))&&(
+D=[],($.qsa=gt.test(P.querySelectorAll))&&(
 // Build QSA regex
 // Regex strategy adopted from Diego Perini
 o(function(t){
@@ -897,7 +897,7 @@ o(function(t){
 // setting a boolean content attribute,
 // since its presence should be enough
 // https://bugs.jquery.com/ticket/12359
-P.appendChild(t).innerHTML="<a id='"+I+"'></a><select id='"+I+"-\r\\' msallowcapture=''><option selected=''></option></select>",
+L.appendChild(t).innerHTML="<a id='"+I+"'></a><select id='"+I+"-\r\\' msallowcapture=''><option selected=''></option></select>",
 // Support: IE8, Opera 11-12.16
 // Nothing should be selected when empty strings follow ^= or $= or *=
 // The test attribute must be unknown in Opera but "safe" for WinRT
@@ -918,7 +918,7 @@ t.querySelectorAll(":checked").length||D.push(":checked"),
 t.querySelectorAll("a#"+I+"+*").length||D.push(".#.+[+~]")}),o(function(t){t.innerHTML="<a href='' disabled='disabled'></a><select disabled='disabled'><option/></select>";
 // Support: Windows 8 Native Apps
 // The type and name attributes are restricted during .innerHTML assignment
-var e=L.createElement("input");e.setAttribute("type","hidden"),t.appendChild(e).setAttribute("name","D"),
+var e=P.createElement("input");e.setAttribute("type","hidden"),t.appendChild(e).setAttribute("name","D"),
 // Support: IE8
 // Enforce case-sensitivity of name attribute
 t.querySelectorAll("[name=d]").length&&D.push("name"+nt+"*[*^$|!~]?="),
@@ -927,22 +927,22 @@ t.querySelectorAll("[name=d]").length&&D.push("name"+nt+"*[*^$|!~]?="),
 2!==t.querySelectorAll(":enabled").length&&D.push(":enabled",":disabled"),
 // Support: IE9-11+
 // IE's :disabled selector does not pick up the children of disabled fieldsets
-P.appendChild(t).disabled=!0,2!==t.querySelectorAll(":disabled").length&&D.push(":enabled",":disabled"),
+L.appendChild(t).disabled=!0,2!==t.querySelectorAll(":disabled").length&&D.push(":enabled",":disabled"),
 // Opera 10-11 does not throw on post-comma invalid pseudos
-t.querySelectorAll("*,:x"),D.push(",.*:")})),($.matchesSelector=gt.test(M=P.matches||P.webkitMatchesSelector||P.mozMatchesSelector||P.oMatchesSelector||P.msMatchesSelector))&&o(function(t){
+t.querySelectorAll("*,:x"),D.push(",.*:")})),($.matchesSelector=gt.test(H=L.matches||L.webkitMatchesSelector||L.mozMatchesSelector||L.oMatchesSelector||L.msMatchesSelector))&&o(function(t){
 // Check to see if it's possible to do matchesSelector
 // on a disconnected node (IE 9)
-$.disconnectedMatch=M.call(t,"*"),
+$.disconnectedMatch=H.call(t,"*"),
 // This should fail with an exception
 // Gecko does not error, returns false instead
-M.call(t,"[s!='']:x"),R.push("!=",rt)}),D=D.length&&new RegExp(D.join("|")),R=R.length&&new RegExp(R.join("|")),
+H.call(t,"[s!='']:x"),R.push("!=",rt)}),D=D.length&&new RegExp(D.join("|")),R=R.length&&new RegExp(R.join("|")),
 /* Contains
 	---------------------------------------------------------------------- */
-e=gt.test(P.compareDocumentPosition),
+e=gt.test(L.compareDocumentPosition),
 // Element contains another
 // Purposefully self-exclusive
 // As in, an element does not contain itself
-H=e||gt.test(P.contains)?function(t,e){var n=9===t.nodeType?t.documentElement:t,i=e&&e.parentNode;return t===i||!(!i||1!==i.nodeType||!(n.contains?n.contains(i):t.compareDocumentPosition&&16&t.compareDocumentPosition(i)))}:function(t,e){if(e)for(;e=e.parentNode;)if(e===t)return!0;return!1},
+M=e||gt.test(L.contains)?function(t,e){var n=9===t.nodeType?t.documentElement:t,i=e&&e.parentNode;return t===i||!(!i||1!==i.nodeType||!(n.contains?n.contains(i):t.compareDocumentPosition&&16&t.compareDocumentPosition(i)))}:function(t,e){if(e)for(;e=e.parentNode;)if(e===t)return!0;return!1},
 /* Sorting
 	---------------------------------------------------------------------- */
 // Document order sorting
@@ -958,11 +958,11 @@ n=(t.ownerDocument||t)===(e.ownerDocument||e)?t.compareDocumentPosition(e):
 // Otherwise we know they are disconnected
 1)||!$.sortDetached&&e.compareDocumentPosition(t)===n?
 // Choose the first element that is related to our preferred document
-t===L||t.ownerDocument===N&&H(N,t)?-1:e===L||e.ownerDocument===N&&H(N,e)?1:O?tt(O,t)-tt(O,e):0:4&n?-1:1)}:function(t,e){
+t===P||t.ownerDocument===N&&M(N,t)?-1:e===P||e.ownerDocument===N&&M(N,e)?1:E?tt(E,t)-tt(E,e):0:4&n?-1:1)}:function(t,e){
 // Exit early if the nodes are identical
 if(t===e)return A=!0,0;var n,i=0,o=t.parentNode,r=e.parentNode,s=[t],a=[e];
 // Parentless nodes are either documents or disconnected
-if(!o||!r)return t===L?-1:e===L?1:o?-1:r?1:O?tt(O,t)-tt(O,e):0;
+if(!o||!r)return t===P?-1:e===P?1:o?-1:r?1:E?tt(E,t)-tt(E,e):0;
 // If the nodes are siblings, we can do a quick check
 // Otherwise we need full lists of their ancestors for comparison
 if(o===r)return u(t,e);for(n=t;n=n.parentNode;)s.unshift(n);for(n=e;n=n.parentNode;)a.unshift(n);
@@ -971,20 +971,20 @@ for(;s[i]===a[i];)i++;return i?
 // Do a sibling check if the nodes have a common ancestor
 u(s[i],a[i]):
 // Otherwise nodes in our document sort first
-s[i]===N?-1:a[i]===N?1:0}),L},w.matches=function(t,e){return w(t,null,null,e)},w.matchesSelector=function(t,e){if(
+s[i]===N?-1:a[i]===N?1:0}),P},w.matches=function(t,e){return w(t,null,null,e)},w.matchesSelector=function(t,e){if(
 // Set document vars if needed
-(t.ownerDocument||t)!==L&&z(t),
+(t.ownerDocument||t)!==P&&z(t),
 // Make sure that attribute selectors are quoted
-e=e.replace(ct,"='$1']"),$.matchesSelector&&q&&!U[e+" "]&&(!R||!R.test(e))&&(!D||!D.test(e)))try{var n=M.call(t,e);
+e=e.replace(ct,"='$1']"),$.matchesSelector&&q&&!U[e+" "]&&(!R||!R.test(e))&&(!D||!D.test(e)))try{var n=H.call(t,e);
 // IE 9's matchesSelector returns false on disconnected nodes
 if(n||$.disconnectedMatch||
 // As well, disconnected nodes are said to be in a document
 // fragment in IE 9
-t.document&&11!==t.document.nodeType)return n}catch(t){}return 0<w(e,L,null,[t]).length},w.contains=function(t,e){
+t.document&&11!==t.document.nodeType)return n}catch(t){}return 0<w(e,P,null,[t]).length},w.contains=function(t,e){
 // Set document vars if needed
-return(t.ownerDocument||t)!==L&&z(t),H(t,e)},w.attr=function(t,e){
+return(t.ownerDocument||t)!==P&&z(t),M(t,e)},w.attr=function(t,e){
 // Set document vars if needed
-(t.ownerDocument||t)!==L&&z(t);var n=C.attrHandle[e.toLowerCase()],
+(t.ownerDocument||t)!==P&&z(t);var n=C.attrHandle[e.toLowerCase()],
 // Don't get fooled by Object.prototype properties (jQuery #13807)
 i=n&&K.call(C.attrHandle,e.toLowerCase())?n(t,e,!q):void 0;return void 0!==i?i:$.attributes||!q?t.getAttribute(e):(i=t.getAttributeNode(e))&&i.specified?i.value:null},w.escape=function(t){return(t+"").replace(kt,$t)},w.error=function(t){throw new Error("Syntax error, unrecognized expression: "+t)},
 /**
@@ -993,10 +993,10 @@ i=n&&K.call(C.attrHandle,e.toLowerCase())?n(t,e,!q):void 0;return void 0!==i?i:$
  */
 w.uniqueSort=function(t){var e,n=[],i=0,o=0;
 // Unless we *know* we can detect duplicates, assume their presence
-if(A=!$.detectDuplicates,O=!$.sortStable&&t.slice(0),t.sort(V),A){for(;e=t[o++];)e===t[o]&&(i=n.push(o));for(;i--;)t.splice(n[i],1)}
+if(A=!$.detectDuplicates,E=!$.sortStable&&t.slice(0),t.sort(V),A){for(;e=t[o++];)e===t[o]&&(i=n.push(o));for(;i--;)t.splice(n[i],1)}
 // Clear input after sorting to release objects
 // See https://github.com/jquery/sizzle/pull/225
-return O=null,t},
+return E=null,t},
 /**
  * Utility function for retrieving the text value of an array of DOM nodes
  * @param {Array|Element} elem
@@ -1110,7 +1110,7 @@ lang:l(function(n){
 // lang value must be a valid identifier
 return ft.test(n||"")||w.error("unsupported lang: "+n),n=n.replace(bt,wt).toLowerCase(),function(t){var e;do{if(e=q?t.lang:t.getAttribute("xml:lang")||t.getAttribute("lang"))return(e=e.toLowerCase())===n||0===e.indexOf(n+"-")}while((t=t.parentNode)&&1===t.nodeType);return!1}}),
 // Miscellaneous
-target:function(t){var e=n.location&&n.location.hash;return e&&e.slice(1)===t.id},root:function(t){return t===P},focus:function(t){return t===L.activeElement&&(!L.hasFocus||L.hasFocus())&&!!(t.type||t.href||~t.tabIndex)},
+target:function(t){var e=n.location&&n.location.hash;return e&&e.slice(1)===t.id},root:function(t){return t===L},focus:function(t){return t===P.activeElement&&(!P.hasFocus||P.hasFocus())&&!!(t.type||t.href||~t.tabIndex)},
 // Boolean properties
 enabled:s(!1),disabled:s(!0),checked:function(t){
 // In CSS3, :checked should return both checked and selected elements
@@ -1192,7 +1192,7 @@ z(),
 // Detached nodes confoundingly follow *each other*
 $.sortDetached=o(function(t){
 // Should return 1, but returns 4 (following)
-return 1&t.compareDocumentPosition(L.createElement("fieldset"))}),
+return 1&t.compareDocumentPosition(P.createElement("fieldset"))}),
 // Support: IE<8
 // Prevent attribute/property "interpolation"
 // https://msdn.microsoft.com/en-us/library/ms536429%28VS.85%29.aspx
@@ -1210,12 +1210,12 @@ $t.expr[":"]=$t.expr.pseudos,$t.uniqueSort=$t.unique=xt.uniqueSort,$t.text=xt.ge
 "string"==typeof t&&Tt.test(t)?$t(t):t||[],!1).length}});
 // Initialize a jQuery object
 // A central reference to the root jQuery(document)
-var Et,
+var Ot,
 // A simple way to check for HTML strings
 // Prioritize #id over <tag> to avoid XSS via location.hash (#9521)
 // Strict HTML recognition (#11290: must start with <)
 // Shortcut simple #id case for speed
-Ot=/^(?:\s*(<[\w\W]+>)[^>]*|#([\w-]+))$/,At;
+Et=/^(?:\s*(<[\w\W]+>)[^>]*|#([\w-]+))$/,At;
 // Give the init function the jQuery prototype for later instantiation
 ($t.fn.init=function(t,e,n){var i,o;
 // HANDLE: $(""), $(null), $(undefined), $(false)
@@ -1223,13 +1223,13 @@ if(!t)return this;
 // Method init() accepts an alternate rootjQuery
 // so migrate can support jQuery.sub (gh-2101)
 // Handle HTML strings
-if(n=n||Et,"string"!=typeof t)return t.nodeType?(this[0]=t,this.length=1,this):yt(t)?void 0!==n.ready?n.ready(t):
+if(n=n||Ot,"string"!=typeof t)return t.nodeType?(this[0]=t,this.length=1,this):yt(t)?void 0!==n.ready?n.ready(t):
 // Execute immediately if ready is not present
 t($t):$t.makeArray(t,this);
 // Match html or make sure no context is specified for #id
 if(!(
 // Assume that strings that start and end with <> are HTML and skip the regex check
-i="<"===t[0]&&">"===t[t.length-1]&&3<=t.length?[null,t,null]:Ot.exec(t))||!i[1]&&e)return!e||e.jquery?(e||n).find(t):this.constructor(e).find(t);
+i="<"===t[0]&&">"===t[t.length-1]&&3<=t.length?[null,t,null]:Et.exec(t))||!i[1]&&e)return!e||e.jquery?(e||n).find(t):this.constructor(e).find(t);
 // HANDLE: $(DOMElement)
 // HANDLE: $(html) -> $(array)
 if(i[1]){
@@ -1247,9 +1247,9 @@ return(o=st.getElementById(i[2]))&&(
 // Inject the element directly into the jQuery object
 this[0]=o,this.length=1),this}).prototype=$t.fn,
 // Initialize central reference
-Et=$t(st);var zt=/^(?:parents|prev(?:Until|All))/,
+Ot=$t(st);var zt=/^(?:parents|prev(?:Until|All))/,
 // Methods guaranteed to produce a unique set when starting from a unique set
-Lt={children:!0,contents:!0,next:!0,prev:!0};$t.fn.extend({has:function(t){var e=$t(t,this),n=e.length;return this.filter(function(){for(var t=0;t<n;t++)if($t.contains(this,e[t]))return!0})},closest:function(t,e){var n,i=0,o=this.length,r=[],s="string"!=typeof t&&$t(t);
+Pt={children:!0,contents:!0,next:!0,prev:!0};$t.fn.extend({has:function(t){var e=$t(t,this),n=e.length;return this.filter(function(){for(var t=0;t<n;t++)if($t.contains(this,e[t]))return!0})},closest:function(t,e){var n,i=0,o=this.length,r=[],s="string"!=typeof t&&$t(t);
 // Positional selectors never match, since there's no _selection_ context
 if(!Tt.test(t))for(;i<o;i++)for(n=this[i];n&&n!==e;n=n.parentNode)
 // Always skip document fragments
@@ -1269,9 +1269,9 @@ t.jquery?t[0]:t):this[0]&&this[0].parentNode?this.first().prevAll().length:-1},a
 // don't support it.
 u(t,"template")&&(t=t.content||t),$t.merge([],t.childNodes))}},function(i,o){$t.fn[i]=function(t,e){var n=$t.map(this,o,t);return"Until"!==i.slice(-5)&&(e=t),e&&"string"==typeof e&&(n=$t.filter(e,n)),1<this.length&&(
 // Remove duplicates
-Lt[i]||$t.uniqueSort(n),
+Pt[i]||$t.uniqueSort(n),
 // Reverse order for parents* and prev-derivatives
-zt.test(i)&&n.reverse()),this.pushStack(n)}});var Pt=/[^\x20\t\r\n\f]+/g;$t.Callbacks=function(i){
+zt.test(i)&&n.reverse()),this.pushStack(n)}});var Lt=/[^\x20\t\r\n\f]+/g;$t.Callbacks=function(i){
 // Convert options from String-formatted to Object-formatted if needed
 // (we check in cache first)
 i="string"==typeof i?c(i):$t.extend({},i);var// Flag to know if list is currently firing
@@ -1492,7 +1492,7 @@ else if(void 0!==i&&(o=!0,yt(i)||(s=!0),u&&(
 // Bulk operations run against the entire set
 e=s?(e.call(t,i),null):(u=e,function(t,e,n){return u.call($t(t),n)})),e))for(;a<l;a++)e(t[a],n,s?i:i.call(t[a],a,e(t[a],n)));return o?t:
 // Gets
-u?e.call(t):l?e(t[0],n):r},Mt=/^-ms-/,Ht=/-([a-z])/g,It=function(t){
+u?e.call(t):l?e(t[0],n):r},Ht=/^-ms-/,Mt=/-([a-z])/g,It=function(t){
 // Accepts only:
 //  - Node
 //    - Node.ELEMENT_NODE
@@ -1544,7 +1544,7 @@ this.set(t,e,n),void 0!==n?n:e)},remove:function(t,e){var n,i=t[this.expando];if
 // Support array or space separated string of keys
 // If key is an array of keys...
 // We always set camelCase keys, so remove that.
-e=Array.isArray(e)?e.map(h):(e=h(e))in i?[e]:e.match(Pt)||[]).length;for(;n--;)delete i[e[n]]}
+e=Array.isArray(e)?e.map(h):(e=h(e))in i?[e]:e.match(Lt)||[]).length;for(;n--;)delete i[e[n]]}
 // Remove the expando if there's no more data
 (void 0===e||$t.isEmptyObject(i))&&(
 // Support: Chrome <=35 - 45
@@ -1644,7 +1644,7 @@ n.guid||(n.guid=$t.guid++),
 // when an event is called after a page has unloaded
 return void 0!==$t&&$t.event.triggered!==t.type?$t.event.dispatch.apply(e,arguments):void 0}),u=(
 // Handle multiple events separated by a space
-t=(t||"").match(Pt)||[""]).length;u--;)h=m=(a=le.exec(t[u])||[])[1],p=(a[2]||"").split(".").sort(),
+t=(t||"").match(Lt)||[""]).length;u--;)h=m=(a=le.exec(t[u])||[])[1],p=(a[2]||"").split(".").sort(),
 // There *must* be a type, no attaching namespace-only handlers
 h&&(
 // If event changes its type, use the special event handlers for the changed type
@@ -1666,7 +1666,7 @@ $t.event.global[h]=!0)},
 // Detach an event or set of events from an element
 remove:function(t,e,n,i,o){var r,s,a,l,u,c,d,f,h,p,m,g=Nt.hasData(t)&&Nt.get(t);if(g&&(l=g.events)){for(u=(
 // Once for each type.namespace in types; type may be omitted
-e=(e||"").match(Pt)||[""]).length;u--;)
+e=(e||"").match(Lt)||[""]).length;u--;)
 // Unbind all events (on this namespace, if provided) for the element
 if(h=m=(a=le.exec(e[u])||[])[1],p=(a[2]||"").split(".").sort(),h){for(d=$t.event.special[h]||{},f=l[h=(i?d.delegateType:d.bindType)||h]||[],a=a[2]&&new RegExp("(^|\\.)"+p.join("\\.(?:.*\\.|)")+"(\\.|$)"),
 // Remove matching events
@@ -1792,7 +1792,7 @@ return 0<(s=w(a,"script")).length&&k(s,!l&&w(t,"script")),a},cleanData:function(
 n[Nt.expando]=void 0}n[Ft.expando]&&(
 // Support: Chrome <=35 - 45+
 // Assign undefined instead of using delete, see Data#remove
-n[Ft.expando]=void 0)}}}),$t.fn.extend({detach:function(t){return P(this,t,!0)},remove:function(t){return P(this,t)},text:function(t){return Rt(this,function(t){return void 0===t?$t.text(this):this.empty().each(function(){1!==this.nodeType&&11!==this.nodeType&&9!==this.nodeType||(this.textContent=t)})},null,t,arguments.length)},append:function(){return L(this,arguments,function(t){var e;1!==this.nodeType&&11!==this.nodeType&&9!==this.nodeType||S(this,t).appendChild(t)})},prepend:function(){return L(this,arguments,function(t){if(1===this.nodeType||11===this.nodeType||9===this.nodeType){var e=S(this,t);e.insertBefore(t,e.firstChild)}})},before:function(){return L(this,arguments,function(t){this.parentNode&&this.parentNode.insertBefore(t,this)})},after:function(){return L(this,arguments,function(t){this.parentNode&&this.parentNode.insertBefore(t,this.nextSibling)})},empty:function(){for(var t,e=0;null!=(t=this[e]);e++)1===t.nodeType&&(
+n[Ft.expando]=void 0)}}}),$t.fn.extend({detach:function(t){return L(this,t,!0)},remove:function(t){return L(this,t)},text:function(t){return Rt(this,function(t){return void 0===t?$t.text(this):this.empty().each(function(){1!==this.nodeType&&11!==this.nodeType&&9!==this.nodeType||(this.textContent=t)})},null,t,arguments.length)},append:function(){return P(this,arguments,function(t){var e;1!==this.nodeType&&11!==this.nodeType&&9!==this.nodeType||S(this,t).appendChild(t)})},prepend:function(){return P(this,arguments,function(t){if(1===this.nodeType||11===this.nodeType||9===this.nodeType){var e=S(this,t);e.insertBefore(t,e.firstChild)}})},before:function(){return P(this,arguments,function(t){this.parentNode&&this.parentNode.insertBefore(t,this)})},after:function(){return P(this,arguments,function(t){this.parentNode&&this.parentNode.insertBefore(t,this.nextSibling)})},empty:function(){for(var t,e=0;null!=(t=this[e]);e++)1===t.nodeType&&(
 // Prevent memory leaks
 $t.cleanData(w(t,!1)),
 // Remove any remaining nodes
@@ -1802,7 +1802,7 @@ if("string"==typeof t&&!ce.test(t)&&!te[(Zt.exec(t)||["",""])[1].toLowerCase()])
 // Remove element nodes and prevent memory leaks
 1===(e=this[n]||{}).nodeType&&($t.cleanData(w(e,!1)),e.innerHTML=t);e=0}catch(t){}}e&&this.empty().append(t)},null,t,arguments.length)},replaceWith:function(){var n=[];
 // Make the changes, replacing each non-ignored context element with the new content
-return L(this,arguments,function(t){var e=this.parentNode;$t.inArray(this,n)<0&&($t.cleanData(w(this)),e&&e.replaceChild(t,this));
+return P(this,arguments,function(t){var e=this.parentNode;$t.inArray(this,n)<0&&($t.cleanData(w(this)),e&&e.replaceChild(t,this));
 // Force callback invocation
 },n)}}),$t.each({appendTo:"append",prependTo:"prepend",insertBefore:"before",insertAfter:"after",replaceAll:"replaceWith"},function(t,s){$t.fn[t]=function(t){for(var e,n=[],i=$t(t),o=i.length-1,r=0;r<=o;r++)e=r===o?this:this.clone(!0),$t(i[r])[s](e),
 // Support: Android <=4.0 only, PhantomJS 1 only
@@ -1860,7 +1860,7 @@ var o,r,s,a=h(e),l=ve.test(e),u=t.style;
 // want to query the value if it is a CSS custom property
 // since they are user-defined.
 // Check if we're setting a value
-if(l||(e=M(a)),
+if(l||(e=H(a)),
 // Gets hook for the prefixed version, then unprefixed version
 s=$t.cssHooks[e]||$t.cssHooks[a],void 0===n)
 // If a hook was provided get the non-computed value from there
@@ -1882,7 +1882,7 @@ s&&"set"in s&&void 0===(n=s.set(t,n,i))||(l?u.setProperty(e,n):u[e]=n))}},css:fu
 // want to modify the value if it is a CSS custom property
 // since they are user-defined.
 // Make numeric if forced or a qualifier was provided and val looks numeric
-return ve.test(e)||(e=M(a)),
+return ve.test(e)||(e=H(a)),
 // If a hook was provided get the computed value from there
 (
 // Try prefixed name followed by the unprefixed name
@@ -1905,11 +1905,11 @@ t.getClientRects().length&&t.getBoundingClientRect().width?N(t,a,n):Yt(t,ye,func
 // faking a content-box to get border and padding (gh-3699)
 return r&&vt.scrollboxSize()===o.position&&(s-=Math.ceil(t["offset"+a[0].toUpperCase()+a.slice(1)]-parseFloat(o[a])-I(t,a,"border",!1,o)-.5)),
 // Convert to pixels if value adjustment is needed
-s&&(i=Ut.exec(e))&&"px"!==(i[3]||"px")&&(t.style[a]=e,e=$t.css(t,a)),H(t,e,s)}}}),$t.cssHooks.marginLeft=D(vt.reliableMarginLeft,function(t,e){if(e)return(parseFloat(q(t,"marginLeft"))||t.getBoundingClientRect().left-Yt(t,{marginLeft:0},function(){return t.getBoundingClientRect().left}))+"px"}),
+s&&(i=Ut.exec(e))&&"px"!==(i[3]||"px")&&(t.style[a]=e,e=$t.css(t,a)),M(t,e,s)}}}),$t.cssHooks.marginLeft=D(vt.reliableMarginLeft,function(t,e){if(e)return(parseFloat(q(t,"marginLeft"))||t.getBoundingClientRect().left-Yt(t,{marginLeft:0},function(){return t.getBoundingClientRect().left}))+"px"}),
 // These hooks are used by animate to expand properties
 $t.each({margin:"",padding:"",border:"Width"},function(o,r){$t.cssHooks[o+r]={expand:function(t){for(var e=0,n={},
 // Assumes a single number if not a string
-i="string"==typeof t?t.split(" "):[t];e<4;e++)n[o+Vt[e]+r]=i[e]||i[e-2]||i[0];return n}},"margin"!==o&&($t.cssHooks[o+r].set=H)}),$t.fn.extend({css:function(t,e){return Rt(this,function(t,e,n){var i,o,r={},s=0;if(Array.isArray(e)){for(i=pe(t),o=e.length;s<o;s++)r[e[s]]=$t.css(t,e[s],!1,i);return r}return void 0!==n?$t.style(t,e,n):$t.css(t,e)},t,e,1<arguments.length)}}),($t.Tween=F).prototype={constructor:F,init:function(t,e,n,i,o,r){this.elem=t,this.prop=n,this.easing=o||$t.easing._default,this.options=e,this.start=this.now=this.cur(),this.end=i,this.unit=r||($t.cssNumber[n]?"":"px")},cur:function(){var t=F.propHooks[this.prop];return t&&t.get?t.get(this):F.propHooks._default.get(this)},run:function(t){var e,n=F.propHooks[this.prop];return this.options.duration?this.pos=e=$t.easing[this.easing](t,this.options.duration*t,0,1,this.options.duration):this.pos=e=t,this.now=(this.end-this.start)*e+this.start,this.options.step&&this.options.step.call(this.elem,this.now,this),n&&n.set?n.set(this):F.propHooks._default.set(this),this}},F.prototype.init.prototype=F.prototype,F.propHooks={_default:{get:function(t){var e;
+i="string"==typeof t?t.split(" "):[t];e<4;e++)n[o+Vt[e]+r]=i[e]||i[e-2]||i[0];return n}},"margin"!==o&&($t.cssHooks[o+r].set=M)}),$t.fn.extend({css:function(t,e){return Rt(this,function(t,e,n){var i,o,r={},s=0;if(Array.isArray(e)){for(i=pe(t),o=e.length;s<o;s++)r[e[s]]=$t.css(t,e[s],!1,i);return r}return void 0!==n?$t.style(t,e,n):$t.css(t,e)},t,e,1<arguments.length)}}),($t.Tween=F).prototype={constructor:F,init:function(t,e,n,i,o,r){this.elem=t,this.prop=n,this.easing=o||$t.easing._default,this.options=e,this.start=this.now=this.cur(),this.end=i,this.unit=r||($t.cssNumber[n]?"":"px")},cur:function(){var t=F.propHooks[this.prop];return t&&t.get?t.get(this):F.propHooks._default.get(this)},run:function(t){var e,n=F.propHooks[this.prop];return this.options.duration?this.pos=e=$t.easing[this.easing](t,this.options.duration*t,0,1,this.options.duration):this.pos=e=t,this.now=(this.end-this.start)*e+this.start,this.options.step&&this.options.step.call(this.elem,this.now,this),n&&n.set?n.set(this):F.propHooks._default.set(this),this}},F.prototype.init.prototype=F.prototype,F.propHooks={_default:{get:function(t){var e;
 // Use a property on the element directly when it is not a DOM element,
 // or when there is no matching style property that exists.
 return 1!==t.elem.nodeType||null!=t.elem[t.prop]&&null==t.elem.style[t.prop]?t.elem[t.prop]:(
@@ -1926,7 +1926,7 @@ $t.fx.step[t.prop]?$t.fx.step[t.prop](t):1!==t.elem.nodeType||null==t.elem.style
 // Panic based approach to setting things on disconnected nodes
 F.propHooks.scrollTop=F.propHooks.scrollLeft={set:function(t){t.elem.nodeType&&t.elem.parentNode&&(t.elem[t.prop]=t.now)}},$t.easing={linear:function(t){return t},swing:function(t){return.5-Math.cos(t*Math.PI)/2},_default:"swing"},$t.fx=F.prototype.init,
 // Back compat <1.8 extension point
-$t.fx.step={};var $e,Ce,xe=/^(?:toggle|show|hide)$/,_e=/queueHooks$/,je,Te,Se;$t.Animation=$t.extend(Y,{tweeners:{"*":[function(t,e){var n=this.createTween(t,e);return v(n.elem,t,Ut.exec(e),n),n}]},tweener:function(t,e){for(var n,i=0,o=(t=yt(t)?(e=t,["*"]):t.match(Pt)).length;i<o;i++)n=t[i],Y.tweeners[n]=Y.tweeners[n]||[],Y.tweeners[n].unshift(e)},prefilters:[V],prefilter:function(t,e){e?Y.prefilters.unshift(t):Y.prefilters.push(t)}}),$t.speed=function(t,e,n){var i=t&&"object"==typeof t?$t.extend({},t):{complete:n||!n&&e||yt(t)&&t,duration:t,easing:n&&e||e&&!yt(e)&&e};
+$t.fx.step={};var $e,Ce,xe=/^(?:toggle|show|hide)$/,_e=/queueHooks$/,je,Te,Se;$t.Animation=$t.extend(Y,{tweeners:{"*":[function(t,e){var n=this.createTween(t,e);return v(n.elem,t,Ut.exec(e),n),n}]},tweener:function(t,e){for(var n,i=0,o=(t=yt(t)?(e=t,["*"]):t.match(Lt)).length;i<o;i++)n=t[i],Y.tweeners[n]=Y.tweeners[n]||[],Y.tweeners[n].unshift(e)},prefilters:[V],prefilter:function(t,e){e?Y.prefilters.unshift(t):Y.prefilters.push(t)}}),$t.speed=function(t,e,n){var i=t&&"object"==typeof t?$t.extend({},t):{complete:n||!n&&e||yt(t)&&t,duration:t,easing:n&&e||e&&!yt(e)&&e};
 // Go to the end state if fx are off
 return $t.fx.off?i.duration=0:"number"!=typeof i.duration&&(i.duration in $t.fx.speeds?i.duration=$t.fx.speeds[i.duration]:i.duration=$t.fx.speeds._default),
 // Normalize opt.queue - true/undefined/null -> "fx"
@@ -1969,23 +1969,23 @@ vt.checkOn=""!==je.value,
 vt.optSelected=Se.selected,(
 // Support: IE <=11 only
 // An input loses its value after becoming a radio
-je=st.createElement("input")).value="t",je.type="radio",vt.radioValue="t"===je.value;var Ee,Oe=$t.expr.attrHandle;$t.fn.extend({attr:function(t,e){return Rt(this,$t.attr,t,e,1<arguments.length)},removeAttr:function(t){return this.each(function(){$t.removeAttr(this,t)})}}),$t.extend({attr:function(t,e,n){var i,o,r=t.nodeType;
+je=st.createElement("input")).value="t",je.type="radio",vt.radioValue="t"===je.value;var Oe,Ee=$t.expr.attrHandle;$t.fn.extend({attr:function(t,e){return Rt(this,$t.attr,t,e,1<arguments.length)},removeAttr:function(t){return this.each(function(){$t.removeAttr(this,t)})}}),$t.extend({attr:function(t,e,n){var i,o,r=t.nodeType;
 // Don't get/set attributes on text, comment and attribute nodes
 if(3!==r&&8!==r&&2!==r)
 // Fallback to prop when attributes are not supported
 return void 0===t.getAttribute?$t.prop(t,e,n):(
 // Attribute hooks are determined by the lowercase version
 // Grab necessary hook if one is defined
-1===r&&$t.isXMLDoc(t)||(o=$t.attrHooks[e.toLowerCase()]||($t.expr.match.bool.test(e)?Ee:void 0)),void 0!==n?null===n?void $t.removeAttr(t,e):o&&"set"in o&&void 0!==(i=o.set(t,n,e))?i:(t.setAttribute(e,n+""),n):o&&"get"in o&&null!==(i=o.get(t,e))?i:null==(i=$t.find.attr(t,e))?void 0:i)},attrHooks:{type:{set:function(t,e){if(!vt.radioValue&&"radio"===e&&u(t,"input")){var n=t.value;return t.setAttribute("type",e),n&&(t.value=n),e}}}},removeAttr:function(t,e){var n,i=0,
+1===r&&$t.isXMLDoc(t)||(o=$t.attrHooks[e.toLowerCase()]||($t.expr.match.bool.test(e)?Oe:void 0)),void 0!==n?null===n?void $t.removeAttr(t,e):o&&"set"in o&&void 0!==(i=o.set(t,n,e))?i:(t.setAttribute(e,n+""),n):o&&"get"in o&&null!==(i=o.get(t,e))?i:null==(i=$t.find.attr(t,e))?void 0:i)},attrHooks:{type:{set:function(t,e){if(!vt.radioValue&&"radio"===e&&u(t,"input")){var n=t.value;return t.setAttribute("type",e),n&&(t.value=n),e}}}},removeAttr:function(t,e){var n,i=0,
 // Attribute names can contain non-HTML whitespace characters
 // https://html.spec.whatwg.org/multipage/syntax.html#attributes-2
-o=e&&e.match(Pt);if(o&&1===t.nodeType)for(;n=o[i++];)t.removeAttribute(n)}}),
+o=e&&e.match(Lt);if(o&&1===t.nodeType)for(;n=o[i++];)t.removeAttribute(n)}}),
 // Hooks for boolean attributes
-Ee={set:function(t,e,n){return!1===e?
+Oe={set:function(t,e,n){return!1===e?
 // Remove boolean attributes when set to false
-$t.removeAttr(t,n):t.setAttribute(n,n),n}},$t.each($t.expr.match.bool.source.match(/\w+/g),function(t,e){var s=Oe[e]||$t.find.attr;Oe[e]=function(t,e,n){var i,o,r=e.toLowerCase();return n||(
+$t.removeAttr(t,n):t.setAttribute(n,n),n}},$t.each($t.expr.match.bool.source.match(/\w+/g),function(t,e){var s=Ee[e]||$t.find.attr;Ee[e]=function(t,e,n){var i,o,r=e.toLowerCase();return n||(
 // Avoid an infinite loop by temporarily removing this function from the getter
-o=Oe[r],Oe[r]=i,i=null!=s(t,e,n)?r:null,Oe[r]=o),i}});var Ae=/^(?:input|select|textarea|button)$/i,ze=/^(?:a|area)$/i;$t.fn.extend({prop:function(t,e){return Rt(this,$t.prop,t,e,1<arguments.length)},removeProp:function(t){return this.each(function(){delete this[$t.propFix[t]||t]})}}),$t.extend({prop:function(t,e,n){var i,o,r=t.nodeType;
+o=Ee[r],Ee[r]=i,i=null!=s(t,e,n)?r:null,Ee[r]=o),i}});var Ae=/^(?:input|select|textarea|button)$/i,ze=/^(?:a|area)$/i;$t.fn.extend({prop:function(t,e){return Rt(this,$t.prop,t,e,1<arguments.length)},removeProp:function(t){return this.each(function(){delete this[$t.propFix[t]||t]})}}),$t.extend({prop:function(t,e,n){var i,o,r=t.nodeType;
 // Don't get/set properties on text, comment and attribute nodes
 if(3!==r&&8!==r&&2!==r)return 1===r&&$t.isXMLDoc(t)||(
 // Fix name and attach hooks
@@ -2029,13 +2029,13 @@ Nt.set(this,"__className__",t),
 // then remove the whole classname (if there was one, the above saved it).
 // Otherwise bring back whatever was previously saved (if anything),
 // falling back to the empty string if nothing was stored.
-this.setAttribute&&this.setAttribute("class",t||!1===o?"":Nt.get(this,"__className__")||""))})},hasClass:function(t){var e,n,i=0;for(e=" "+t+" ";n=this[i++];)if(1===n.nodeType&&-1<(" "+Q(X(n))+" ").indexOf(e))return!0;return!1}});var Le=/\r/g;$t.fn.extend({val:function(n){var i,t,o,e=this[0];return arguments.length?(o=yt(n),this.each(function(t){var e;1===this.nodeType&&(
+this.setAttribute&&this.setAttribute("class",t||!1===o?"":Nt.get(this,"__className__")||""))})},hasClass:function(t){var e,n,i=0;for(e=" "+t+" ";n=this[i++];)if(1===n.nodeType&&-1<(" "+Q(X(n))+" ").indexOf(e))return!0;return!1}});var Pe=/\r/g;$t.fn.extend({val:function(n){var i,t,o,e=this[0];return arguments.length?(o=yt(n),this.each(function(t){var e;1===this.nodeType&&(
 // Treat null/undefined as ""; convert numbers to string
 null==(e=o?n.call(this,t,$t(this).val()):n)?e="":"number"==typeof e?e+="":Array.isArray(e)&&(e=$t.map(e,function(t){return null==t?"":t+""})),
 // If set returns undefined, fall back to normal setting
 (i=$t.valHooks[this.type]||$t.valHooks[this.nodeName.toLowerCase()])&&"set"in i&&void 0!==i.set(this,e,"value")||(this.value=e))})):e?(i=$t.valHooks[e.type]||$t.valHooks[e.nodeName.toLowerCase()])&&"get"in i&&void 0!==(t=i.get(e,"value"))?t:
 // Handle most common string cases
-"string"==typeof(t=e.value)?t.replace(Le,""):null==t?"":t:void 0}}),$t.extend({valHooks:{option:{get:function(t){var e=$t.find.attr(t,"value");return null!=e?e:
+"string"==typeof(t=e.value)?t.replace(Pe,""):null==t?"":t:void 0}}),$t.extend({valHooks:{option:{get:function(t){var e=$t.find.attr(t,"value");return null!=e?e:
 // Support: IE <=10 - 11 only
 // option.text throws exceptions (#14686, #14858)
 // Strip and collapse whitespace
@@ -2062,9 +2062,9 @@ return n||(t.selectedIndex=-1),r}}}}),
 // Radios and checkboxes getter/setter
 $t.each(["radio","checkbox"],function(){$t.valHooks[this]={set:function(t,e){if(Array.isArray(e))return t.checked=-1<$t.inArray($t(t).val(),e)}},vt.checkOn||($t.valHooks[this].get=function(t){return null===t.getAttribute("value")?"on":t.value})}),
 // Return jQuery for attributes-only inclusion
-vt.focusin="onfocusin"in C;var Pe=/^(?:focusinfocus|focusoutblur)$/,qe=function(t){t.stopPropagation()};$t.extend($t.event,{trigger:function(t,e,n,i){var o,r,s,a,l,u,c,d,f=[n||st],h=pt.call(t,"type")?t.type:t,p=pt.call(t,"namespace")?t.namespace.split("."):[];
+vt.focusin="onfocusin"in C;var Le=/^(?:focusinfocus|focusoutblur)$/,qe=function(t){t.stopPropagation()};$t.extend($t.event,{trigger:function(t,e,n,i){var o,r,s,a,l,u,c,d,f=[n||st],h=pt.call(t,"type")?t.type:t,p=pt.call(t,"namespace")?t.namespace.split("."):[];
 // Don't do events on text and comment nodes
-if(r=d=s=n=n||st,3!==n.nodeType&&8!==n.nodeType&&!Pe.test(h+$t.event.triggered)&&(-1<h.indexOf(".")&&(
+if(r=d=s=n=n||st,3!==n.nodeType&&8!==n.nodeType&&!Le.test(h+$t.event.triggered)&&(-1<h.indexOf(".")&&(
 // Namespaced trigger; create a regexp to match event type in handle()
 h=(p=h.split(".")).shift(),p.sort()),l=h.indexOf(":")<0&&"on"+h,
 // Trigger bitmask: & 1 for native handlers; & 2 for jQuery (always true)
@@ -2079,7 +2079,7 @@ e=null==e?[t]:$t.makeArray(e,[t]),
 c=$t.event.special[h]||{},i||!c.trigger||!1!==c.trigger.apply(n,e))){
 // Determine event propagation path in advance, per W3C events spec (#9951)
 // Bubble up to document, then to window; watch for a global ownerDocument var (#9724)
-if(!i&&!c.noBubble&&!bt(n)){for(a=c.delegateType||h,Pe.test(a+h)||(r=r.parentNode);r;r=r.parentNode)f.push(r),s=r;
+if(!i&&!c.noBubble&&!bt(n)){for(a=c.delegateType||h,Le.test(a+h)||(r=r.parentNode);r;r=r.parentNode)f.push(r),s=r;
 // Only add window if we got to document (e.g., not plain obj or detached DOM)
 s===(n.ownerDocument||st)&&f.push(s.defaultView||s.parentWindow||C)}
 // Fire handlers on the event path
@@ -2112,12 +2112,12 @@ simulate:function(t,e,n){var i=$t.extend(new $t.Event,n,{type:t,isSimulated:!0})
 // Related ticket - https://bugs.chromium.org/p/chromium/issues/detail?id=449857
 vt.focusin||$t.each({focus:"focusin",blur:"focusout"},function(n,i){
 // Attach a single capturing handler on the document while someone wants focusin/focusout
-var o=function(t){$t.event.simulate(i,t.target,$t.event.fix(t))};$t.event.special[i]={setup:function(){var t=this.ownerDocument||this,e=Nt.access(t,i);e||t.addEventListener(n,o,!0),Nt.access(t,i,(e||0)+1)},teardown:function(){var t=this.ownerDocument||this,e=Nt.access(t,i)-1;e?Nt.access(t,i,e):(t.removeEventListener(n,o,!0),Nt.remove(t,i))}}});var De=C.location,Re=Date.now(),Me=/\?/;
+var o=function(t){$t.event.simulate(i,t.target,$t.event.fix(t))};$t.event.special[i]={setup:function(){var t=this.ownerDocument||this,e=Nt.access(t,i);e||t.addEventListener(n,o,!0),Nt.access(t,i,(e||0)+1)},teardown:function(){var t=this.ownerDocument||this,e=Nt.access(t,i)-1;e?Nt.access(t,i,e):(t.removeEventListener(n,o,!0),Nt.remove(t,i))}}});var De=C.location,Re=Date.now(),He=/\?/;
 // Cross-browser xml parsing
 $t.parseXML=function(t){var e;if(!t||"string"!=typeof t)return null;
 // Support: IE 9 - 11 only
 // IE throws on parseFromString with invalid input.
-try{e=(new C.DOMParser).parseFromString(t,"text/xml")}catch(t){e=void 0}return e&&!e.getElementsByTagName("parsererror").length||$t.error("Invalid XML: "+t),e};var He=/\[\]$/,Ie=/\r?\n/g,Ne=/^(?:submit|button|image|reset|file)$/i,Fe=/^(?:input|select|textarea|keygen)/i;$t.param=function(t,e){var n,i=[],o=function(t,e){
+try{e=(new C.DOMParser).parseFromString(t,"text/xml")}catch(t){e=void 0}return e&&!e.getElementsByTagName("parsererror").length||$t.error("Invalid XML: "+t),e};var Me=/\[\]$/,Ie=/\r?\n/g,Ne=/^(?:submit|button|image|reset|file)$/i,Fe=/^(?:input|select|textarea|keygen)/i;$t.param=function(t,e){var n,i=[],o=function(t,e){
 // If value is a function, invoke it and use its return value
 var n=yt(e)?e():e;i[i.length]=encodeURIComponent(t)+"="+encodeURIComponent(null==n?"":n)};
 // If an array was passed in, assume that it is an array of form elements.
@@ -2296,7 +2296,7 @@ g.url=((t||g.url||De.href)+"").replace(Ye,De.protocol+"//"),
 // Alias method option to type as per ticket #12004
 g.type=e.method||e.type||g.method||g.type,
 // Extract dataTypes list
-g.dataTypes=(g.dataType||"*").toLowerCase().match(Pt)||[""],null==g.crossDomain){o=st.createElement("a");
+g.dataTypes=(g.dataType||"*").toLowerCase().match(Lt)||[""],null==g.crossDomain){o=st.createElement("a");
 // Support: IE <=8 - 11, Edge 12 - 15
 // IE throws exception on accessing the href property if url is malformed,
 // e.g. http://example.com:80x/
@@ -2331,11 +2331,11 @@ g.hasContent?g.data&&g.processData&&0===(g.contentType||"").indexOf("application
 // Remember the hash so we can put it back
 s=g.url.slice(d.length),
 // If data is available and should be processed, append data to url
-g.data&&(g.processData||"string"==typeof g.data)&&(d+=(Me.test(d)?"&":"?")+g.data,
+g.data&&(g.processData||"string"==typeof g.data)&&(d+=(He.test(d)?"&":"?")+g.data,
 // #9682: remove data so that it's not used in an eventual retry
 delete g.data),
 // Add or update anti-cache param if needed
-!1===g.cache&&(d=d.replace(Ge,"$1"),s=(Me.test(d)?"&":"?")+"_="+Re+++s),
+!1===g.cache&&(d=d.replace(Ge,"$1"),s=(He.test(d)?"&":"?")+"_="+Re+++s),
 // Put hash and anti-cache on the URL that will be requested (gh-1732)
 g.url=d+s),
 // Set the If-Modified-Since and/or If-None-Match header, if in ifModified mode.
@@ -2443,7 +2443,7 @@ if(s||"jsonp"===t.dataTypes[0])
 // Get callback name, remembering preexisting value associated with it
 return i=t.jsonpCallback=yt(t.jsonpCallback)?t.jsonpCallback():t.jsonpCallback,
 // Insert callback into url or form data
-s?t[s]=t[s].replace(on,"$1"+i):!1!==t.jsonp&&(t.url+=(Me.test(t.url)?"&":"?")+t.jsonp+"="+i),
+s?t[s]=t[s].replace(on,"$1"+i):!1!==t.jsonp&&(t.url+=(He.test(t.url)?"&":"?")+t.jsonp+"="+i),
 // Use data converter to retrieve json after script execution
 t.converters["script json"]=function(){return r||$t.error(i+" was not called"),r[0]},
 // Force json dataType
@@ -2993,18 +2993,18 @@ return function(n){
 /* harmony reexport (safe) */n.d(e,"ResponsiveMenu",function(){return T.ResponsiveMenu});
 /* harmony import */var S=n(/*! ../foundation.responsiveToggle */"./js/foundation.responsiveToggle.js");
 /* harmony reexport (safe) */n.d(e,"ResponsiveToggle",function(){return S.ResponsiveToggle});
-/* harmony import */var E=n(/*! ../foundation.reveal */"./js/foundation.reveal.js");
-/* harmony reexport (safe) */n.d(e,"Reveal",function(){return E.Reveal});
-/* harmony import */var O=n(/*! ../foundation.slider */"./js/foundation.slider.js");
-/* harmony reexport (safe) */n.d(e,"Slider",function(){return O.Slider});
+/* harmony import */var O=n(/*! ../foundation.reveal */"./js/foundation.reveal.js");
+/* harmony reexport (safe) */n.d(e,"Reveal",function(){return O.Reveal});
+/* harmony import */var E=n(/*! ../foundation.slider */"./js/foundation.slider.js");
+/* harmony reexport (safe) */n.d(e,"Slider",function(){return E.Slider});
 /* harmony import */var A=n(/*! ../foundation.smoothScroll */"./js/foundation.smoothScroll.js");
 /* harmony reexport (safe) */n.d(e,"SmoothScroll",function(){return A.SmoothScroll});
 /* harmony import */var z=n(/*! ../foundation.sticky */"./js/foundation.sticky.js");
 /* harmony reexport (safe) */n.d(e,"Sticky",function(){return z.Sticky});
-/* harmony import */var L=n(/*! ../foundation.tabs */"./js/foundation.tabs.js");
-/* harmony reexport (safe) */n.d(e,"Tabs",function(){return L.Tabs});
-/* harmony import */var P=n(/*! ../foundation.toggler */"./js/foundation.toggler.js");
-/* harmony reexport (safe) */n.d(e,"Toggler",function(){return P.Toggler});
+/* harmony import */var P=n(/*! ../foundation.tabs */"./js/foundation.tabs.js");
+/* harmony reexport (safe) */n.d(e,"Tabs",function(){return P.Tabs});
+/* harmony import */var L=n(/*! ../foundation.toggler */"./js/foundation.toggler.js");
+/* harmony reexport (safe) */n.d(e,"Toggler",function(){return L.Toggler});
 /* harmony import */var q=n(/*! ../foundation.tooltip */"./js/foundation.tooltip.js");
 /* harmony reexport (safe) */n.d(e,"Tooltip",function(){return q.Tooltip});
 /* harmony import */var D=n(/*! ../foundation.responsiveAccordionTabs */"./js/foundation.responsiveAccordionTabs.js");
@@ -3012,7 +3012,7 @@ return function(n){
 // compatibility.
 r.Foundation.rtl=s.rtl,r.Foundation.GetYoDigits=s.GetYoDigits,r.Foundation.transitionend=s.transitionend,r.Foundation.RegExpEscape=s.RegExpEscape,r.Foundation.onLoad=s.onLoad,r.Foundation.Box=a.Box,r.Foundation.onImagesLoaded=l.onImagesLoaded,r.Foundation.Keyboard=u.Keyboard,r.Foundation.MediaQuery=c.MediaQuery,r.Foundation.Motion=d.Motion,r.Foundation.Move=d.Move,r.Foundation.Nest=f.Nest,r.Foundation.Timer=h.Timer,// Touch and Triggers previously were almost purely sede effect driven,
 // so no need to add it to Foundation, just init them.
-p.Touch.init(o.a),m.Triggers.init(o.a,r.Foundation),c.MediaQuery._init(),r.Foundation.plugin(g.Abide,"Abide"),r.Foundation.plugin(v.Accordion,"Accordion"),r.Foundation.plugin(y.AccordionMenu,"AccordionMenu"),r.Foundation.plugin(b.Drilldown,"Drilldown"),r.Foundation.plugin(w.Dropdown,"Dropdown"),r.Foundation.plugin(k.DropdownMenu,"DropdownMenu"),r.Foundation.plugin($.Equalizer,"Equalizer"),r.Foundation.plugin(C.Interchange,"Interchange"),r.Foundation.plugin(x.Magellan,"Magellan"),r.Foundation.plugin(_.OffCanvas,"OffCanvas"),r.Foundation.plugin(j.Orbit,"Orbit"),r.Foundation.plugin(T.ResponsiveMenu,"ResponsiveMenu"),r.Foundation.plugin(S.ResponsiveToggle,"ResponsiveToggle"),r.Foundation.plugin(E.Reveal,"Reveal"),r.Foundation.plugin(O.Slider,"Slider"),r.Foundation.plugin(A.SmoothScroll,"SmoothScroll"),r.Foundation.plugin(z.Sticky,"Sticky"),r.Foundation.plugin(L.Tabs,"Tabs"),r.Foundation.plugin(P.Toggler,"Toggler"),r.Foundation.plugin(q.Tooltip,"Tooltip"),r.Foundation.plugin(D.ResponsiveAccordionTabs,"ResponsiveAccordionTabs"),
+p.Touch.init(o.a),m.Triggers.init(o.a,r.Foundation),c.MediaQuery._init(),r.Foundation.plugin(g.Abide,"Abide"),r.Foundation.plugin(v.Accordion,"Accordion"),r.Foundation.plugin(y.AccordionMenu,"AccordionMenu"),r.Foundation.plugin(b.Drilldown,"Drilldown"),r.Foundation.plugin(w.Dropdown,"Dropdown"),r.Foundation.plugin(k.DropdownMenu,"DropdownMenu"),r.Foundation.plugin($.Equalizer,"Equalizer"),r.Foundation.plugin(C.Interchange,"Interchange"),r.Foundation.plugin(x.Magellan,"Magellan"),r.Foundation.plugin(_.OffCanvas,"OffCanvas"),r.Foundation.plugin(j.Orbit,"Orbit"),r.Foundation.plugin(T.ResponsiveMenu,"ResponsiveMenu"),r.Foundation.plugin(S.ResponsiveToggle,"ResponsiveToggle"),r.Foundation.plugin(O.Reveal,"Reveal"),r.Foundation.plugin(E.Slider,"Slider"),r.Foundation.plugin(A.SmoothScroll,"SmoothScroll"),r.Foundation.plugin(z.Sticky,"Sticky"),r.Foundation.plugin(P.Tabs,"Tabs"),r.Foundation.plugin(L.Toggler,"Toggler"),r.Foundation.plugin(q.Tooltip,"Tooltip"),r.Foundation.plugin(D.ResponsiveAccordionTabs,"ResponsiveAccordionTabs"),
 /* harmony default export */e.default=r.Foundation},
 /***/"./js/foundation.abide.js":
 /*!********************************!*\
@@ -7372,14 +7372,7 @@ specificKeys:function t(e){h=e},
 // funct: function to fire on change
 // eventType: 'input'|'intent'
 registerOnChange:function t(e,n){r.push({fn:e,type:n||"input"})},unRegisterOnChange:function t(e){var n=T(e);(n||0===n)&&r.splice(n,1)}}}()}
-/******/])}),function(t,e){var n=e(t,t.document);t.lazySizes=n,"object"==typeof module&&module.exports&&(module.exports=n)}(window,function t(i,c){"use strict";
-/*jshint eqnull:true */if(c.getElementsByClassName){var d,f,h=c.documentElement,a=i.Date,o=i.HTMLPictureElement,r="addEventListener",p="getAttribute",e=i[r],m=i.setTimeout,n=i.requestAnimationFrame||m,l=i.requestIdleCallback,g=/^picture$/i,s=["load","error","lazyincluded","_lazyloaded"],u={},v=Array.prototype.forEach,y=function(t,e){return u[e]||(u[e]=new RegExp("(\\s|^)"+e+"(\\s|$)")),u[e].test(t[p]("class")||"")&&u[e]},b=function(t,e){y(t,e)||t.setAttribute("class",(t[p]("class")||"").trim()+" "+e)},w=function(t,e){var n;(n=y(t,e))&&t.setAttribute("class",(t[p]("class")||"").replace(n," "))},k=function(e,n,t){var i=t?r:"removeEventListener";t&&k(e,n),s.forEach(function(t){e[i](t,n)})},$=function(t,e,n,i,o){var r=c.createEvent("Event");return n||(n={}),n.instance=d,r.initEvent(e,!i,!o),r.detail=n,t.dispatchEvent(r),r},C=function(t,e){var n;!o&&(n=i.picturefill||f.pf)?(e&&e.src&&!t[p]("srcset")&&t.setAttribute("srcset",e.src),n({reevaluate:!0,elements:[t]})):e&&e.src&&(t.src=e.src)},x=function(t,e){return(getComputedStyle(t,null)||{})[e]},_=function(t,e,n){for(n=n||t.offsetWidth;n<f.minSize&&e&&!t._lazysizesWidth;)n=e.offsetWidth,e=e.parentNode;return n},j=(O=[],A=E=[],z=function(){var t=A;for(A=E.length?O:E,S=!(T=!0);t.length;)t.shift()();T=!1},(L=function(t,e){T&&!e?t.apply(this,arguments):(A.push(t),S||(S=!0,(c.hidden?m:n)(z)))})._lsFlush=z,L),T,S,E,O,A,z,L,P=function(n,t){return t?function(){j(n)}:function(){var t=this,e=arguments;j(function(){n.apply(t,e)})}},q=function(t){var n,i=0,o=f.throttleDelay,r=f.ricTimeout,e=function(){n=!1,i=a.now(),t()},s=l&&49<r?function(){l(e,{timeout:r}),r!==f.ricTimeout&&(r=f.ricTimeout)}:P(function(){m(e)},!0);return function(t){var e;(t=!0===t)&&(r=33),n||(n=!0,(e=o-(a.now()-i))<0&&(e=0),t||e<9?s():m(s,e))}},D=function(t){var e,n,i=99,o=function(){e=null,t()},r=function(){var t=a.now()-n;t<99?m(r,99-t):(l||o)(o)};return function(){n=a.now(),e||(e=m(r,99))}};!function(){var t,e={lazyClass:"lazyload",loadedClass:"lazyloaded",loadingClass:"lazyloading",preloadClass:"lazypreload",errorClass:"lazyerror",
-//strictClass: 'lazystrict',
-autosizesClass:"lazyautosizes",srcAttr:"data-src",srcsetAttr:"data-srcset",sizesAttr:"data-sizes",
-//preloadAfterLoad: false,
-minSize:40,customMedia:{},init:!0,expFactor:1.5,hFac:.8,loadMode:2,loadHidden:!0,ricTimeout:0,throttleDelay:125};for(t in f=i.lazySizesConfig||i.lazysizesConfig||{},e)t in f||(f[t]=e[t]);i.lazySizesConfig=f,m(function(){f.init&&Ct()})}();var R=(Z=/^img$/i,J=/^iframe$/i,tt="onscroll"in i&&!/(gle|ing)bot/.test(navigator.userAgent),it=nt=et=0,ot=-1,rt=function(t){it--,t&&t.target&&k(t.target,rt),(!t||it<0||!t.target)&&(it=0)},st=function(t,e){var n,i=t,o="hidden"==x(c.body,"visibility")||"hidden"!=x(t.parentNode,"visibility")&&"hidden"!=x(t,"visibility");for(G-=e,K+=e,U-=e,V+=e;o&&(i=i.offsetParent)&&i!=c.body&&i!=h;)(o=0<(x(i,"opacity")||1))&&"visible"!=x(i,"overflow")&&(n=i.getBoundingClientRect(),o=V>n.left&&U<n.right&&K>n.top-1&&G<n.bottom+1);return o},lt=q(at=function(){var t,e,n,i,o,r,s,a,l,u=d.elements;if((N=f.loadMode)&&it<8&&(t=u.length)){e=0,ot++,null==Q&&("expand"in f||(f.expand=500<h.clientHeight&&500<h.clientWidth?500:370),Y=f.expand,Q=Y*f.expFactor),nt<Q&&it<1&&2<ot&&2<N&&!c.hidden?(nt=Q,ot=0):nt=1<N&&1<ot&&it<6?Y:0;for(;e<t;e++)if(u[e]&&!u[e]._lazyRace)if(tt)if((a=u[e][p]("data-expand"))&&(r=1*a)||(r=nt),l!==r&&(B=innerWidth+r*X,W=innerHeight+r,s=-1*r,l=r),n=u[e].getBoundingClientRect(),(K=n.bottom)>=s&&(G=n.top)<=W&&(V=n.right)>=s*X&&(U=n.left)<=B&&(K||V||U||G)&&(f.loadHidden||"hidden"!=x(u[e],"visibility"))&&(H&&it<3&&!a&&(N<3||ot<4)||st(u[e],r))){if(mt(u[e]),o=!0,9<it)break}else!o&&H&&!i&&it<4&&ot<4&&2<N&&(M[0]||f.preloadAfterLoad)&&(M[0]||!a&&(K||V||U||G||"auto"!=u[e][p](f.sizesAttr)))&&(i=M[0]||u[e]);else mt(u[e]);i&&!o&&mt(i)}}),ct=P(ut=function(t){b(t.target,f.loadedClass),w(t.target,f.loadingClass),k(t.target,dt),$(t.target,"lazyloaded")}),dt=function(t){ct({target:t.target})},ft=function(e,n){try{e.contentWindow.location.replace(n)}catch(t){e.src=n}},ht=function(t){var e,n=t[p](f.srcsetAttr);(e=f.customMedia[t[p]("data-media")||t[p]("media")])&&t.setAttribute("media",e),n&&t.setAttribute("srcset",n)},pt=P(function(t,e,n,i,o){var r,s,a,l,u,c;(u=$(t,"lazybeforeunveil",e)).defaultPrevented||(i&&(n?b(t,f.autosizesClass):t.setAttribute("sizes",i)),s=t[p](f.srcsetAttr),r=t[p](f.srcAttr),o&&(l=(a=t.parentNode)&&g.test(a.nodeName||"")),c=e.firesLoad||"src"in t&&(s||r||l),u={target:t},c&&(k(t,rt,!0),clearTimeout(I),I=m(rt,2500),b(t,f.loadingClass),k(t,dt,!0)),l&&v.call(a.getElementsByTagName("source"),ht),s?t.setAttribute("srcset",s):r&&!l&&(J.test(t.nodeName)?ft(t,r):t.src=r),o&&(s||l)&&C(t,{src:r})),t._lazyRace&&delete t._lazyRace,w(t,f.lazyClass),j(function(){(!c||t.complete&&1<t.naturalWidth)&&(c?rt(u):it--,ut(u))},!0)}),gt=function(){if(!H)if(a.now()-F<999)m(gt,999);else{var t=D(function(){f.loadMode=3,lt()});H=!0,f.loadMode=3,lt(),e("scroll",function(){3==f.loadMode&&(f.loadMode=2),t()},!0)}},{_:function(){F=a.now(),d.elements=c.getElementsByClassName(f.lazyClass),M=c.getElementsByClassName(f.lazyClass+" "+f.preloadClass),X=f.hFac,e("scroll",lt,!0),e("resize",lt,!0),i.MutationObserver?new MutationObserver(lt).observe(h,{childList:!0,subtree:!0,attributes:!0}):(h[r]("DOMNodeInserted",lt,!0),h[r]("DOMAttrModified",lt,!0),setInterval(lt,999)),e("hashchange",lt,!0),
-//, 'fullscreenchange'
-["focus","mouseover","click","load","transitionend","animationend","webkitAnimationEnd"].forEach(function(t){c[r](t,lt,!0)}),/d$|^c/.test(c.readyState)?gt():(e("load",gt),c[r]("DOMContentLoaded",lt),m(gt,2e4)),d.elements.length?(at(),j._lsFlush()):lt()},checkElems:lt,unveil:mt=function(t){var e,n=Z.test(t.nodeName),i=n&&(t[p](f.sizesAttr)||t[p]("sizes")),o="auto"==i;(!o&&H||!n||!t[p]("src")&&!t.srcset||t.complete||y(t,f.errorClass)||!y(t,f.lazyClass))&&(e=$(t,"lazyunveilread").detail,o&&vt.updateElem(t,!0,t.offsetWidth),t._lazyRace=!0,it++,pt(t,e,o,i,n))}}),M,H,I,N,F,B,W,G,U,V,K,Y,Q,X,Z,J,tt,et,nt,it,ot,rt,st,at,lt,ut,ct,dt,ft,ht,pt,mt,gt,vt=(bt=P(function(t,e,n,i){var o,r,s;if(t._lazysizesWidth=i,i+="px",t.setAttribute("sizes",i),g.test(e.nodeName||""))for(r=0,s=(o=e.getElementsByTagName("source")).length;r<s;r++)o[r].setAttribute("sizes",i);n.detail.dataAttr||C(t,n.detail)}),wt=function(t,e,n){var i,o=t.parentNode;o&&(n=_(t,o,n),(i=$(t,"lazybeforesizes",{width:n,dataAttr:!!e})).defaultPrevented||(n=i.detail.width)&&n!==t._lazysizesWidth&&bt(t,o,i,n))},{_:function(){yt=c.getElementsByClassName(f.autosizesClass),e("resize",$t)},checkElems:$t=D(function(){var t,e=yt.length;if(e)for(t=0;t<e;t++)wt(yt[t])}),updateElem:wt}),yt,bt,wt,kt,$t,Ct=function(){Ct.i||(Ct.i=!0,vt._(),R._())};return d={cfg:f,autoSizer:vt,loader:R,init:Ct,uP:C,aC:b,rC:w,hC:y,fire:$,gW:_,rAF:j}}}),$(document).on("turbolinks:load",function(){
+/******/])}),$(document).on("turbolinks:load",function(){
 // 1. Foundation
 // --------------------
 Foundation.Interchange.SPECIAL_QUERIES["medium-retina"]="only screen and (min-width: 40em), (min-width: 40em) and (-webkit-min-device-pixel-ratio: 2), (min-width: 40em) and (min--moz-device-pixel-ratio: 2), (min-width: 40em) and (-o-min-device-pixel-ratio: 2/1), (min-width: 40em) and (min-device-pixel-ratio: 2), (min-width: 40em) and (min-resolution: 192dpi), (min-width: 40em) and (min-resolution: 2dppx)",Foundation.Interchange.SPECIAL_QUERIES["large-retina"]="only screen and (min-width: 64em), (min-width: 64em) and (-webkit-min-device-pixel-ratio: 2), (min-width: 64em) and (min--moz-device-pixel-ratio: 2), (min-width: 64em) and (-o-min-device-pixel-ratio: 2/1), (min-width: 64em) and (min-device-pixel-ratio: 2), (min-width: 64em) and (min-resolution: 192dpi), (min-width: 64em) and (min-resolution: 2dppx)",Foundation.Interchange.SPECIAL_QUERIES["xlarge-retina"]="only screen and (min-width: 75em), (min-width: 75em) and (-webkit-min-device-pixel-ratio: 2), (min-width: 75em) and (min--moz-device-pixel-ratio: 2), (min-width: 75em) and (-o-min-device-pixel-ratio: 2/1), (min-width: 75em) and (min-device-pixel-ratio: 2), (min-width: 75em) and (min-resolution: 192dpi), (min-width: 75em) and (min-resolution: 2dppx)",Foundation.Interchange.SPECIAL_QUERIES["xxlarge-retina"]="only screen and (min-width: 90em), (min-width: 75em) and (-webkit-min-device-pixel-ratio: 2), (min-width: 75em) and (min--moz-device-pixel-ratio: 2), (min-width: 75em) and (-o-min-device-pixel-ratio: 2/1), (min-width: 75em) and (min-device-pixel-ratio: 2), (min-width: 75em) and (min-resolution: 192dpi), (min-width: 75em) and (min-resolution: 2dppx)",$(document).foundation(),

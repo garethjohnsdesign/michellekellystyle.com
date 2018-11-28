@@ -1,6 +1,6 @@
 # Michelle Kelly
 
-Website for Michelle Kelly Style. Please go to [www.michellekellystyle.com](https://www.michellekellystyle.com) in case you want to take a look at the website.
+Website for Michelle Kelly Interior Design. Please go to [www.michellekellystyle.com](https://www.michellekellystyle.com) in case you want to take a look at the website.
 
 * * *
 
