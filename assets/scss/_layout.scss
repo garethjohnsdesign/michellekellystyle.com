@@ -135,11 +135,13 @@ main {
 
 .orbit-controls {
   width: 100vw;
+  z-index: 12;
 }
 
 .orbit-previous, .orbit-next {
   height: 100%;
   width: 50vw;
+  z-index: 13;
 }
 
 .orbit-previous {
