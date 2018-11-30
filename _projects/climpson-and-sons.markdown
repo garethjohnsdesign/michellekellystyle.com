@@ -16,8 +16,8 @@ images:
   aspect: portrait
 - image: "/uploads/climpson-and-sons-06-rev.jpg"
   aspect: portrait
-architect: 
-contractor: 
+architect: MAD Atelier
+contractor: re-fuze
 is-featured: true
 layout: project
 ---
