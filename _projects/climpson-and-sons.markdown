@@ -22,4 +22,4 @@ is-featured: true
 layout: project
 ---
 
-Working with Climpsons to create this purpose built  unique office / work  space and training academy . The style of the space was influenced  by classic mid-century modern style and design
+Working with Climpsons to create this purpose built  unique office / work  space and training academy. The style of the space was influenced  by classic mid-century modern style and design
