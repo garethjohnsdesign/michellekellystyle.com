@@ -182,6 +182,13 @@ url('/assets/img/arrow-right@3x.png') 3x
 ) 16 16, auto !important;
 }
 
+
+.image--5-4 {
+  @include aspect-ratio (5, 4);
+  background-size: cover; 
+  background-position: 50%;
+}
+
 .image--portrait {
   @include aspect-ratio (4, 6);
   background-size: cover; 

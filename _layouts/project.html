@@ -6,6 +6,7 @@ layout: default
 <div class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
     {% for picture in page.images %}
+
      {% if picture.aspect == "landscape" %}
      <div class="small-12 medium-12 cell">
      {% assign image = picture.image %}
@@ -15,6 +16,11 @@ layout: default
      <div class="small-12 medium-6 cell">
      {% assign image = picture.image %}
      <div class="image--portrait" data-interchange="{% include images/interchange-img-small-12-medium-6-cell.html %}"></div>
+     </div>
+     {% elsif picture.aspect == "5-4" %}
+     <div class="small-12 medium-12 cell">
+     {% assign image = picture.image %}
+     <div class="image--5-4" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"></div>
      </div>
      {% endif %}
     {% endfor %}
