@@ -69,13 +69,6 @@
 		"oAP": "/_includes/head.html",
 		"oF": 0
 		},
-	"/_includes/images/interchange-img-small-12-medium-12-cell-dev.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_includes/images/interchange-img-small-12-medium-12-cell-dev.html",
-		"oF": 0
-		},
 	"/_includes/images/interchange-img-small-12-medium-12-cell.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -83,11 +76,18 @@
 		"oAP": "/_includes/images/interchange-img-small-12-medium-12-cell.html",
 		"oF": 0
 		},
-	"/_includes/images/interchange-img-small-12-medium-6-cell-dev.html": {
+	"/_includes/images/interchange-img-small-12-medium-4-cell.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "/_includes/images/interchange-img-small-12-medium-6-cell-dev.html",
+		"oAP": "/_includes/images/interchange-img-small-12-medium-4-cell.html",
+		"oF": 0
+		},
+	"/_includes/images/interchange-img-small-12-medium-6-cell-portrait.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/_includes/images/interchange-img-small-12-medium-6-cell-portrait.html",
 		"oF": 0
 		},
 	"/_includes/images/interchange-img-small-12-medium-6-cell.html": {
@@ -272,6 +272,13 @@
 		"oAP": "/_projects/hair-salon.markdown",
 		"oF": 0
 		},
+	"/_projects/highbury-house.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/_projects/highbury-house.markdown",
+		"oF": 0
+		},
 	"/_projects/london-cabin.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -298,6 +305,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/_projects/the-rose-hotel.markdown",
+		"oF": 0
+		},
+	"/_projects/wandsworth-house.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/_projects/wandsworth-house.markdown",
 		"oF": 0
 		},
 	"/_site": {
@@ -1098,6 +1112,149 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/highbury-01.jpg": {
+		"ft": 16384,
+		"iS": 1136554,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/highbury-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/highbury-02.jpg": {
+		"ft": 16384,
+		"iS": 2206996,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/highbury-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/highbury-03.jpg": {
+		"ft": 16384,
+		"iS": 1461750,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/highbury-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/highbury-04.jpg": {
+		"ft": 16384,
+		"iS": 781144,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/highbury-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/highbury-05.jpg": {
+		"ft": 16384,
+		"iS": 4056076,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/highbury-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/highbury-06.jpg": {
+		"ft": 16384,
+		"iS": 3106460,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/highbury-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/highbury-07.jpg": {
+		"ft": 16384,
+		"iS": 1456111,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/highbury-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/highbury-08.jpg": {
+		"ft": 16384,
+		"iS": 2630589,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/highbury-08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/highbury-09.jpg": {
+		"ft": 16384,
+		"iS": 5649953,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/highbury-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/highbury-10.jpg": {
+		"ft": 16384,
+		"iS": 2975598,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/highbury-10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/highbury-11.jpg": {
+		"ft": 16384,
+		"iS": 1381845,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/highbury-11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/highbury-12.jpg": {
+		"ft": 16384,
+		"iS": 3391052,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/highbury-12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/highbury-thumb.jpg": {
+		"ft": 16384,
+		"iS": 472412,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/highbury-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/living-etc-01.jpg": {
 		"ft": 16384,
 		"iS": 538510,
@@ -1888,6 +2045,83 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/wandsworth-01.jpg": {
+		"ft": 16384,
+		"iS": 1585209,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/wandsworth-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/wandsworth-02.jpg": {
+		"ft": 16384,
+		"iS": 1778443,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/wandsworth-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/wandsworth-03.jpg": {
+		"ft": 16384,
+		"iS": 1329998,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/wandsworth-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/wandsworth-04.jpg": {
+		"ft": 16384,
+		"iS": 1476640,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/wandsworth-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/wandsworth-05.jpg": {
+		"ft": 16384,
+		"iS": 1539704,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/wandsworth-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/wandsworth-06.jpg": {
+		"ft": 16384,
+		"iS": 1579983,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/wandsworth-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/wandsworth-thumb.jpg": {
+		"ft": 16384,
+		"iS": 898551,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/wandsworth-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/about.md": {

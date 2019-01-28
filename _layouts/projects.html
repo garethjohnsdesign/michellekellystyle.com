@@ -5,7 +5,7 @@ layout: default
 <!-- Projects -->
 <div class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-2 large-up-2 xxlarge-up-3">
-    {% assign projects = site.projects | sort: 'position' %}
+    {% assign projects = site.projects | sort: 'date' | reverse %}
     {% for project in projects %}
       <div class="cell projects__list" data-aos="fade-in">
         <a href="{{ project.url }}">
