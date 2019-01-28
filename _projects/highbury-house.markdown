@@ -9,7 +9,7 @@ images:
 - image: "/uploads/highbury-10.jpg"
   aspect: portrait
 - image: "/uploads/highbury-12.jpg"
-  aspect: landscape
+  aspect: portrait
 - image: "/uploads/highbury-04.jpg"
   aspect: landscape
 - image: "/uploads/highbury-03.jpg"

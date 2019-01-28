@@ -2,7 +2,7 @@
 title: Wandsworth House
 date: 2019-01-21 00:04:00 Z
 position: 1
-image: "/uploads/wandsworth-thumb.jpg"
+image: "/uploads/wandsworth-thumb-rev.jpg"
 images:
 - image: "/uploads/wandsworth-03.jpg"
   aspect: landscape
