@@ -16,8 +16,8 @@ images:
   aspect: portrait
 - image: "/uploads/wandsworth-06.jpg"
   aspect: portrait
-architect: MAD Atelier
-contractor: HGT construction
+architect: 
+contractor: 
 is-featured: false
 layout: project
 ---

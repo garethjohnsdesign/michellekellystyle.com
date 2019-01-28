@@ -24,7 +24,7 @@ images:
   aspect: portrait
 - image: "/uploads/highbury-09.jpg"
   aspect: portrait
-architect: MAD Atelier
+architect: 
 contractor: Mirz Construction
 is-featured: false
 layout: project
