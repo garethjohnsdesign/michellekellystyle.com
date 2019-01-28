@@ -4,12 +4,12 @@ date: 2019-01-21 00:04:00 Z
 position: 1
 image: "/uploads/wandsworth-thumb.jpg"
 images:
+- image: "/uploads/wandsworth-03.jpg"
+  aspect: landscape
 - image: "/uploads/wandsworth-01.jpg"
   aspect: portrait
 - image: "/uploads/wandsworth-02.jpg"
   aspect: portrait
-- image: "/uploads/wandsworth-03.jpg"
-  aspect: landscape
 - image: "/uploads/wandsworth-04.jpg"
   aspect: portrait
 - image: "/uploads/wandsworth-05.jpg"
