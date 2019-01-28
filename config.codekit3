@@ -328,7 +328,7 @@
 		"oAP": "/_uploads/climpson-and-sons-01-rev.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/climpson-and-sons-01.jpg": {
@@ -339,7 +339,7 @@
 		"oAP": "/_uploads/climpson-and-sons-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/climpson-and-sons-02-rev.jpg": {
@@ -350,7 +350,7 @@
 		"oAP": "/_uploads/climpson-and-sons-02-rev.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/climpson-and-sons-02.jpg": {
@@ -361,7 +361,7 @@
 		"oAP": "/_uploads/climpson-and-sons-02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/climpson-and-sons-03-rev.jpg": {
@@ -372,7 +372,7 @@
 		"oAP": "/_uploads/climpson-and-sons-03-rev.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/climpson-and-sons-03.jpg": {
@@ -383,7 +383,7 @@
 		"oAP": "/_uploads/climpson-and-sons-03.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/climpson-and-sons-04-rev.jpg": {
@@ -394,7 +394,7 @@
 		"oAP": "/_uploads/climpson-and-sons-04-rev.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/climpson-and-sons-04.jpg": {
@@ -405,7 +405,7 @@
 		"oAP": "/_uploads/climpson-and-sons-04.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/climpson-and-sons-05-rev.jpg": {
@@ -416,7 +416,7 @@
 		"oAP": "/_uploads/climpson-and-sons-05-rev.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/climpson-and-sons-05.jpg": {
@@ -427,7 +427,7 @@
 		"oAP": "/_uploads/climpson-and-sons-05.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/climpson-and-sons-06-rev.jpg": {
@@ -438,7 +438,7 @@
 		"oAP": "/_uploads/climpson-and-sons-06-rev.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/climpson-and-sons-06.jpg": {
@@ -449,7 +449,7 @@
 		"oAP": "/_uploads/climpson-and-sons-06.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/climpson-and-sons-thumb.jpg": {
@@ -460,7 +460,7 @@
 		"oAP": "/_uploads/climpson-and-sons-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/conde-nast-traveller-01.jpg": {
@@ -471,7 +471,7 @@
 		"oAP": "/_uploads/conde-nast-traveller-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/conde-nast-traveller-02.jpg": {
@@ -482,7 +482,7 @@
 		"oAP": "/_uploads/conde-nast-traveller-02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/conde-nast-traveller-03.jpg": {
@@ -493,7 +493,7 @@
 		"oAP": "/_uploads/conde-nast-traveller-03.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/conde-nast-traveller-04.jpg": {
@@ -504,7 +504,7 @@
 		"oAP": "/_uploads/conde-nast-traveller-04.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/elle-decoration-01.jpg": {
@@ -515,7 +515,7 @@
 		"oAP": "/_uploads/elle-decoration-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/elle-decoration-02.jpg": {
@@ -526,7 +526,7 @@
 		"oAP": "/_uploads/elle-decoration-02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/guardian-01.jpg": {
@@ -537,7 +537,7 @@
 		"oAP": "/_uploads/guardian-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/guardian-02.jpg": {
@@ -548,7 +548,7 @@
 		"oAP": "/_uploads/guardian-02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-apartment-01.jpg": {
@@ -559,7 +559,7 @@
 		"oAP": "/_uploads/hackney-apartment-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-apartment-02.jpg": {
@@ -570,7 +570,7 @@
 		"oAP": "/_uploads/hackney-apartment-02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-apartment-03.jpg": {
@@ -581,7 +581,7 @@
 		"oAP": "/_uploads/hackney-apartment-03.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-apartment-04.jpg": {
@@ -592,7 +592,7 @@
 		"oAP": "/_uploads/hackney-apartment-04.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-apartment-05.jpg": {
@@ -603,7 +603,7 @@
 		"oAP": "/_uploads/hackney-apartment-05.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-apartment-06.jpg": {
@@ -614,7 +614,7 @@
 		"oAP": "/_uploads/hackney-apartment-06.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-apartment-07.jpg": {
@@ -625,7 +625,7 @@
 		"oAP": "/_uploads/hackney-apartment-07.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-apartment-08.jpg": {
@@ -636,7 +636,7 @@
 		"oAP": "/_uploads/hackney-apartment-08.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-apartment-09.jpg": {
@@ -647,7 +647,7 @@
 		"oAP": "/_uploads/hackney-apartment-09.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-01.jpg": {
@@ -658,7 +658,7 @@
 		"oAP": "/_uploads/hackney-house-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-02.jpg": {
@@ -669,7 +669,7 @@
 		"oAP": "/_uploads/hackney-house-02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-03.jpg": {
@@ -680,7 +680,7 @@
 		"oAP": "/_uploads/hackney-house-03.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-04.jpg": {
@@ -691,7 +691,7 @@
 		"oAP": "/_uploads/hackney-house-04.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-05.jpg": {
@@ -702,7 +702,7 @@
 		"oAP": "/_uploads/hackney-house-05.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-06.jpg": {
@@ -713,7 +713,7 @@
 		"oAP": "/_uploads/hackney-house-06.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-07.jpg": {
@@ -724,7 +724,7 @@
 		"oAP": "/_uploads/hackney-house-07.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-08.jpg": {
@@ -735,7 +735,7 @@
 		"oAP": "/_uploads/hackney-house-08.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-09.jpg": {
@@ -746,7 +746,7 @@
 		"oAP": "/_uploads/hackney-house-09.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-10.jpg": {
@@ -757,7 +757,7 @@
 		"oAP": "/_uploads/hackney-house-10.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-11.jpg": {
@@ -768,7 +768,7 @@
 		"oAP": "/_uploads/hackney-house-11.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-12.jpg": {
@@ -779,7 +779,7 @@
 		"oAP": "/_uploads/hackney-house-12.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-13.jpg": {
@@ -790,7 +790,7 @@
 		"oAP": "/_uploads/hackney-house-13.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-14.jpg": {
@@ -801,7 +801,7 @@
 		"oAP": "/_uploads/hackney-house-14.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-15.jpg": {
@@ -812,7 +812,7 @@
 		"oAP": "/_uploads/hackney-house-15.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-16.jpg": {
@@ -823,7 +823,7 @@
 		"oAP": "/_uploads/hackney-house-16.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-17.jpg": {
@@ -834,7 +834,7 @@
 		"oAP": "/_uploads/hackney-house-17.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-18.jpg": {
@@ -845,7 +845,7 @@
 		"oAP": "/_uploads/hackney-house-18.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-19.jpg": {
@@ -856,7 +856,7 @@
 		"oAP": "/_uploads/hackney-house-19.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-20.jpg": {
@@ -867,7 +867,7 @@
 		"oAP": "/_uploads/hackney-house-20.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-21.jpg": {
@@ -878,7 +878,7 @@
 		"oAP": "/_uploads/hackney-house-21.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-22.jpg": {
@@ -889,7 +889,7 @@
 		"oAP": "/_uploads/hackney-house-22.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-23.jpg": {
@@ -900,7 +900,7 @@
 		"oAP": "/_uploads/hackney-house-23.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-24.jpg": {
@@ -911,7 +911,7 @@
 		"oAP": "/_uploads/hackney-house-24.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-25.jpg": {
@@ -922,7 +922,7 @@
 		"oAP": "/_uploads/hackney-house-25.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-26.jpg": {
@@ -933,7 +933,7 @@
 		"oAP": "/_uploads/hackney-house-26.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hackney-house-thumb.jpg": {
@@ -1054,7 +1054,7 @@
 		"oAP": "/_uploads/hackney-loft-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hair-salon-01.jpg": {
@@ -1065,7 +1065,7 @@
 		"oAP": "/_uploads/hair-salon-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hair-salon-02.jpg": {
@@ -1076,7 +1076,7 @@
 		"oAP": "/_uploads/hair-salon-02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hair-salon-03.jpg": {
@@ -1087,7 +1087,7 @@
 		"oAP": "/_uploads/hair-salon-03.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hair-salon-04.jpg": {
@@ -1098,7 +1098,7 @@
 		"oAP": "/_uploads/hair-salon-04.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/hair-salon-thumb.jpg": {
@@ -1252,7 +1252,7 @@
 		"oAP": "/_uploads/highbury-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/living-etc-01.jpg": {
@@ -1263,7 +1263,7 @@
 		"oAP": "/_uploads/living-etc-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/living-etc-02.jpg": {
@@ -1274,7 +1274,7 @@
 		"oAP": "/_uploads/living-etc-02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/living-etc-03.jpg": {
@@ -1285,7 +1285,7 @@
 		"oAP": "/_uploads/living-etc-03.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/living-etc-04.jpg": {
@@ -1296,7 +1296,7 @@
 		"oAP": "/_uploads/living-etc-04.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/living-etc-05.jpg": {
@@ -1307,7 +1307,7 @@
 		"oAP": "/_uploads/living-etc-05.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/living-etc-06.jpg": {
@@ -1318,7 +1318,7 @@
 		"oAP": "/_uploads/living-etc-06.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/living-etc-07.jpg": {
@@ -1329,7 +1329,7 @@
 		"oAP": "/_uploads/living-etc-07.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/living-etc-08.jpg": {
@@ -1340,7 +1340,7 @@
 		"oAP": "/_uploads/living-etc-08.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/living-etc-09.jpg": {
@@ -1351,7 +1351,7 @@
 		"oAP": "/_uploads/living-etc-09.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/london-cabin-01.jpg": {
@@ -1362,7 +1362,7 @@
 		"oAP": "/_uploads/london-cabin-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/london-cabin-02.jpg": {
@@ -1373,7 +1373,7 @@
 		"oAP": "/_uploads/london-cabin-02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/london-cabin-03.jpg": {
@@ -1384,7 +1384,7 @@
 		"oAP": "/_uploads/london-cabin-03.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/london-cabin-04.jpg": {
@@ -1395,7 +1395,7 @@
 		"oAP": "/_uploads/london-cabin-04.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/london-cabin-05.jpg": {
@@ -1406,7 +1406,7 @@
 		"oAP": "/_uploads/london-cabin-05.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/london-cabin-06.jpg": {
@@ -1417,7 +1417,7 @@
 		"oAP": "/_uploads/london-cabin-06.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/london-cabin-07.jpg": {
@@ -1428,7 +1428,7 @@
 		"oAP": "/_uploads/london-cabin-07.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/london-cabin-thumb.jpg": {
@@ -1450,7 +1450,7 @@
 		"oAP": "/_uploads/london-fields-house-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/london-fields-house-02.jpg": {
@@ -1461,7 +1461,7 @@
 		"oAP": "/_uploads/london-fields-house-02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/london-fields-house-03.jpg": {
@@ -1472,7 +1472,7 @@
 		"oAP": "/_uploads/london-fields-house-03.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/london-fields-house-04.jpg": {
@@ -1483,7 +1483,7 @@
 		"oAP": "/_uploads/london-fields-house-04.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/london-fields-house-05.jpg": {
@@ -1494,7 +1494,7 @@
 		"oAP": "/_uploads/london-fields-house-05.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/london-fields-house-06.jpg": {
@@ -1505,7 +1505,7 @@
 		"oAP": "/_uploads/london-fields-house-06.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/london-fields-house-07.jpg": {
@@ -1516,7 +1516,7 @@
 		"oAP": "/_uploads/london-fields-house-07.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/london-fields-house-08.jpg": {
@@ -1527,7 +1527,7 @@
 		"oAP": "/_uploads/london-fields-house-08.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/london-fields-house-09.jpg": {
@@ -1538,7 +1538,7 @@
 		"oAP": "/_uploads/london-fields-house-09.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/london-fields-house-10.jpg": {
@@ -1549,7 +1549,7 @@
 		"oAP": "/_uploads/london-fields-house-10.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/london-fields-house-11.jpg": {
@@ -1560,7 +1560,7 @@
 		"oAP": "/_uploads/london-fields-house-11.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/london-fields-house-12.jpg": {
@@ -1571,7 +1571,7 @@
 		"oAP": "/_uploads/london-fields-house-12.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/london-fields-house-13.jpg": {
@@ -1582,7 +1582,7 @@
 		"oAP": "/_uploads/london-fields-house-13.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/london-fields-house-14.jpg": {
@@ -1593,7 +1593,7 @@
 		"oAP": "/_uploads/london-fields-house-14.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/london-fields-house-thumb.jpg": {
@@ -1615,7 +1615,7 @@
 		"oAP": "/_uploads/seaside-house-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/seaside-house-02.jpg": {
@@ -1626,7 +1626,7 @@
 		"oAP": "/_uploads/seaside-house-02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/seaside-house-03.jpg": {
@@ -1637,7 +1637,7 @@
 		"oAP": "/_uploads/seaside-house-03.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/seaside-house-04.jpg": {
@@ -1648,7 +1648,7 @@
 		"oAP": "/_uploads/seaside-house-04.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/seaside-house-05.jpg": {
@@ -1659,7 +1659,7 @@
 		"oAP": "/_uploads/seaside-house-05.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/seaside-house-06.jpg": {
@@ -1670,7 +1670,7 @@
 		"oAP": "/_uploads/seaside-house-06.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/seaside-house-07.jpg": {
@@ -1681,7 +1681,7 @@
 		"oAP": "/_uploads/seaside-house-07.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/seaside-house-08.jpg": {
@@ -1692,7 +1692,7 @@
 		"oAP": "/_uploads/seaside-house-08.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/seaside-house-09.jpg": {
@@ -1703,7 +1703,7 @@
 		"oAP": "/_uploads/seaside-house-09.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/seaside-house-10.jpg": {
@@ -1714,7 +1714,7 @@
 		"oAP": "/_uploads/seaside-house-10.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/seaside-house-11.jpg": {
@@ -1725,7 +1725,7 @@
 		"oAP": "/_uploads/seaside-house-11.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/seaside-house-12.jpg": {
@@ -1736,7 +1736,7 @@
 		"oAP": "/_uploads/seaside-house-12.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/seaside-house-thumb.jpg": {
@@ -1758,7 +1758,7 @@
 		"oAP": "/_uploads/the-rose-hotel-01.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-02.jpg": {
@@ -1769,7 +1769,7 @@
 		"oAP": "/_uploads/the-rose-hotel-02.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-03.jpg": {
@@ -1780,7 +1780,7 @@
 		"oAP": "/_uploads/the-rose-hotel-03.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-04.jpg": {
@@ -1791,7 +1791,7 @@
 		"oAP": "/_uploads/the-rose-hotel-04.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-05.jpg": {
@@ -1802,7 +1802,7 @@
 		"oAP": "/_uploads/the-rose-hotel-05.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-06.jpg": {
@@ -1813,7 +1813,7 @@
 		"oAP": "/_uploads/the-rose-hotel-06.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-07.jpg": {
@@ -1824,7 +1824,7 @@
 		"oAP": "/_uploads/the-rose-hotel-07.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-08.jpg": {
@@ -1835,7 +1835,7 @@
 		"oAP": "/_uploads/the-rose-hotel-08.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-09.jpg": {
@@ -1846,7 +1846,7 @@
 		"oAP": "/_uploads/the-rose-hotel-09.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-10.jpg": {
@@ -1857,7 +1857,7 @@
 		"oAP": "/_uploads/the-rose-hotel-10.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-11.jpg": {
@@ -1868,7 +1868,7 @@
 		"oAP": "/_uploads/the-rose-hotel-11.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-12.jpg": {
@@ -1890,7 +1890,7 @@
 		"oAP": "/_uploads/the-rose-hotel-13.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-14.jpg": {
@@ -1901,7 +1901,7 @@
 		"oAP": "/_uploads/the-rose-hotel-14.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-15.jpg": {
@@ -1912,7 +1912,7 @@
 		"oAP": "/_uploads/the-rose-hotel-15.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-16.jpg": {
@@ -1923,7 +1923,7 @@
 		"oAP": "/_uploads/the-rose-hotel-16.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-17.jpg": {
@@ -1934,7 +1934,7 @@
 		"oAP": "/_uploads/the-rose-hotel-17.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-18.jpg": {
@@ -1945,7 +1945,7 @@
 		"oAP": "/_uploads/the-rose-hotel-18.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-19.jpg": {
@@ -1956,7 +1956,7 @@
 		"oAP": "/_uploads/the-rose-hotel-19.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-20.jpg": {
@@ -1967,7 +1967,7 @@
 		"oAP": "/_uploads/the-rose-hotel-20.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-21.jpg": {
@@ -1978,7 +1978,7 @@
 		"oAP": "/_uploads/the-rose-hotel-21.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-22.jpg": {
@@ -1989,7 +1989,7 @@
 		"oAP": "/_uploads/the-rose-hotel-22.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-23.jpg": {
@@ -2000,7 +2000,7 @@
 		"oAP": "/_uploads/the-rose-hotel-23.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-24.jpg": {
@@ -2011,7 +2011,7 @@
 		"oAP": "/_uploads/the-rose-hotel-24.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-25.jpg": {
@@ -2022,7 +2022,7 @@
 		"oAP": "/_uploads/the-rose-hotel-25.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-26.jpg": {
@@ -2033,7 +2033,7 @@
 		"oAP": "/_uploads/the-rose-hotel-26.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/the-rose-hotel-thumb.jpg": {
@@ -2044,7 +2044,7 @@
 		"oAP": "/_uploads/the-rose-hotel-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/wandsworth-01.jpg": {
