@@ -14,8 +14,6 @@ images:
   aspect: portrait
 - image: "/uploads/wandsworth-05.jpg"
   aspect: portrait
-- image: "/uploads/wandsworth-06.jpg"
-  aspect: portrait
 architect: 
 contractor: 
 is-featured: false
