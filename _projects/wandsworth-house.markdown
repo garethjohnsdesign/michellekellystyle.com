@@ -5,7 +5,7 @@ position: 1
 image: "/uploads/wandsworth-thumb-rev.jpg"
 images:
 - image: "/uploads/wandsworth-03.jpg"
-  aspect: landscape
+  aspect: 5-4
 - image: "/uploads/wandsworth-01.jpg"
   aspect: portrait
 - image: "/uploads/wandsworth-02.jpg"
