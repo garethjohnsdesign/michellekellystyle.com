@@ -1,7 +1,7 @@
 ---
 title: Wandsworth House
 date: 2019-01-21 00:04:00 Z
-position: 1
+position: 3
 image: "/uploads/wandsworth-thumb.jpg"
 images:
 - image: "/uploads/wandsworth-01.jpg"
