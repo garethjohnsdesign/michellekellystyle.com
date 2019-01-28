@@ -1,7 +1,7 @@
 ---
 title: Climpson and Son's
 date: 2018-11-28 00:03:00 Z
-position: 0
+position: 2
 image: "/uploads/climpson-and-sons-thumb.jpg"
 images:
 - image: "/uploads/climpson-and-sons-01-rev.jpg"

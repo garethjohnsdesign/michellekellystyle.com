@@ -1,7 +1,7 @@
 ---
 title: The Rose Hotel
 date: 2018-11-07 00:04:00 Z
-position: 1
+position: 3
 image: "/uploads/the-rose-hotel-thumb.jpg"
 images:
 - image: "/uploads/the-rose-hotel-01.jpg"
