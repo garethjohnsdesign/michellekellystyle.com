@@ -1,1 +1,0 @@
-$(".gallery").lightGallery({selector:".press__images",download:!1});
