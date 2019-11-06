@@ -60,8 +60,12 @@
   cursor: default;
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  min-height: calc(var(--vh, 1vh) * 100);
   font-kerning: normal;
+}
+
+.off-canvas {
+  min-height: calc(var(--vh, 1vh) * 100);
 }
 
 nav {
