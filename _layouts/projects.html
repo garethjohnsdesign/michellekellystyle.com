@@ -10,7 +10,7 @@ layout: default
       <div class="cell projects__list" data-aos="fade-in">
         <a href="{{ project.url }}">
          {% assign image = project.image %}
-         <img data-interchange="{% include images/interchange-img-small-12-medium-6-cell.html %}" data-aos="fade-in">
+         <div class="image--landscape" data-interchange="{% include images/interchange-img-small-12-medium-6-cell.html %}"></div>
          <div class="text-center padding-top-1">{{ project.title }}</div>
         </a>
       </div>

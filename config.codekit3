@@ -7,7 +7,7 @@
 		"uuidString": "550FEDE5-7AFF-4FD3-8DBE-A45DE2D02921"
 		}
 	],
-"creatorBuild": "31491",
+"creatorBuild": "31934",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
@@ -15,6 +15,12 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/.gitignore",
+		"oF": 0
+		},
+	"/.jekyll-cache/Jekyll/Cache": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/.jekyll-cache/Jekyll/Cache",
 		"oF": 0
 		},
 	"/404.md": {
@@ -330,6 +336,14 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_projects/london-fields-house.markdown",
+		"oF": 0
+		},
+	"/_projects/queens-park-house.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_projects/queens-park-house.markdown",
 		"oF": 0
 		},
 	"/_projects/seaside-house.markdown": {
@@ -1657,6 +1671,171 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/queens-park-house-01.jpg": {
+		"ft": 16384,
+		"iS": 231048,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/queens-park-house-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/queens-park-house-02.jpg": {
+		"ft": 16384,
+		"iS": 225674,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/queens-park-house-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/queens-park-house-03.jpg": {
+		"ft": 16384,
+		"iS": 220958,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/queens-park-house-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/queens-park-house-04.jpg": {
+		"ft": 16384,
+		"iS": 230480,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/queens-park-house-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/queens-park-house-05.jpg": {
+		"ft": 16384,
+		"iS": 183235,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/queens-park-house-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/queens-park-house-06.jpg": {
+		"ft": 16384,
+		"iS": 206398,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/queens-park-house-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/queens-park-house-07.jpg": {
+		"ft": 16384,
+		"iS": 171360,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/queens-park-house-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/queens-park-house-08.jpg": {
+		"ft": 16384,
+		"iS": 191045,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/queens-park-house-08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/queens-park-house-09.jpg": {
+		"ft": 16384,
+		"iS": 246135,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/queens-park-house-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/queens-park-house-10.jpg": {
+		"ft": 16384,
+		"iS": 231353,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/queens-park-house-10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/queens-park-house-11.jpg": {
+		"ft": 16384,
+		"iS": 162257,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/queens-park-house-11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/queens-park-house-12.jpg": {
+		"ft": 16384,
+		"iS": 105519,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/queens-park-house-12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/queens-park-house-13.jpg": {
+		"ft": 16384,
+		"iS": 174343,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/queens-park-house-13.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/queens-park-house-14.jpg": {
+		"ft": 16384,
+		"iS": 267808,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/queens-park-house-14.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/queens-park-house-thumb.jpg": {
+		"ft": 16384,
+		"iS": 231048,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/queens-park-house-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/seaside-house-01.jpg": {
 		"ft": 16384,
 		"iS": 251370,
@@ -2767,6 +2946,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/assets/scss/_swiper.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/assets/css/_swiper.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/assets/scss/_transitions.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3334,6 +3526,28 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/node_modules/ssr-window/dist/ssr-window.esm.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/ssr-window/dist/min/ssr-window.esm-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swiper/js/swiper.esm.bundle.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swiper/js/min/swiper.esm.bundle-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/package.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -3860,6 +4074,7 @@
 			"flagValue": -1
 			}
 		},
+	"environmentVariablesString": "NODE_ENV:::production",
 	"esLintConfigFileHandlingType": 0,
 	"esLintECMAVersion": 7,
 	"esLintEnvironmentsMask": 1,
@@ -3961,6 +4176,10 @@
 			"optionString": "'all'"
 			},
 		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"default-param-last": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -4310,6 +4529,10 @@
 			},
 		"no-implied-eval": {
 			"active": 0,
+			"optionString": ""
+			},
+		"no-import-assign": {
+			"active": 1,
 			"optionString": ""
 			},
 		"no-inline-comments": {
@@ -4735,6 +4958,10 @@
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-regex-literals": {
+			"active": 0,
+			"optionString": ""
 			},
 		"prefer-rest-params": {
 			"active": 0,
@@ -5344,7 +5571,6 @@
 		"autoOutputPathStyle": 2,
 		"createSourceMap": 0,
 		"enableJavascript": 0,
-		"ieCompatibility": 1,
 		"mathStyle": 0,
 		"outputStyle": 0,
 		"rewriteURLStyle": 0,
@@ -5484,6 +5710,9 @@
 	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
+	"rollupExternals": "",
+	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
+	"rollupTreeshakingEnabled": 1,
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules, /_site",
 	"sourceFolderName": "source",
 	"susyVersion": 3,

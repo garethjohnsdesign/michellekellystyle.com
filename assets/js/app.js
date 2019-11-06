@@ -5,6 +5,7 @@ import $ from "jquery";
 import Foundation from 'foundation-sites';
 import 'lightgallery';
 import AOS from 'aos';
+import Swiper from 'swiper';
 
 
 // 1. Special Queries
@@ -41,4 +42,24 @@ $(function() {
 $(".gallery").lightGallery({
     selector: '.press__images',
     download: false
+});
+
+
+$(function() {
+  var firstSlide = Math.floor(Math.random() * 5);
+  var mySwiper = new Swiper ('.swiper-container', {
+    effect: 'fade',
+    slidesPerView: '1',
+    initialSlide: firstSlide,
+    loop: true,
+    preventClicks: true,
+    keyboard: {
+      enabled: true,
+      onlyInViewport: false,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next-test',
+      prevEl: '.swiper-button-prev-test',
+    }
+  })
 });

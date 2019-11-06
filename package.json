@@ -11,7 +11,8 @@
     "aos": "^2.3.4",
     "foundation-sites": "^6.5.3",
     "jquery": "^3.4.1",
-    "lightgallery": "^1.6.12"
+    "lightgallery": "^1.6.12",
+    "swiper": "^5.2.0"
   },
   "private": true
 }
