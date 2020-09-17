@@ -1,18 +1,20 @@
 {
+  "dependencies": {
+    "aos": "^2.3.4",
+    "foundation-sites": "^6.6.3",
+    "jquery": "^3.5.1",
+    "lightgallery": "^1.8.2",
+    "swiper": "^6.2.0"
+  },
+  "author": "Gareth Johns <info@garethjohnsdesign.com>",
+  "devDependencies": {},
+  "optionalDependencies": {},
   "name": "garethjohnsdesign",
+  "private": true,
   "version": "1.0.0",
   "description": "Basic template for a new web project.",
-  "author": "Gareth Johns <info@garethjohnsdesign.com>",
-  "license": "UNLICENSED",
   "bugs": {
     "email": "info@garethjohnsdesign.com"
   },
-  "dependencies": {
-    "aos": "^2.3.4",
-    "foundation-sites": "^6.5.3",
-    "jquery": "^3.4.1",
-    "lightgallery": "^1.6.12",
-    "swiper": "^5.2.0"
-  },
-  "private": true
+  "license": "UNLICENSED"
 }
