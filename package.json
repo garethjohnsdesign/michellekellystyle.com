@@ -4,7 +4,8 @@
     "foundation-sites": "^6.6.3",
     "jquery": "^3.5.1",
     "lightgallery": "^1.8.2",
-    "swiper": "^6.2.0"
+    "swiper": "^6.2.0",
+    "what-input": "^5.2.10"
   },
   "author": "Gareth Johns <info@garethjohnsdesign.com>",
   "devDependencies": {},
