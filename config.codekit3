@@ -362,6 +362,14 @@
 		"oAP": "/_projects/suffolk-house.markdown",
 		"oF": 0
 		},
+	"/_projects/the-chequers.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_projects/the-chequers.markdown",
+		"oF": 0
+		},
 	"/_projects/the-rose-hotel.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -2348,6 +2356,116 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/southwold-thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/the-chequers-01.jpg": {
+		"ft": 16384,
+		"iS": 1458196,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/the-chequers-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/the-chequers-02.jpg": {
+		"ft": 16384,
+		"iS": 1432741,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/the-chequers-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/the-chequers-03.jpg": {
+		"ft": 16384,
+		"iS": 1467227,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/the-chequers-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/the-chequers-04.jpg": {
+		"ft": 16384,
+		"iS": 1531362,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/the-chequers-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/the-chequers-05.jpg": {
+		"ft": 16384,
+		"iS": 1934019,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/the-chequers-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/the-chequers-06.jpg": {
+		"ft": 16384,
+		"iS": 3219590,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/the-chequers-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/the-chequers-07.jpg": {
+		"ft": 16384,
+		"iS": 3186938,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/the-chequers-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/the-chequers-08.jpg": {
+		"ft": 16384,
+		"iS": 1136076,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/the-chequers-08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/the-chequers-09.jpg": {
+		"ft": 16384,
+		"iS": 2248194,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/the-chequers-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/the-chequers-thumb.jpg": {
+		"ft": 16384,
+		"iS": 1432741,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/the-chequers-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
