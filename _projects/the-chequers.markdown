@@ -24,7 +24,7 @@ images:
   aspect: portrait
 architect: 
 contractor: 
-is-featured: false
+is-featured: true
 layout: project
 ---
 
