@@ -44,4 +44,4 @@ is-featured: false
 layout: project
 ---
 
-Interior redesign, refurbishment and project management of a turn of the century five-bedroom seaside house . Creating a romantic and chic environment by mixing a bohemian vintage feel with modern flourishes to create a beautiful idyllic l family holiday home.
+Interior redesign, refurbishment and project management of a turn of the century five-bedroom seaside house. Creating a romantic and chic environment by mixing a bohemian vintage feel with modern flourishes to create a beautiful idyllic family holiday home.
