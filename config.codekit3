@@ -39,6 +39,14 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"/.nova/Tasks/Custom Task.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/.nova/Tasks/Custom Task-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/404.md": {
 		"cB": 0,
 		"cS": 0,
@@ -5123,6 +5131,14 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"/output.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/output-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"/package.json": {
 		"ft": 524288,
