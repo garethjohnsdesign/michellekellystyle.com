@@ -1,0 +1,15 @@
+---
+layout: 
+---
+
+[
+{% for post in site.projects %}
+    {
+      "title"    : "{{ post.title }}",
+      "date"     : "{{ post.date | date: "%B %d, %Y" }}",
+      "architect"     : "{{ post.architect }}",
+      "contractor"     : "{{ post.contractor }}",
+      "copy"  : "{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_newlines }}"
+    } {% if forloop.last %}{% else %},{% endif %}
+{% endfor %}
+]
