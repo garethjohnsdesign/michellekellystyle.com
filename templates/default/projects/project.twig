@@ -1,0 +1,146 @@
+{% set bodyClass = 'project' %}
+
+{% if entry.seoTitle|length %}
+{% set seoTitle = entry.seoTitle %}
+{% elseif entry.title|length %}
+{% set seoTitle = entry.title %}
+{% endif %}
+
+{% if entry.copy|length %}
+{% set seoDescription = entry.copy|striptags|raw %}
+{% elseif entry.seoDescription|length %}
+{% set seoDescription = entry.seoDescription|striptags|raw %}
+{% endif %}
+
+{% if entry.image|length  %}
+{% set asset = entry.image.one() %}
+{% set seoImage = craft.imager.transformImage(asset, { width: 1200, height: 630, dpr: 1, position: asset.getFocalPoint() }) %}
+{% endif %}
+
+{# Set parameters for prev/next elements list #}
+{% set params = craft.entries
+.section('projects')
+.orderBy('projectDate desc') %}
+
+{# Get the prev/next elements #}
+{% set prevEntry = entry.getPrev(params) %}
+{% set nextEntry = entry.getNext(params) %}
+
+{% extends "_layouts/site" %}
+
+
+{% block navigation %}
+{% include "_includes/global/navigation" %}
+{% endblock %}
+
+
+{% block main %}
+
+
+
+<!-- Content -->
+<div class="grid-container">
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+<div class="small-12 medium-10 cell">
+
+<!-- Images -->
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+{% for image in entry.images.all() %}
+      {% switch image.aspectRatio %}
+      {% case "1-1" or "5-4" or "5-7" or "6-4" or "7-5" or "16-9" or "3-4" %}
+      <div class="small-12 medium-12 cell">
+        <div class="light-gray-background-color">
+          <div class="image--{{image.aspectRatio}}" {% if image %}data-interchange="{% include "_includes/images/contained/"~image.aspectRatio~"/interchange-img-small-12-medium-12" %}" data-aos="fade-in" data-aos-delay="100"{% endif %}></div>
+        </div>
+      </div>
+      {% case "4-6" %}
+      <div class="small-12 medium-6 cell">
+      <div class="grid-x align-center">
+      <div class="small-12 medium-12 cell text-center">
+        <div class="light-gray-background-color">
+          <div class="image--{{image.aspectRatio}}" {% if image %}data-interchange="{% include "_includes/images/contained/"~image.aspectRatio~"/interchange-img-small-12-medium-6" %}" data-aos="fade-in" data-aos-delay="100"{% endif %}></div>
+        </div>
+      </div>
+      </div>
+      </div>
+      {% default %}
+      <div class="cell">
+        <div class="image--7-5" data-interchange="{% include "_includes/images/contained/7-5/interchange-img-small-12-medium-12" %}"></div>
+      </div>
+      {% endswitch %}
+{% endfor %}
+</div>
+<!-- End Images -->
+
+</div>   
+</div>         
+</div>   
+<!-- End Content -->
+
+<div class="grid-container">
+  <div class="grid-x grid-padding-x align-center">
+    <div class="small-12 medium-10 cell text-center">
+      <h1>{{entry.title}}</h1>
+      {% if entry.copy|length %}
+      {{entry.copy}}
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<!-- Meta -->
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+  <div class="shrink cell text-center">
+    {% if entry.architect|length %}
+    <div class="text-uppercase small letter-spacing--loose">Architect &mdash; {{ entry.architect }}</div>
+    {% endif %}
+    {% if entry.contractor|length %}
+    <div class="text-uppercase small letter-spacing--loose">Contractor &mdash; {{ entry.contractor }}</div>
+    {% endif %}
+  </div>
+</div>
+<!-- End Meta -->
+
+
+<div class="grid-x grid-padding-x grid-padding-y align-center text-center gallery">
+  <div class="small-12 medium-10 large-8 cell">
+
+{% set pressSorted = entry.press.all() %}
+    {% for press in pressSorted %}
+      
+      {% if press.images | length %}
+        {% for image in press.images.all() %}
+            {% if loop.first %}
+            <div>
+            <a data-fancybox="{{press.id}}" href="{{ craft.imager.transformImage(image, [{ width: 200 }, { width: 1600 }], { ratio: 16/9, fillTransforms: true }) | srcset }}
+">{{press.title}} — {{press.publicationDate |date("Y")}}</a></div>
+            {% else %}
+            <div><a data-fancybox="{{press.id}}" href="{{ craft.imager.transformImage(image, [{ width: 200 }, { width: 1600 }], { ratio: 16/9, fillTransforms: true }) | srcset }}"></a>
+            </div>
+            {% endif %}
+        {% endfor %}
+      {% else %}
+      <div>
+      <a href="{{press.externalLink}}" target="_blank" rel="noopener">{{press.title}} — {{press.publicationDate |date("Y")}}</a>
+      </div>
+      {% endif %}
+    {% endfor %}
+    
+  </div>
+</div>
+
+<!-- Pagination -->
+<div class="grid-x align-center">
+  <div class="small-8 medium-7 large-7 cell text-center">
+    {% include "_includes/global/pagination" %}
+  </div>
+</div>
+<!-- End Pagination -->
+
+{% endblock %}
+
+
+
+{% block footer %}
+{% include "_includes/global/footer" %}
+{% endblock %}

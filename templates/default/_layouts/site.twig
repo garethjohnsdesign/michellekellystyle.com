@@ -1,0 +1,37 @@
+{% extends "default/_layouts/base" %}
+{% import "_macros/isactive" as isactive %}
+
+{% block body %}
+
+
+
+  <!-- Navigation -->
+  <nav class="" id="swup-navigation">
+  {% block navigation %}
+  {% endblock %}
+  </nav>
+  <!-- End Navigation -->
+
+  <!-- Content -->
+  <main class="grid-x align-center-middle swup-transition-fade" id="swup-body">
+    <div class="small-12 cell">	
+    {% block main %}
+    {% endblock %}
+    </div>
+  </main>
+  <!-- End Content -->
+  
+  <!-- Footer -->
+  <footer class="swup-transition-fade" id="swup-footer">
+  {% block footer %}
+  {% endblock %}
+  </footer>
+  <!-- End Footer-->
+
+
+<!-- Reveal Navigation -->
+<div class="swup-transition-fade" id="swup-overlay">
+{% include "_includes/reveal/navigation" %}
+</div>
+<!-- End Reveal Navigation -->
+{% endblock %}
