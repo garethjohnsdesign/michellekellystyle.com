@@ -1,0 +1,47 @@
+{% set bodyClass = 'page' %}
+
+{% if entry.seoTitle|length %}
+{% set seoTitle = entry.seoTitle %}
+{% elseif entry.title|length %}
+{% set seoTitle = entry.title %}
+{% endif %}
+
+{% if entry.seoDescription|length %}
+{% set seoDescription = entry.seoDescription|striptags|raw %}
+{% endif %}
+
+{% if entry.seoImage|length  %}
+{% set asset = entry.seoImage.one() %}
+{% set seoImage = craft.imager.transformImage(asset, { width: 1200, height: 630, dpr: 1, position: asset.getFocalPoint() }) %}
+{% elseif entry.image|length %}
+{% set asset = entry.image.one() %}
+{% set seoImage = craft.imager.transformImage(asset, { width: 1200, height: 630, dpr: 1, position: asset.getFocalPoint() }) %}
+{% endif %}
+
+{% extends "_layouts/site" %}
+
+{% block navigation %}
+{% include "_includes/global/navigation" %}
+{% endblock %}
+
+
+{% block main %}
+<div class="wrapper">
+  <div class="grid-container">
+  
+    <!-- Copy -->
+    <div class="grid-x grid-padding-x grid-padding-y align-center">
+      <div class="small-12 medium-8 cell">
+        {{entry.copy}}
+      </div>
+    </div>
+    <!-- End Copy -->
+  
+  </div>
+</div>
+{% endblock %}
+
+
+{% block footer %}
+{% include "_includes/global/footer" %}
+{% endblock %}

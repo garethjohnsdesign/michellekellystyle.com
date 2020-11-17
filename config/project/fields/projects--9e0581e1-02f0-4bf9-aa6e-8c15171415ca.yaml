@@ -1,0 +1,21 @@
+contentColumnType: string
+fieldGroup: 04b3b4bb-5a04-4d55-a1fc-39e4312e4e96
+handle: projects
+instructions: ''
+name: Projects
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: '5'
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: true
+  source: null
+  sources:
+    - 'section:32174234-e8c3-40d4-9725-77ff2bd2366a'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

@@ -1,0 +1,47 @@
+{% set bodyClass = 'press' %}
+{% set seoTitle = 'Press' %}
+
+{% extends "_layouts/site" %}
+
+{% block navigation %}
+{% include "_includes/global/navigation" %}
+{% endblock %}
+
+
+{% block main %}
+<div class="grid-x grid-padding-x grid-padding-y align-center text-center gallery">
+  <div class="small-12 medium-10 large-8 cell">
+
+{% set pressSorted = craft.entries
+.section('press')
+.orderBy('publicationDate desc')
+.all() %}
+
+    {% for press in pressSorted %}
+      
+      {% if press.images | length %}
+        {% for image in press.images %}
+            {% if loop.first %}
+            <div>
+            <a data-fancybox="{{press.id}}" href="{{ craft.imager.transformImage(image, [{ width: 200 }, { width: 1600 }], { ratio: 16/9, fillTransforms: true }) | srcset }}
+">{{press.title}} — {{press.publicationDate |date("Y")}}</a></div>
+            {% else %}
+            <div><a data-fancybox="{{press.id}}" href="{{ craft.imager.transformImage(image, [{ width: 200 }, { width: 1600 }], { ratio: 16/9, fillTransforms: true }) | srcset }}"></a>
+            </div>
+            {% endif %}
+        {% endfor %}
+      {% else %}
+      <div>
+      <a href="{{press.externalLink}}" target="_blank" rel="noopener">{{press.title}} — {{press.publicationDate |date("Y")}}</a>
+      </div>
+      {% endif %}
+    {% endfor %}
+    
+  </div>
+</div>
+{% endblock %}
+
+
+{% block footer %}
+{% include "_includes/global/footer" %}
+{% endblock %}

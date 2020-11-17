@@ -1,0 +1,15 @@
+contentColumnType: datetime
+fieldGroup: 04b3b4bb-5a04-4d55-a1fc-39e4312e4e96
+handle: projectDate
+instructions: ''
+name: 'Project Date'
+searchable: false
+settings:
+  max: null
+  min: null
+  minuteIncrement: '30'
+  showDate: true
+  showTime: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Date

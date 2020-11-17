@@ -1,0 +1,28 @@
+<nav class="full reveal tertiary-background-color" id="overlayNavigation" data-reveal data-animation-in="fade-in" data-animation-out="fade-out">
+  <div class="grid-y grid-padding-x grid-padding-y align-center text-center" style="height: 100%">
+
+    <div class="shrink cell text-uppercase">
+      {% set uriSegment = craft.app.request.getSegment(1) %}
+      <ul class="vertical menu align-center">
+      <li><a {% if uriSegment == "projects" %}class="active"{% endif %} href="/projects" data-toggle="overlayNavigation">Projects</a></li>
+      <li><a {% if uriSegment == "about" %}class="active"{% endif %} href="/about" data-toggle="overlayNavigation">About</a></li>
+      <li><a {% if uriSegment == "press" %}class="active"{% endif %} href="/press" data-toggle="overlayNavigation">Press</a></li>
+      <li><a {% if uriSegment == "contact" %}class="active"{% endif %} href="/contact" data-toggle="overlayNavigation">Contact</a></li>
+      </ul>
+    </div>
+
+    {# <div class="shrink cell">
+     <ul class="menu align-center dark-gray">
+      {% for block in socials.socials.all() %}
+      {% switch block.type %}
+        {% case "instagram" %}
+          <li class="padding-left"><a href="{{block.socialLink}}" target="_blank">Instagram</a></li>
+        {% case "vimeo" %}
+          <li><a href="{{block.socialLink}}" target="_blank">Vimeo</a></li>
+      {% endswitch %}
+      {% endfor %}
+      </ul>
+    </div> #}
+
+  </div>
+</nav>
