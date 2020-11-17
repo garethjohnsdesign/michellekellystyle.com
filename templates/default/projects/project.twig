@@ -105,12 +105,11 @@
 <div class="grid-x grid-padding-x grid-padding-y align-center text-center gallery">
   <div class="small-12 medium-10 large-8 cell">
 
-{% set pressSorted = entry.press %}
-
+{% set pressSorted = entry.press.all() %}
     {% for press in pressSorted %}
       
       {% if press.images | length %}
-        {% for image in press.images %}
+        {% for image in press.images.all() %}
             {% if loop.first %}
             <div>
             <a data-fancybox="{{press.id}}" href="{{ craft.imager.transformImage(image, [{ width: 200 }, { width: 1600 }], { ratio: 16/9, fillTransforms: true }) | srcset }}
