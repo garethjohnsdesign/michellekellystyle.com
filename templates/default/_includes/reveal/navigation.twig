@@ -1,4 +1,4 @@
-<nav class="full reveal tertiary-background-color" id="overlayNavigation" data-reveal data-animation-in="fade-in" data-animation-out="fade-out">
+{# <nav class="full reveal tertiary-background-color" id="overlayNavigation" data-reveal data-animation-in="fade-in" data-animation-out="fade-out">
   <div class="grid-y grid-padding-x grid-padding-y align-center text-center" style="height: 100%">
 
     <div class="shrink cell text-uppercase">
@@ -11,18 +11,51 @@
       </ul>
     </div>
 
-    {# <div class="shrink cell">
-     <ul class="menu align-center dark-gray">
-      {% for block in socials.socials.all() %}
-      {% switch block.type %}
-        {% case "instagram" %}
-          <li class="padding-left"><a href="{{block.socialLink}}" target="_blank">Instagram</a></li>
-        {% case "vimeo" %}
-          <li><a href="{{block.socialLink}}" target="_blank">Vimeo</a></li>
-      {% endswitch %}
-      {% endfor %}
-      </ul>
-    </div> #}
-
   </div>
 </nav>
+ #}
+
+<div class="fixed h-screen w-screen bg-red-200 z-10" x-show="isOverlayOpen">
+<div class="flex items-center justify-center h-full">
+<div class="text-center">
+{% set uriSegment = craft.app.request.getSegment(1) %}
+<ul>
+<li><a {% if uriSegment == "projects" %}class="active"{% endif %} href="/projects" data-toggle="overlayNavigation">Projects</a></li>
+<li><a {% if uriSegment == "about" %}class="active"{% endif %} href="/about" data-toggle="overlayNavigation">About</a></li>
+<li><a {% if uriSegment == "press" %}class="active"{% endif %} href="/press" data-toggle="overlayNavigation">Press</a></li>
+<li><a {% if uriSegment == "contact" %}class="active"{% endif %} href="/contact" data-toggle="overlayNavigation">Contact</a></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+
+
+{# <div
+ class="bg-white shadow-2xl m-4 sm:m-8"
+ x-show="isOverlayOpen"
+ @click.away="isOverlayOpen = false"
+>
+<div class="flex justify-between items-center border-b p-2 text-xl">
+    <h6 class="text-xl font-bold">Simple modal dialog</h6>
+    <button type="button" @click="isOverlayOpen = false">✖</button>
+</div>
+<div class="p-2">
+    <!-- content -->
+  <h4 class="font-bold">Built with Alpine.js + Tailwind CSS</h4>
+  <aside class="max-w-lg mt-4 p-4 bg-yellow-100 border border-yellow-500">
+    <p>⚠ If you want to scope this modal to your entire app, you should apply the following directives to the &lt;body&gt; tag instead of &lt;main&gt; like I did here. Codepen doesn't seem to allow anything other than "class" in the &lt;body&gt; tag</p>
+    <pre class="my-4">
+x-data="{ 'isOverlayOpen': false }"
+@keydown.escape="isOverlaygOpen = false"
+    </pre>
+    <p>This should allow ESC to work even after the button that opens the modal loses focus.</p>
+  </aside>
+  <ul class="bg-gray-100 border m-8 px-4">
+    <li class="my-4">✅ Click ✖ to close</li>
+    <li class="my-4">✅ Click the overlay to close</li>
+    <li class="my-4">✅ Press ESC to close</li>
+  </ul>
+</div>
+</div> #}

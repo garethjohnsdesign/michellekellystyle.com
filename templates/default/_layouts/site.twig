@@ -3,35 +3,28 @@
 
 {% block body %}
 
+<!-- Navigation -->
+<nav class="flex-none z-20">
+{% block navigation %}
+{% endblock %}
+</nav>
+<!-- End Navigation -->
 
-
-  <!-- Navigation -->
-  <nav class="" id="swup-navigation">
-  {% block navigation %}
+<!-- Content -->
+<main class="flex-grow h-full flex items-center justify-center">
+  {% block main %}
   {% endblock %}
-  </nav>
-  <!-- End Navigation -->
+</main>
+<!-- End Content -->
 
-  <!-- Content -->
-  <main class="grid-x align-center-middle swup-transition-fade" id="swup-body">
-    <div class="small-12 cell">	
-    {% block main %}
-    {% endblock %}
-    </div>
-  </main>
-  <!-- End Content -->
-  
-  <!-- Footer -->
-  <footer class="swup-transition-fade" id="swup-footer">
-  {% block footer %}
-  {% endblock %}
-  </footer>
-  <!-- End Footer-->
-
+<!-- Footer -->
+<footer class="flex-none z-20">
+{% block footer %}
+{% endblock %}
+</footer>
+<!-- End Footer-->
 
 <!-- Reveal Navigation -->
-<div class="swup-transition-fade" id="swup-overlay">
 {% include "_includes/reveal/navigation" %}
-</div>
 <!-- End Reveal Navigation -->
 {% endblock %}

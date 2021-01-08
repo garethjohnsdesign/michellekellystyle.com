@@ -10,13 +10,13 @@
 
 {%- minify -%}
 <!DOCTYPE html>
-<html lang="en" dir="ltr" class="no-js">
+<html lang="en" dir="ltr" class="font-serif antialiased no-js">
 <head>
 	{% block head %}
     {% include "default/_includes/global/head" %}
 	{% endblock %}
 </head>
-  <body class="{% if bodyClass is defined %}{{ bodyClass }}{% endif %}">
+  <body class="{% if bodyClass is defined %}{{ bodyClass }}{% endif %} flex flex-col min-h-screen" x-data="{ 'isOverlayOpen': false }">
 	{% block body %}{% endblock %}
 	</body>
 </html>

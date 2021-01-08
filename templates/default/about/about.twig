@@ -26,19 +26,15 @@
 
 
 {% block main %}
-<div class="wrapper">
-  <div class="grid-container">
-  
-    <!-- Copy -->
-    <div class="grid-x grid-padding-x grid-padding-y align-center">
-      <div class="small-12 medium-8 cell">
-        {{entry.copy}}
-      </div>
-    </div>
-    <!-- End Copy -->
-  
-  </div>
+
+<div class="container mx-auto px-4">
+<div class="relative px-4 sm:px-6 lg:px-8 mx-auto">
+<article class="prose mx-auto text-center">
+  {{entry.copy}}
+</article>
 </div>
+</div>
+
 {% endblock %}
 
 

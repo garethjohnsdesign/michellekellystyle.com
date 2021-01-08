@@ -1,14 +1,12 @@
 {% import "_macros/isactive" as isactive %}
 
 <!-- Desktop Navigation -->
-<div class="grid-x grid-padding-x grid-padding-y align-justify align-middle navigation" id="swup-header">
-
-  <div class="small-12 cell align-middle text-center">
-    <a href="#" class="" data-toggle="overlayNavigation">
-    <div class="h2 logo margin-top-0 margin-bottom-half text-uppercase letter-spacing--loose">{{ currentSite.name }}</div>
-    <div class="text-uppercase small letter-spacing--loose">Interior Design</div>
-    </a>
+<div class="container mx-auto z-10" id="swup-header">
+  <div class="flex justify-center text-center p-8">
+      <button type="button" @click="isOverlayOpen = true">
+      <div class="uppercase text-2xl tracking-wider font-display py-2">{{ currentSite.name }}</div>
+      <div class="uppercase tracking-wider">Interior Design</div>
+      </button>
   </div>
-
 </div>
 <!-- End Desktop Navigation -->

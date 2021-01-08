@@ -1,0 +1,21 @@
+@import "tailwindcss/base";
+@import "./custom-base-styles.css";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+@layer base {
+  @font-face {
+    font-family: Cooper Light;
+    src: url('../fonts/cooper-light.woff2') format('woff2'), url('../fonts/cooper-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+  font-family: Century Schoolbook;
+  src: url('../fonts/century-schoolbook-pro-regular.woff2') format('woff2'), url('../fonts/century-schoolbook-pro-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  }
+}
